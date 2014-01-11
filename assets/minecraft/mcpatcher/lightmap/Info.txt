@@ -1,0 +1,3 @@
+world0.png- overworld
+world1.png- end
+world-1.png- nether

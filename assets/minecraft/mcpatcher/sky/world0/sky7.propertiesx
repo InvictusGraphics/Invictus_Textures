@@ -1,0 +1,8 @@
+
+blend=alpha
+
+startFadeIn=20:30
+endFadeIn=20:31
+
+endFadeOut=4:00
+source=./moon/backing.png

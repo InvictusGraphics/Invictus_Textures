@@ -1,0 +1,4 @@
+"Creative" implements the creative block library for unused block IDs. More info can be found in the creative_blocks.txt in root.
+
+
+/CTM/creative/[block ID]_[name]/[metadata]_[block]_[face].properties
