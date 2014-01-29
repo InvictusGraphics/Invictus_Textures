@@ -1,4 +1,4 @@
 Invictus_Textures
 =================
 
-Invictus, a continuation of Soar49's Soartex
+Completing Soar49's Soartex for a crisp Minecraft aesthetic
