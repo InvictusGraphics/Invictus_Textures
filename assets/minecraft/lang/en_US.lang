@@ -8,7 +8,6 @@ tile.monsterStoneEgg.mossybrick.name=Mossy Stone Brick §4Monster Egg§r
 tile.monsterStoneEgg.crackedbrick.name=Cracked Stone Brick §4Monster Egg§r
 tile.monsterStoneEgg.chiseledbrick.name=Chiseled Stone Brick §4Monster Egg§r
 
-
 container.inventory=§fInventory
 container.hopper=§fItem Hopper
 container.crafting=§fCrafting
