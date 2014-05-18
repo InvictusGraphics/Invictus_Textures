@@ -1,0 +1,18 @@
+{
+    "__comment": "Fair warning, this format is highly likely to change even more in the future!",
+    "useAmbientOcclusion": false,
+    "elements": [
+        {   "type": "plane",
+            "from": [ 0, 0.25, 0 ],
+            "to": [ 16, 0.25, 16 ],
+            "facing": "up",
+            "twoSided": true,
+            "faceData": {
+                "uv": [ 16, 0, 0, 16 ],
+                "textureFacing": "down",
+            	"tint": false,
+            	"cull": false
+            }
+        }
+    ]
+}
