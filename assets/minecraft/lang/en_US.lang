@@ -35,3 +35,5 @@ itemGroup.combat=§fCombat
 itemGroup.brewing=§fBrewing
 itemGroup.materials=§fMaterials
 itemGroup.inventory=§fSurvival Inventory
+
+tile.flower2.poppy.name=Rose Poppy
