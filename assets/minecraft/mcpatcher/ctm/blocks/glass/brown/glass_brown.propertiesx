@@ -2,3 +2,4 @@ matchTiles=glass_brown
 method=ctm
 tiles=0-47
 connect=block
+#completely disabled; remove X in filename to turn it on
