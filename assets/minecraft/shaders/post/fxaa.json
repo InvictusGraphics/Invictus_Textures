@@ -4,7 +4,7 @@
 ],
 "passes": [
 {
-"name": "screen",
+"name": "Invictus",
 "intarget": "minecraft:main",
 "outtarget": "swap"
 },
