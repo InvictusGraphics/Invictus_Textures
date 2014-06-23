@@ -1,0 +1,23 @@
+{
+  "targets": [
+    "swap",
+    "buffer"
+  ],
+  "passes": [
+    {
+      "name": "Invictus_buffer",
+      "intarget": "minecraft:main",
+      "outtarget": "buffer"
+    },
+    {
+      "name": "Invictus_light",
+      "intarget": "buffer",
+      "outtarget": "swap"
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}
