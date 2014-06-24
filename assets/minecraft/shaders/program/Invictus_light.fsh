@@ -1,30 +1,34 @@
 uniform sampler2D DiffuseSampler;
-uniform sampler2D BlurSampler;
 varying vec2 texCoord;
-uniform sampler2D buffer;
 
-/*
-void blur(vec4 color){
-    //testing the method
- color = color_blur;
+float desaturate(vec4 input){
+  float channel = (input.x + input.y + input.z) / 3.0;
+  return channel;
 }
-*/
 
 void main() {
   vec4 color = texture2D(DiffuseSampler, texCoord); 		//input standard color
-  vec4 color_blur = texture2D(BlurSampler, texCoord);
+  
+  float total = 0.0;
 
-  vec4 desat;
-  desat.xyz = ((color.x + color.y + color.z) / 3.0); 	  //calculate desaturated image 
+  vec2 position = (0.0, 0.0);
+  float samples = 0.0; 
+  for (position.x; position.x <= 1.0; position.x += 0.1){
+    for (position.y; position.y <= 1.0; position.x += 0.1){
+      total = total + desaturate(texture2D(DiffuseSampler, position));
+      samples++;
+
+    }
+  }
+
+  float average = total / samples;
 
     //Screen
   color = (1.0 - ((1.0 - color) * (1.0 - color)));
 
-  //blur(color);
-
-  gl_FragColor = (color + desat) / 2.0;
+  vec4 desat;
+  desat.xyz = (desaturate(color), desaturate(color), desaturate(color));    //calculate desaturated image
 
   //formula to return weighted output
-  //TODO: calculate average
-  //gl_FragColor = ((color / (1.0 - average)) + (desat / average)) / 2.0;
+  gl_FragColor = ((color / (1.0 - average)) + (desat / average)) / 2.0;
 }

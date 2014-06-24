@@ -11,7 +11,7 @@
     },
     {
       "name": "Invictus_light",
-      "intarget": "buffer",
+      "intarget": "minecraft:main",
       "outtarget": "swap"
     },
     {
