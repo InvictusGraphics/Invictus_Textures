@@ -1,22 +1,57 @@
 {
   "targets": [
-    "swap",
-    "buffer"
+    "bloom",
+    "average",
+    "fog",
+    "light",
+    "previous"
   ],
   "passes": [
     {
-      "name": "Invictus_buffer",
+      "name": "Invictus_bloom",
       "intarget": "minecraft:main",
-      "outtarget": "buffer"
+      "outtarget": "bloom"
+    },
+    {
+      "name": "Invictus_average",
+      "intarget": "minecraft:main",
+      "outtarget": "average",
+      "auxtargets": [
+          {
+            "name": "PrevSampler",
+            "id": "previous"
+          }
+        ]
     },
     {
       "name": "Invictus_light",
       "intarget": "minecraft:main",
-      "outtarget": "swap"
+      "outtarget": "light",
+      "auxtargets": [
+          {
+            "name": "BloomSampler",
+            "id": "bloom"
+          },
+          {
+            "name": "AverageSampler",
+            "id": "average"
+          }
+       ]
+    },
+    {
+      "name": "Invictus_fog",
+      "intarget": "light",
+      "outtarget": "fog",
+      "auxtargets": [
+          {
+            "name": "LightSampler",
+            "id": "light"
+          }
+       ]
     },
     {
       "name": "blit",
-      "intarget": "swap",
+      "intarget": "fog",
       "outtarget": "minecraft:main"
     }
   ]
