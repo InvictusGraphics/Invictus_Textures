@@ -1,0 +1,47 @@
+{
+    "targets": [
+        "swap",
+        "previous",
+        "average"
+    ],
+    "passes": [
+    {
+        "name": "phosphor",
+        "intarget": "minecraft:main",
+        "outtarget": "swap",
+        "auxtargets": [
+            {
+                "name": "PrevSampler",
+                "id": "previous"
+            }
+        ],
+        "uniforms": [
+            {
+                "name": "Phosphor",
+                "values": [ 0.95, 0.95, 0.95 ]
+            }
+        ]
+    },
+    {
+        "name": "blit",
+        "intarget": "swap",
+        "outtarget": "previous"
+    },
+    {
+      "name": "Invictus_average",
+      "intarget": "minecraft:main",
+      "outtarget": "average",
+      "auxtargets": [
+            {
+                "name": "PrevSampler",
+                "id": "previous"
+            }
+        ]
+    },
+    {
+        "name": "blit",
+        "intarget": "average",
+        "outtarget": "minecraft:main"
+    }
+  ]
+}

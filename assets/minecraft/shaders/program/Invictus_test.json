@@ -4,18 +4,19 @@
     "srcrgb": "one",
     "dstrgb": "zero"
   },
-  "vertex": "sobel",
-  "fragment": "Invictus_light",
+  "vertex": "Invictus_bloom",
+  "fragment": "Invictus_bloom",
   "attributes": [ "Position" ],
   "samplers": [
-    { "name": "DiffuseSampler" },
-    { "name": "BlurSampler" },
-    { "name": "AverageSampler" },
-    { "name": "FogSampler"}
+    { "name": "DiffuseSampler" }
+
   ],
   "uniforms": [
         { "name": "ProjMat",     "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
         { "name": "InSize",      "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] },
         { "name": "OutSize",     "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] }
+  ],
+  "varyings": [
+        { "name": "blurCoords", "type": "float", "count": 2, "values": [ 0.0, 0.0 ] }
   ]
 }

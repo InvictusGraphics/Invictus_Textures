@@ -1,6 +1,6 @@
 #version 120
 
-uniform sampler2D LightSampler;
+uniform sampler2D DiffuseSampler;
 varying vec2 texCoord;
 
 void main() {
@@ -13,6 +13,6 @@ void main() {
                    LOG2 );
   fogFactor = clamp(fogFactor, 0.0, 1.0);
 
-  gl_FragColor = mix(gl_Fog.color, texture2D(LightSampler, texCoord), fogFactor);
-   // gl_FragColor = texture2D(LightSampler, texCoord);
+  //gl_FragColor = mix(gl_Fog.color, texture2D(LightSampler, texCoord), fogFactor);
+  gl_FragColor = texture2D(DiffuseSampler, texCoord);
 }

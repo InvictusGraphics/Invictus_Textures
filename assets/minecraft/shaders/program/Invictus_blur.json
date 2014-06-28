@@ -5,7 +5,7 @@
     "dstrgb": "zero"
   },
   "vertex": "sobel",
-  "fragment": "Invictus_bloom",
+  "fragment": "Invictus_blur",
   "attributes": [ "Position" ],
   "samplers": [
     { "name": "DiffuseSampler" }

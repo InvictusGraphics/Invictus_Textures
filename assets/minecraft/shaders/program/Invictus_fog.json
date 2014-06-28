@@ -7,7 +7,7 @@
   "vertex": "sobel",
   "fragment": "Invictus_fog",
   "samplers": [
-    { "name": "LightSampler" }
+    { "name": "DiffuseSampler" }
 
   ],
   "uniforms": [

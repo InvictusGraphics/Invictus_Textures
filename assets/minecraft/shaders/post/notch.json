@@ -1,27 +1,55 @@
 {
   "targets": [
-    "bloom",
+    "blur",
     "average",
     "fog",
     "light",
-    "previous"
+    "previous",
+    "swap"
   ],
-  "passes": [
+  "passes": [        
     {
-      "name": "Invictus_bloom",
-      "intarget": "minecraft:main",
-      "outtarget": "bloom"
+        "name": "phosphor",
+        "intarget": "minecraft:main",
+        "outtarget": "swap",
+        "auxtargets": [
+            {
+                "name": "PrevSampler",
+                "id": "previous"
+            }
+        ],
+        "uniforms": [
+            {
+                "name": "Phosphor",
+                "values": [ 0.95, 0.95, 0.95 ]
+            }
+        ]
+    },
+    {
+        "name": "blit",
+        "intarget": "swap",
+        "outtarget": "previous"
     },
     {
       "name": "Invictus_average",
       "intarget": "minecraft:main",
       "outtarget": "average",
       "auxtargets": [
-          {
-            "name": "PrevSampler",
-            "id": "previous"
-          }
+            {
+                "name": "PrevSampler",
+                "id": "previous"
+            }
         ]
+    },
+    {
+      "name": "Invictus_blur",
+      "intarget": "minecraft:main",
+      "outtarget": "blur"
+    },
+    {
+      "name": "Invictus_fog",
+      "intarget": "minecraft:main",
+      "outtarget": "fog"
     },
     {
       "name": "Invictus_light",
@@ -29,29 +57,22 @@
       "outtarget": "light",
       "auxtargets": [
           {
-            "name": "BloomSampler",
-            "id": "bloom"
+            "name": "BlurSampler",
+            "id": "blur"
           },
           {
             "name": "AverageSampler",
             "id": "average"
-          }
-       ]
-    },
-    {
-      "name": "Invictus_fog",
-      "intarget": "light",
-      "outtarget": "fog",
-      "auxtargets": [
+          },
           {
-            "name": "LightSampler",
-            "id": "light"
+            "name": "FogSampler",
+            "id": "fog"
           }
        ]
     },
     {
       "name": "blit",
-      "intarget": "fog",
+      "intarget": "light",
       "outtarget": "minecraft:main"
     }
   ]
