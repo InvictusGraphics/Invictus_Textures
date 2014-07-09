@@ -31,7 +31,7 @@ void main() {
   vec4 color_night = vec4(frag_lightness);                                //store night value
   /* ~~~~~~~ */
   vec4 color = mix(color_night, color_day, threshold(mix(color_average, 1.0, frag_lightness)));
-  color = mix(color + vec4(color_blur * 1.9, color_blur * 1.3, color_blur * 1.1, color_day.w), color, mix(threshold(color_average), 1.0, frag_lightness));
+  color = mix(color + vec4(color_blur * 1.3, color_blur * 1.2, color_blur * 1.15, color_day.w), color, mix(threshold(color_average), 1.0, frag_lightness));
 
   gl_FragColor = color;
 }
