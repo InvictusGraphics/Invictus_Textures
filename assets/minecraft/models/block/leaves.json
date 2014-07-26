@@ -15,18 +15,18 @@
                 "east":  { "uv": [ 5.33333, 0, 10.66666, 5.33333 ], "texture": "#all", "tintindex": 0 }
             }
         },
-        {   "from": [ -6, -6, 6 ],
-            "to": [ 22, 22, 6 ],
-            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+        {   "from": [ -6.14, -6.1, 6 ],
+            "to": [ 21.95, 22.09, 6 ],
+            "rotation": { "origin": [ 9.2, 8.5, 8 ], "axis": "y", "angle": 45, "rescale": true },
             "shade": false,
             "faces": {
                 "north": { "uv": [ 5.33333, 5.33333, 16, 16 ], "texture": "#all", "tintindex": 0 },
                 "south": { "uv": [ 5.33333, 5.33333, 16, 16 ], "texture": "#all", "tintindex": 0 }
             }
         },
-        {   "from": [ 6, -6, -6 ],
-            "to": [ 6, 22, 22 ],
-            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+        {   "from": [ 6.1, -5.93, -6 ],
+            "to": [ 5.91, 21.96, 22.1 ],
+            "rotation": { "origin": [ 7.5, 9.5, 8 ], "axis": "y", "angle": 45, "rescale": true },
             "shade": false,
             "faces": {
                 "west": { "uv": [ 5.33333, 5.33333, 16, 16 ], "texture": "#all", "tintindex": 0 },
