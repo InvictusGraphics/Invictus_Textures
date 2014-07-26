@@ -1,0 +1,39 @@
+{
+	"__comment": "This model was created with freundTech's Blender2Minecraft converter (BETA)",
+	"ambientocclusion": false,
+	"elements": [
+		{   "__comment": "Cube",
+			"from": [ 0.28, 0.0, 15.0 ],
+			"to": [ 15.01, 16.0, 16.0 ],
+			"faces": {
+				"west": { "uv": [ 2.75, 0.0, 3.75, 16.0 ], "texture": "#ladder", "rotation": 0 },
+				"north": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#ladder", "rotation": 0 },
+				"east": { "uv": [ 2.25, 0.0, 3.25, 16.0 ], "texture": "#ladder", "rotation": 0 },
+				"south": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#ladder", "rotation": 0 },
+				"down": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#ladder", "rotation": 270 },
+				"up": { "uv": [ 2.0, 13.41, 14.0, 14.5 ], "texture": "#ladder", "rotation": 0 }
+			}
+		}
+	],
+	"textures": {
+		"ladder": "blocks/ladder",
+		"particle": "blocks/ladder"
+	},
+	"display": {
+		"firstperson": {
+			"rotation": [ 0.0, 0.0, 0.0 ],
+			"translation": [ 0.0, 0.0, 0.0 ],
+			"scale": [ 1.0, 1.0, 1.0 ]
+		},
+		"thirdperson": {
+			"rotation": [ 0.0, 0.0, 0.0 ],
+			"translation": [ 0.0, 0.0, 0.0 ],
+			"scale": [ 1.0, 1.0, 1.0 ]
+		},
+		"gui": {
+			"rotation": [ 0.0, 0.0, 0.0 ],
+			"translation": [ 0.0, 0.0, 0.0 ],
+			"scale": [ 1.0, 1.0, 1.0 ]
+		}
+	}
+}

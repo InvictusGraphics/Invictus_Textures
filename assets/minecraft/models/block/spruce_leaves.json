@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "all": "blocks/leaves_spruce",
+        "cross": "blocks/leaves_spruce_cross"
+    }
+}

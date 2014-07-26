@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "quartz_normal" },
+            { "model": "quartz_normal_2" },
+            { "model": "quartz_normal_3" },
+            { "model": "quartz_normal_4" }
+        ]
+    }
+}
