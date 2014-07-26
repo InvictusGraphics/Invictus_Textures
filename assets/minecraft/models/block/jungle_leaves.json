@@ -1,7 +1,0 @@
-{
-    "parent": "block/leaves",
-    "textures": {
-        "all": "blocks/leaves_jungle",
-        "cross": "blocks/leaves_jungle_cross"
-    }
-}
