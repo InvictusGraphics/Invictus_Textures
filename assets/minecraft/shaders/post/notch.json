@@ -7,7 +7,7 @@
     "previous",
     "swap"
   ],
-  "passes": [        
+  "passes": [
     {
         "name": "phosphor",
         "intarget": "minecraft:main",
@@ -42,7 +42,7 @@
         ]
     },
     {
-      "name": "Invictus_blur",
+      "name": "blur",
       "intarget": "minecraft:main",
       "outtarget": "blur"
     },
