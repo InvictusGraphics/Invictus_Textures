@@ -1,78 +1,98 @@
 {
   "targets": [
-    "blur",
+    "phosphor",
+    "past",
     "average",
+    "blur_horizontal",
+    "blur",
+    "threshold",
     "fog",
-    "light",
-    "previous",
-    "swap"
+    "composite"
   ],
   "passes": [
     {
-        "name": "phosphor",
-        "intarget": "minecraft:main",
-        "outtarget": "swap",
-        "auxtargets": [
-            {
-                "name": "PrevSampler",
-                "id": "previous"
-            }
-        ],
-        "uniforms": [
-            {
-                "name": "Phosphor",
-                "values": [ 0.95, 0.95, 0.95 ]
-            }
-        ]
-    },
-    {
-        "name": "blit",
-        "intarget": "swap",
-        "outtarget": "previous"
-    },
-    {
-      "name": "Invictus_average",
+      "name": "Invictus_phosphor",
       "intarget": "minecraft:main",
-      "outtarget": "average",
-      "auxtargets": [
-            {
-                "name": "PrevSampler",
-                "id": "previous"
-            }
-        ]
-    },
-    {
-      "name": "blur",
-      "intarget": "minecraft:main",
-      "outtarget": "blur"
-    },
-    {
-      "name": "Invictus_fog",
-      "intarget": "minecraft:main",
-      "outtarget": "fog"
-    },
-    {
-      "name": "Invictus_light",
-      "intarget": "minecraft:main",
-      "outtarget": "light",
+      "outtarget": "phosphor",
       "auxtargets": [
           {
-            "name": "BlurSampler",
-            "id": "blur"
-          },
+              "name": "PastSampler",
+              "id": "past"
+          }
+       ],
+       "uniforms": [
           {
-            "name": "AverageSampler",
-            "id": "average"
-          },
-          {
-            "name": "FogSampler",
-            "id": "fog"
+              "name": "opacity",
+              "values": [ 0.95 ],
+              "__comment": "smaller numbers shift faster"
           }
        ]
     },
     {
       "name": "blit",
-      "intarget": "light",
+      "intarget": "phosphor",
+      "outtarget": "past"
+    },
+    {
+      "name": "Invictus_average",
+      "intarget": "phosphor",
+      "outtarget": "average"
+    },
+    {
+      "name": "Invictus_threshold",
+      "intarget": "minecraft:main",
+      "outtarget": "threshold",
+      "auxtargets": [
+          {
+              "name": "AverageSampler",
+              "id": "average"
+          }
+       ]
+    },
+    {
+      "name": "Invictus_blur_horizontal",
+      "intarget": "threshold",
+      "outtarget": "blur_horizontal",
+      "uniforms": [
+         {
+             "name": "resolution",
+             "values": [ 512 ],
+             "__comment": "lower number = more blur and choppiness - used in bloom"
+         }
+      ]
+    },
+    {
+      "name": "Invictus_blur_vertical",
+      "intarget": "blur_horizontal",
+      "outtarget": "blur",
+      "uniforms": [
+         {
+             "name": "resolution",
+             "values": [ 512 ],
+             "__comment": "lower number = more blur and choppiness - used in bloom"
+         }
+      ]
+    },
+    {
+      "name": "Invictus_composite",
+      "__comment": "night light and artificial light are configurable from the shader",
+      "intarget": "minecraft:main",
+      "outtarget": "composite",
+      "auxtargets": [
+          {
+              "name": "ThresholdSampler",
+              "id": "blur"
+          },
+          {
+              "name": "AverageSampler",
+              "id": "average"
+          }
+       ]
+
+    },
+    {
+      "name": "blit",
+      "intarget": "composite",
       "outtarget": "minecraft:main"
     }
   ]
