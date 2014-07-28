@@ -21,7 +21,7 @@ for x in range(3):
 
 
         	//Base image
-	vec4 input[9] = vec4[9](
+	vec4 base[9] = vec4[9](
 		texture2D(DiffuseSampler, vec2(texCoord.x + -0.005, texCoord.y + -0.005)),
 		texture2D(DiffuseSampler, vec2(texCoord.x + -0.005, texCoord.y + 0.0)),
 		texture2D(DiffuseSampler, vec2(texCoord.x + -0.005, texCoord.y + 0.005)),
@@ -84,7 +84,7 @@ void main() {
 
 	vec4 color = vec4(0.0);
 	for (int i = 0; i <= 8; i++) {
-		color += (input[i] * kernel[i]);
+		color += (base[i] * kernel[i]);
 	}
 	gl_FragColor = color;
 }

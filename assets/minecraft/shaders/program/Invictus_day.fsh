@@ -10,7 +10,8 @@ float value(float x) {
 }
 
 float red(float x){
-  return value(x * (1.36938+x * (-1.39704+1.02767*x)));
+  return value(x * (1.28208+x * (-1.20581+0.923728*x)));
+               //x * (1.28208+x * (-1.20581+0.923728*x))
 }
 
 float green(float x){
