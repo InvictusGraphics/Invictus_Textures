@@ -6,6 +6,8 @@
     "blur_horizontal",
     "blur",
     "threshold",
+    "day",
+    "night",
     "fog",
     "composite"
   ],
@@ -41,13 +43,7 @@
     {
       "name": "Invictus_threshold",
       "intarget": "minecraft:main",
-      "outtarget": "threshold",
-      "auxtargets": [
-          {
-              "name": "AverageSampler",
-              "id": "average"
-          }
-       ]
+      "outtarget": "threshold"
     },
     {
       "name": "Invictus_blur_horizontal",
@@ -74,21 +70,40 @@
       ]
     },
     {
+      "name": "Invictus_day",
+      "intarget": "minecraft:main",
+      "outtarget": "day"
+    },
+    {
+      "name": "Invictus_night",
+      "intarget": "minecraft:main",
+      "outtarget": "night",
+      "auxtargets": [
+          {
+              "name": "ThresholdSampler",
+              "id": "blur"
+          }
+       ]
+    },
+    {
       "name": "Invictus_composite",
       "__comment": "night light and artificial light are configurable from the shader",
       "intarget": "minecraft:main",
       "outtarget": "composite",
       "auxtargets": [
           {
-              "name": "ThresholdSampler",
-              "id": "blur"
+              "name": "DaySampler",
+              "id": "day"
+          },
+          {
+              "name": "NightSampler",
+              "id": "night"
           },
           {
               "name": "AverageSampler",
               "id": "average"
           }
        ]
-
     },
     {
       "name": "blit",

@@ -9,7 +9,8 @@
   "attributes": [ "Position" ],
   "samplers": [
     { "name": "DiffuseSampler" },
-    { "name": "ThresholdSampler" },
+    { "name": "DaySampler" },
+    { "name": "NightSampler" },
     { "name": "AverageSampler"}
   ],
   "uniforms": [
