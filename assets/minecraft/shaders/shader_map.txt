@@ -12,12 +12,3 @@ Invictus_composite:	Composite night, day and bloom using average
 Invictus_fog:		no z-buffer to work with, cannot be used
 Invictus_blur:		n^2 complexity, inefficient, not needed
 Invictus_convolution:	no real application..
-
-
-TODO: 
-More accurate night threshold
-Maybe fold threshold into night
-Blur inside the phosphor loop
-Implement night lighting
-Improve bloom application
-Threshold away the top of the daylight

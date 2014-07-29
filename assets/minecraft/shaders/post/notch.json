@@ -25,34 +25,19 @@
        "uniforms": [
           {
               "name": "opacity",
-              "values": [ 0.95 ],
+              "values": [ 0.35 ],
               "__comment": "smaller numbers shift faster"
           }
        ]
     },
     {
-      "name": "blit",
-      "intarget": "phosphor",
-      "outtarget": "past"
-    },
-    {
-      "name": "Invictus_average",
-      "intarget": "phosphor",
-      "outtarget": "average"
-    },
-    {
-      "name": "Invictus_threshold",
-      "intarget": "minecraft:main",
-      "outtarget": "threshold"
-    },
-    {
       "name": "Invictus_blur_horizontal",
-      "intarget": "threshold",
+      "intarget": "phosphor",
       "outtarget": "blur_horizontal",
       "uniforms": [
          {
              "name": "resolution",
-             "values": [ 256 ],
+             "values": [ 1024 ],
              "__comment": "lower number = more blur and choppiness - used in bloom"
          }
       ]
@@ -64,10 +49,20 @@
       "uniforms": [
          {
              "name": "resolution",
-             "values": [ 256 ],
+             "values": [ 1024 ],
              "__comment": "lower number = more blur and choppiness - used in bloom"
          }
       ]
+    },
+    {
+      "name": "blit",
+      "intarget": "blur",
+      "outtarget": "past"
+    },
+    {
+      "name": "Invictus_average",
+      "intarget": "blur",
+      "outtarget": "average"
     },
     {
       "name": "Invictus_day",
@@ -80,14 +75,13 @@
       "outtarget": "night",
       "auxtargets": [
           {
-              "name": "ThresholdSampler",
+              "name": "BlurSampler",
               "id": "blur"
           }
        ]
     },
     {
       "name": "Invictus_composite",
-      "__comment": "night light and artificial light are configurable from the shader",
       "intarget": "minecraft:main",
       "outtarget": "composite",
       "auxtargets": [

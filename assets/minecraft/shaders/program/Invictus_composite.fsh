@@ -13,11 +13,11 @@ float desaturate(vec4 saturated){
 }
 
 float opacity_threshold_day(float x){
-  return .5 * (1.0 + tanh(6.0 * x - 2));
+  return .5 * (1.0 + tanh(8.0 * x - 2));
 }
 
 float opacity_threshold_night(float x){
-  return .5 * (1.0 - tanh(9.0 * x - 2));
+  return .25 * (1.0 - tanh(9.0 * x - 1.5));
 }
 
 void main() {
