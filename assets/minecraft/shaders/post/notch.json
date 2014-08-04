@@ -37,7 +37,7 @@
       "uniforms": [
          {
              "name": "resolution",
-             "values": [ 1024 ],
+             "values": [ 512 ],
              "__comment": "lower number = more blur and choppiness - used in bloom"
          }
       ]
@@ -49,7 +49,7 @@
       "uniforms": [
          {
              "name": "resolution",
-             "values": [ 1024 ],
+             "values": [ 512 ],
              "__comment": "lower number = more blur and choppiness - used in bloom"
          }
       ]

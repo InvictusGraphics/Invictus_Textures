@@ -1,4 +1,4 @@
-No branching constructs, use dot products, use builtins, use MAD, limit samples
+No branching constructs, use dot products, use built-ins, use MAD, limit samples
 
 Invictus_phosphor: 	Smooth multiple frames together
 Invictus_average: 	Find average lightness of scene

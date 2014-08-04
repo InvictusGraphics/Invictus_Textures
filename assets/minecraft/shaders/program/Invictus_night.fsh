@@ -5,8 +5,8 @@ uniform sampler2D BlurSampler;
 
 varying vec2 texCoord;
 
-vec4 artificial_light = vec4( 0.9, 0.3, 0.0, 0.0 );
-vec4 night_light = vec4( 0.0, 0.075, 0.212, 1.0 );
+vec4 artificial_light = vec4( 1.0, 0.902, 0.569, 0.0 );
+vec4 night_light = vec4( 0.05, 0.07, 0.1, 1.0 );
 
 float desaturate(vec4 saturated){
   return dot(saturated.rgb, vec3(1.0)) * 0.33; //Thank you lycene from Bukkit forums!
@@ -25,12 +25,18 @@ float opacity_threshold(float x){
 
 void main() {
   vec4 color_diffuse = texture2D(DiffuseSampler, texCoord);
-  float color_bloom = isolation_threshold(desaturate(texture2D(BlurSampler, texCoord)));
+  vec4 color_blur = texture2D(BlurSampler, texCoord);
+  float bloom_mask = isolation_threshold(desaturate(color_blur)); //calc bloom
 
-  float frag_lightness = desaturate(color_diffuse);
+  float frag_lightness = desaturate(color_diffuse); //Calculate average lightness of single fragment
+
+  vec4 color_bloom = mix(vec4(0.0), artificial_light, bloom_mask); //colorize artificial light
+
+  color_diffuse *= 1.0-desaturate(night_light); //darken diffuse amount that is added by night light
+  color_diffuse += mix(vec4(0.0), night_light, 1.0 - bloom_mask); //add night light, filtered by inverse bloom
 
 
   color_diffuse = mix(vec4(frag_lightness/20), color_diffuse, opacity_threshold(frag_lightness)); // desat
-  color_diffuse.rgb += mix(color_bloom, 0.0, frag_lightness);
+  color_diffuse += mix((color_blur+artificial_light)/2.0, vec4(0.0), 1-bloom_mask); //filter bloom on lightness, add to diffuse
   gl_FragColor = color_diffuse;
 }

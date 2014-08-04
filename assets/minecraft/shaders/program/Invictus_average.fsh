@@ -3,7 +3,8 @@
 uniform sampler2D DiffuseSampler;
 
 /*
-Only using 25 samples because it samples from the looped blur
+Only using 25 samples because it samples from the looped blur.
+Explicitly listed because dependent samples are not well optimized.
 */
 
 void main() {

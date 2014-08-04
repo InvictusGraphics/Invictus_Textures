@@ -21,7 +21,7 @@ float opacity_threshold_night(float x){
 }
 
 void main() {
-  float average = desaturate(texture2D(AverageSampler, texCoord));
+  float average = desaturate(texture2D(AverageSampler, texCoord)); //Average lightness
 
   vec4 color = texture2D(DiffuseSampler, texCoord);
   vec4 color_day = texture2D(DaySampler, texCoord);
