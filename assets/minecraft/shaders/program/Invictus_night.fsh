@@ -38,5 +38,6 @@ void main() {
 
   color_diffuse = mix(vec4(frag_lightness/20), color_diffuse, opacity_threshold(frag_lightness)); // desat
   color_diffuse += mix((color_blur+artificial_light)/2.0, vec4(0.0), 1-bloom_mask); //filter bloom on lightness, add to diffuse
+  color_diffuse = mix(color_diffuse, (artificial_light+color_blur) / 2.0, bloom_mask);
   gl_FragColor = color_diffuse;
 }

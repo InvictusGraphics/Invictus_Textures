@@ -17,7 +17,7 @@ float opacity_threshold_day(float x){
 }
 
 float opacity_threshold_night(float x){
-  return .25 * (1.0 - tanh(9.0 * x - 1.5));
+  return .25 * (1.0 - tanh(9.0 * x - 1.9));
 }
 
 void main() {
