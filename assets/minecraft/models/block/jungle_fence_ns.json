@@ -1,0 +1,7 @@
+{
+    "parent": "block/fence_ns",
+    "textures": {
+      "side": "blocks/fence_jungle_side",
+      "top": "blocks/fence_jungle_top"
+    }
+}
