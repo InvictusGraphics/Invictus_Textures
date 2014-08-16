@@ -1,18 +1,23 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "#wall"
+        "particle": "#wall",
+        "side": "#side",
+        "top": "#top",
+        "post_side": "#post_side",
+        "post_top": "#post_top"
+
     },
     "elements": [
         {   "from": [ 4, 0, 4 ],
             "to": [ 12, 16, 12 ],
             "faces": {
                 "down":  { "uv": [ 4, 4, 12, 12 ], "texture": "#wall", "cullface": "down" },
-                "up":    { "uv": [ 4, 4, 12, 12 ], "texture": "#wall" },
-                "north": { "uv": [ 4, 0, 12, 16 ], "texture": "#wall" },
-                "south": { "uv": [ 4, 0, 12, 16 ], "texture": "#wall" },
-                "west":  { "uv": [ 4, 0, 12, 16 ], "texture": "#wall" },
-                "east":  { "uv": [ 4, 0, 12, 16 ], "texture": "#wall" }
+                "up":    { "uv": [ 4, 4, 12, 12 ], "texture": "#post_top" },
+                "north": { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" },
+                "south": { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" },
+                "west":  { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" },
+                "east":  { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" }
             },
             "__comment": "Center post"
         },
@@ -20,11 +25,11 @@
             "to": [ 11, 13, 16 ],
             "faces": {
                 "down":  { "uv": [ 5, 0, 11, 16 ], "texture": "#wall", "cullface": "down" },
-                "up":    { "uv": [ 5, 0, 11, 16 ], "texture": "#wall" },
-                "north": { "uv": [ 5, 3, 11, 16 ], "texture": "#wall", "cullface": "north" },
-                "south": { "uv": [ 5, 3, 11, 16 ], "texture": "#wall", "cullface": "south" },
-                "west":  { "uv": [ 0, 3, 16, 16 ], "texture": "#wall" },
-                "east":  { "uv": [ 0, 3, 16, 16 ], "texture": "#wall" }
+                "up":    { "uv": [ 5, 0, 11, 16 ], "texture": "#top" },
+                "north": { "uv": [ 5, 3, 11, 16 ], "texture": "#side", "cullface": "north" },
+                "south": { "uv": [ 5, 3, 11, 16 ], "texture": "#side", "cullface": "south" },
+                "west":  { "uv": [ 0, 3, 16, 16 ], "texture": "#side" },
+                "east":  { "uv": [ 0, 3, 16, 16 ], "texture": "#side" }
             },
             "__comment": "Full wall"
         }

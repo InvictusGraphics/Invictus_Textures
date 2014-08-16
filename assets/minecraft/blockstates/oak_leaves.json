@@ -1,8 +1,17 @@
 {
     "variants": {
         "normal": [
+           { "model": "oak_leaves", "y": 270 },
+           { "model": "oak_leaves", "y": 90 },
+           { "model": "oak_leaves", "y": 180 },
            { "model": "oak_leaves" },
+           { "model": "oak_leaves_2", "y": 270 },
+           { "model": "oak_leaves_2", "y": 90 },
+           { "model": "oak_leaves_2", "y": 180 },
            { "model": "oak_leaves_2" },
+           { "model": "oak_leaves_3", "y": 270 },
+           { "model": "oak_leaves_3", "y": 90 },
+           { "model": "oak_leaves_3", "y": 180 },
            { "model": "oak_leaves_3" }
          ]
     }
