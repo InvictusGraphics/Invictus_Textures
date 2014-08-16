@@ -1,7 +1,7 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle" : "#texture",
+        "particle" : "#texture"
     },
     "elements": [
         {   "__comment": "Left-hand post",

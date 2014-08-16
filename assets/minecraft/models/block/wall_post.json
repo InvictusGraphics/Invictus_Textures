@@ -1,0 +1,21 @@
+{
+    "textures": {
+        "particle": "#wall",
+        "post_side": "#post_side",
+        "post_top": "#post_top"
+    },
+    "elements": [
+        {   "from": [ 4, 0, 4 ],
+            "to": [ 12, 16, 12 ],
+            "faces": {
+                "down":  { "uv": [ 4, 4, 12, 12 ], "texture": "#wall", "cullface": "down" },
+                "up":    { "uv": [ 4, 4, 12, 12 ], "texture": "#post_top" },
+                "north": { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" },
+                "south": { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" },
+                "west":  { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" },
+                "east":  { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" }
+            },
+            "__comment": "Center post"
+        }
+    ]
+}
