@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+          { "model": "clay_1" },
+          { "model": "clay_2" },
+          { "model": "clay_3" },
+          { "model": "clay_4" }
+        ]
+    }
+}

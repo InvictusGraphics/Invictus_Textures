@@ -1,7 +1,14 @@
 {
     "variants": {
         "normal": [
-            { "model": "dirt" }
+            { "model": "dirt_1" },
+            { "model": "dirt_2" },
+            { "model": "dirt_3" },
+            { "model": "dirt_4" },
+            { "model": "dirt_5" },
+            { "model": "dirt_6" },
+            { "model": "dirt_7" },
+            { "model": "dirt_8" }
         ]
     }
 }

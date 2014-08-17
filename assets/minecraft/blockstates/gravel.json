@@ -1,0 +1,23 @@
+{
+    "variants": {
+        "normal": [
+			{ "model": "gravel_1" },
+			{ "model": "gravel_2" },
+			{ "model": "gravel_3" },
+			{ "model": "gravel_4" },
+			{ "model": "gravel_5" },
+			{ "model": "gravel_6" },
+			{ "model": "gravel_7" },
+			{ "model": "gravel_8" },
+			{ "model": "gravel_9" },
+			{ "model": "gravel_10" },
+			{ "model": "gravel_11" },
+			{ "model": "gravel_12" },
+			{ "model": "gravel_13" },
+			{ "model": "gravel_14" },
+			{ "model": "gravel_15" },
+			{ "model": "gravel_16" }
+			
+		]
+	}
+}
