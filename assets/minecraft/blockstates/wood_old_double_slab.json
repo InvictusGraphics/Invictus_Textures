@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "oak_planks_slab" },
+        "all":    { "model": "oak_planks_all" }
+    }
+}
