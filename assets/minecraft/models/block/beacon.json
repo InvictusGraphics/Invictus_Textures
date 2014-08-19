@@ -1,0 +1,155 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/beacon_frame",
+        "frame": "blocks/beacon_frame",
+        "struct": "blocks/beacon_struct",
+        "beacon": "blocks/beacon"
+    },
+    "elements": [
+        {   "__comment": "Back bottom",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 3, 3 ],
+            "faces": {
+                "down":  { "uv": [ 0, 13, 16, 16 ], "texture": "#frame" },
+                "up":    { "uv": [ 0, 0, 16, 3 ], "texture": "#struct" },
+                "north": { "uv": [ 0, 13, 16, 16 ], "texture": "#frame" },
+                "south": { "uv": [ 0, 13, 16, 16 ], "texture": "#struct" },
+                "west":  { "uv": [ 0, 13, 3, 16 ], "texture": "#frame" },
+                "east":  { "uv": [ 13, 13, 16, 16 ], "texture": "#frame" }
+            }
+        },
+        {   "__comment": "Left bottom",
+            "from": [ 0, 0, 0 ],
+            "to": [ 3, 3, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 3, 16 ], "texture": "#frame" },
+                "up":    { "uv": [ 0, 0, 3, 16 ], "texture": "#struct" },
+                "north": { "uv": [ 13, 13, 16, 16 ], "texture": "#frame" },
+                "south": { "uv": [ 0, 13, 3, 16 ], "texture": "#frame" },
+                "west":  { "uv": [ 0, 13, 16, 16 ], "texture": "#frame" },
+                "east":  { "uv": [ 0, 0, 16, 3 ], "texture": "#struct" }
+            }
+        },
+        {   "__comment": "Back left vertical",
+            "from": [ 0, 0, 0 ],
+            "to": [ 3, 16, 3 ],
+            "faces": {
+                "down":  { "uv": [ 0, 13, 3, 16 ], "texture": "#frame" },
+                "up":    { "uv": [ 0, 0, 3, 3 ], "texture": "#frame" },
+                "north": { "uv": [ 13, 0, 16, 16 ], "texture": "#frame" },
+                "south": { "uv": [ 0, 0, 3, 16 ], "texture": "#struct" },
+                "west":  { "uv": [ 0, 0, 3, 16 ], "texture": "#frame" },
+                "east":  { "uv": [ 13, 0, 16, 16 ], "texture": "#struct" }
+            }
+        },
+        {   "__comment": "Back right vertical",
+            "from": [ 13, 0, 0 ],
+            "to": [ 16, 16, 3 ],
+            "faces": {
+                "down":  { "uv": [ 13, 13, 16, 16 ], "texture": "#frame" },
+                "up":    { "uv": [ 13, 0, 16, 3 ], "texture": "#frame" },
+                "north": { "uv": [ 0, 0, 3, 16 ], "texture": "#frame" },
+                "south": { "uv": [ 13, 0, 16, 16 ], "texture": "#struct" },
+                "west":  { "uv": [ 0, 0, 3, 16 ], "texture": "#struct" },
+                "east":  { "uv": [ 13, 0, 16, 16 ], "texture": "#frame" }
+            }
+        },
+        {   "__comment": "Top right",
+            "from": [ 13, 13, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 13, 0, 16, 16 ], "texture": "#struct" },
+                "up":    { "uv": [ 13, 0, 16, 16 ], "texture": "#frame" },
+                "north": { "uv": [ 0, 0, 3, 3 ], "texture": "#frame" },
+                "south": { "uv": [ 13, 0, 16, 3 ], "texture": "#frame" },
+                "west":  { "uv": [ 0, 0, 16, 3 ], "texture": "#struct" },
+                "east":  { "uv": [ 0, 0, 16, 3 ], "texture": "#frame" }
+            }
+        },
+        {   "__comment": "Bottom right",
+            "from": [ 13, 0, 0 ],
+            "to": [ 16, 3, 16 ],
+            "faces": {
+                "down":  { "uv": [ 13, 0, 16, 16 ], "texture": "#frame" },
+                "up":    { "uv": [ 13, 0, 16, 16 ], "texture": "#struct" },
+                "north": { "uv": [ 0, 13, 3, 16 ], "texture": "#frame" },
+                "south": { "uv": [ 13, 13, 16, 16], "texture": "#frame" },
+                "west":  { "uv": [ 0, 0, 16, 3 ], "texture": "#struct" },
+                "east":  { "uv": [ 0, 13, 16, 16 ], "texture": "#frame" }
+            }
+        },
+        {   "__comment": "Top left",
+            "from": [ 0, 13, 0 ],
+            "to": [ 3, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 3, 16 ], "texture": "#struct" },
+                "up":    { "uv": [ 0, 0, 3, 16 ], "texture": "#frame" },
+                "north": { "uv": [ 13, 0, 16, 3 ], "texture": "#frame" },
+                "south": { "uv": [ 0, 0, 3, 3 ], "texture": "#frame" },
+                "west":  { "uv": [ 0, 0, 16, 3 ], "texture": "#frame" },
+                "east":  { "uv": [ 0, 0, 16, 3 ], "texture": "#struct" }
+            }
+        },
+        {   "__comment": "Top back",
+            "from": [ 0, 13, 0 ],
+            "to": [ 16, 16, 3 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 3 ], "texture": "#struct" },
+                "up":    { "uv": [ 0, 0, 16, 3 ], "texture": "#frame" },
+                "north": { "uv": [ 0, 0, 16, 3 ], "texture": "#frame" },
+                "south": { "uv": [ 0, 0, 16, 3 ], "texture": "#struct" },
+                "west":  { "uv": [ 0, 0, 3, 3 ], "texture": "#frame" },
+                "east":  { "uv": [ 13, 0, 16, 3 ], "texture": "#frame" }
+            }
+        },
+        {   "__comment": "Front top",
+            "from": [ 0, 13, 13 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 3 ], "texture": "#struct" },
+                "up":    { "uv": [ 0, 13, 16, 16 ], "texture": "#frame" },
+                "north": { "uv": [ 0, 0, 16, 3 ], "texture": "#struct" },
+                "south": { "uv": [ 0, 0, 16, 3 ], "texture": "#frame" },
+                "west":  { "uv": [ 13, 0, 16, 3 ], "texture": "#frame" },
+                "east":  { "uv": [ 0, 0, 3, 3 ], "texture": "#frame" }
+            }
+        },
+        {   "__comment": "Front left vertical",
+            "from": [ 0, 0, 13 ],
+            "to": [ 3, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 3, 3 ], "texture": "#frame" },
+                "up":    { "uv": [ 0, 13, 3, 16 ], "texture": "#frame" },
+                "north": { "uv": [ 0, 0, 3, 16 ], "texture": "#struct" },
+                "south": { "uv": [ 0, 0, 3, 16 ], "texture": "#frame" },
+                "west":  { "uv": [ 13, 0, 16, 16 ], "texture": "#frame" },
+                "east":  { "uv": [ 0, 0, 3, 16 ], "texture": "#struct" }
+            }
+        },
+        {   "__comment": "Front bottom",
+            "from": [ 0, 0, 13 ],
+            "to": [ 16, 3, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 3 ], "texture": "#frame" },
+                "up":    { "uv": [ 0, 13, 16, 16 ], "texture": "#struct" },
+                "north": { "uv": [ 0, 0, 16, 3 ], "texture": "#struct" },
+                "south": { "uv": [ 0, 13, 16, 16 ], "texture": "#frame" },
+                "west":  { "uv": [ 13, 13, 16, 16 ], "texture": "#frame" },
+                "east":  { "uv": [ 0, 13, 3, 16 ], "texture": "#frame" }
+            }
+        },
+        {   "__comment": "Front right vertical",
+            "from": [ 13, 0, 13 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 13, 0, 16, 3 ], "texture": "#frame" },
+                "up":    { "uv": [ 13, 13, 16, 16 ], "texture": "#frame" },
+                "north": { "uv": [ 0, 0, 3, 16 ], "texture": "#struct" },
+                "south": { "uv": [ 13, 0, 16, 16 ], "texture": "#frame" },
+                "west":  { "uv": [ 13, 0, 16, 16 ], "texture": "#struct" },
+                "east":  { "uv": [ 0, 0, 3, 16 ], "texture": "#frame" }
+            }
+        }
+    ]
+}
