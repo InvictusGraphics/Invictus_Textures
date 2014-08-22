@@ -1,0 +1,53 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/door_iron_upper",
+        "bottom": "blocks/door_iron_lower",
+        "top": "blocks/door_iron_upper"
+    },
+    "elements": [
+        {   "__comment": "Top",
+            "from": [ 0, 13, 0 ],
+            "to": [ 3, 16, 16 ],
+            "faces": {
+                "up":    { "uv": [ 13, 16, 10, 0 ], "texture": "#bottom", "cullface": "up" },
+                "down":  { "uv": [ 13, 0, 10, 16 ], "texture": "#bottom", "cullface": "down" },
+                "north": { "uv": [  0, 0,  3, 3 ], "texture": "#top", "cullface": "north" },
+                "south": { "uv": [  3, 0,  0, 3 ], "texture": "#top", "cullface": "south" },
+                "west":  { "uv": [  16, 0, 0, 3 ], "texture": "#top", "cullface": "west" },
+                "east":  { "uv": [ 0, 0,  16, 3 ], "texture": "#top" }
+            }
+        },
+        {   "__comment": "Bottom",
+            "from": [ 0, 0, 0 ],
+            "to": [ 3, 2, 16 ],
+            "faces": {
+                "up":    { "uv": [ 13, 0, 10, 16 ], "texture": "#bottom" },
+                "north": { "uv": [  0, 14, 3, 16 ], "texture": "#top", "cullface": "north" },
+                "south": { "uv": [  3, 14, 0, 16 ], "texture": "#top", "cullface": "south" },
+                "west":  { "uv": [ 16, 14, 0, 16 ], "texture": "#top", "cullface": "west" },
+                "east":  { "uv": [ 0, 14, 16, 16 ], "texture": "#top" }
+            }
+        },
+        {   "__comment": "Right",
+            "from": [ 0, 2, 13 ],
+            "to": [ 3, 13, 16 ],
+            "faces": {
+                "north": { "uv": [  3, 3,  6, 14 ], "texture": "#bottom", "cullface": "north" },
+                "south": { "uv": [  0, 3,  3, 14 ], "texture": "#top", "cullface": "south" },
+                "west":  { "uv": [ 3, 3, 0, 14 ], "texture": "#top", "cullface": "west" },
+                "east":  { "uv": [ 0, 3, 3, 14 ], "texture": "#top" }
+            }
+        },
+        {   "__comment": "Left",
+            "from": [ 0, 2, 0 ],
+            "to": [ 3, 13, 3 ],
+            "faces": {
+                "north": { "uv": [  3, 3,  0, 14 ], "texture": "#top" },
+                "south": { "uv": [  6, 3,  3, 14 ], "texture": "#bottom" },
+                "west":  { "uv": [ 16, 3, 13, 14 ], "texture": "#top", "cullface": "west" },
+                "east":  { "uv": [ 13, 3, 16, 14 ], "texture": "#top" }
+            }
+        }
+    ]
+}
