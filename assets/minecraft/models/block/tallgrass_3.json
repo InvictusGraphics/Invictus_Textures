@@ -1,25 +1,44 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "#cross"
+        "particle": "#cross",
+        "sprigs": "blocks/tallgrass_6"
     },
     "elements": [
-        {   "from": [ 0.8, 0, 8 ],
-            "to": [ 15.2, 16, 8 ],
-            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+        {   "from": [ 0, 0, 8 ],
+            "to": [ 16, 16, 8 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -22.5, "rescale": true },
             "shade": false,
             "faces": {
                 "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross", "tintindex": 0 },
                 "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross", "tintindex": 0 }
             }
         },
-        {   "from": [ 8, 0, 0.8 ],
-            "to": [ 8, 16, 15.2 ],
-            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+        {   "from": [ 8, 0, 0 ],
+            "to": [ 8, 16, 16 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -22.5, "rescale": true },
             "shade": false,
             "faces": {
                 "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross", "tintindex": 0 },
                 "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross", "tintindex": 0 }
+            }
+        },
+        {   "from": [ 0, 0, 10 ],
+            "to": [ 16, 16, 10 ],
+            "rotation": { "origin": [ 7, 8, 9 ], "axis": "y", "angle": 22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#sprigs", "tintindex": 0 },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#sprigs", "tintindex": 0 }
+            }
+        },
+        {   "from": [ 6, 0, 0 ],
+            "to": [ 6, 16, 16 ],
+            "rotation": { "origin": [ 9, 8, 7 ], "axis": "y", "angle": 22.5, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#sprigs", "tintindex": 0 },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#sprigs", "tintindex": 0 }
             }
         }
     ]
