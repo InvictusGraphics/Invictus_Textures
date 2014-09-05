@@ -12,8 +12,8 @@
                 "up":    { "uv": [ 0, 7, 2,  9 ], "texture": "#texture" },
                 "north": { "uv": [ 0, 0, 2, 11 ], "texture": "#texture" },
                 "south": { "uv": [ 0, 0, 2, 11 ], "texture": "#texture" },
-                "west":  { "uv": [ 7, 0, 9, 11 ], "texture": "#texture", "cullface": "west" },
-                "east":  { "uv": [ 7, 0, 9, 11 ], "texture": "#texture" }
+                "west":  { "uv": [ 0, 0, 2, 11 ], "texture": "#texture", "cullface": "west" },
+                "east":  { "uv": [ 0, 0, 2, 11 ], "texture": "#texture" }
             }
         },
         {   "__comment": "Right-hand post",
@@ -24,8 +24,8 @@
                 "up":    { "uv": [ 14, 7, 16,  9 ], "texture": "#texture" },
                 "north": { "uv": [ 14, 0, 16, 11 ], "texture": "#texture" },
                 "south": { "uv": [ 14, 0, 16, 11 ], "texture": "#texture" },
-                "west":  { "uv": [  7, 0,  9, 11 ], "texture": "#texture" },
-                "east":  { "uv": [  7, 0,  9, 11 ], "texture": "#texture", "cullface": "east" }
+                "west":  { "uv": [ 14, 0, 16, 11 ], "texture": "#texture" },
+                "east":  { "uv": [ 14, 0, 16, 11 ], "texture": "#texture", "cullface": "east" }
             }
         },
         {   "__comment": "Inner vertical post of left-hand gate door",
