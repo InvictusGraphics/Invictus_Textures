@@ -1,5 +1,5 @@
 {
-    "parent": "block/leaves_2",
+    "parent": "block/leaves",
     "textures": {
         "top": "blocks/leaves_big_oak",
         "half": "blocks/leaves/leaves_big_oak_half",
