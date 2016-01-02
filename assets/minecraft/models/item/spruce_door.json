@@ -5,20 +5,37 @@
         "top": "blocks/door_spruce_upper"
     },
     "display": {
-        "thirdperson": {
-            "rotation": [ -90, 0, 0 ],
-            "translation": [ 0, 1, -3 ],
+        "thirdperson_righthand": {
+            "rotation": [ -95, 10, 10 ],
+            "translation": [ 0, 1, -2 ],
             "scale": [ 0.55, 0.55, 0.55 ]
         },
-        "firstperson": {
-            "rotation": [ 0, -135, 25 ],
-            "translation": [ 0, 4, 2 ],
-            "scale": [ 1.0, 1.0, 1.0 ]
+        "firstperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 2, 4, 2 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -95, 190, -10 ],
+            "translation": [ 0, 1, -2 ],
+            "scale": [ 0.55, 0.55, 0.55 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 2, 4, 2 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
         },
         "gui": {
+            "rotation": [ -15, -45, 0 ],
+            "translation": [ 1.5, 4.1, 0 ],
+            "scale": [ 0.45, 0.45, 0.45 ]
+        },
+        "ground": {
             "rotation": [ 0, 0, 0 ],
-            "translation": [ 0, 1, 2 ],
-            "scale": [ 0.7, 0.7, 0.7 ]
+            "translation": [ 3.5, 8, 0 ],
+            "scale": [ 0.45, 0.45, 0.45 ]
         }
     }
 }
+
+

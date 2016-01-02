@@ -1,7 +1,7 @@
 {
     "parent": "block/wall_nse",
     "textures": {
-        "wall": "blocks/cobblestone",
+        "wall": "blocks/wall_cobblestone_side",
         "side": "blocks/wall_cobblestone_side",
         "top": "blocks/wall_cobblestone_top",
         "post_top": "blocks/wall_cobblestone_top_post",

@@ -18,8 +18,7 @@
                 "south": { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" },
                 "west":  { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" },
                 "east":  { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" }
-            },
-            "__comment": "Center post"
+            }
         },
         {   "from": [ 5, 0, 0 ],
             "to": [ 11, 13, 16 ],
@@ -30,8 +29,7 @@
                 "south": { "uv": [ 5, 3, 11, 16 ], "texture": "#side", "cullface": "south" },
                 "west":  { "uv": [ 0, 3, 16, 16 ], "texture": "#side" },
                 "east":  { "uv": [ 0, 3, 16, 16 ], "texture": "#side" }
-            },
-            "__comment": "Full wall"
+            }
         }
     ]
 }

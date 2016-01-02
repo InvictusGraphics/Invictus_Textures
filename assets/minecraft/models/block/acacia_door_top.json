@@ -6,7 +6,7 @@
         "top": "blocks/door_acacia_upper"
     },
     "elements": [
-        {   "__comment": "Grid",
+        {
             "from": [ 1.5, 0, 0 ],
             "to": [ 1.5, 16, 16 ],
             "faces": {
@@ -14,7 +14,7 @@
                 "east":  { "uv": [ 0, 0,  16, 16 ], "texture": "#top" }
             }
         },
-        {   "__comment": "Top",
+        {
             "from": [ 0.5, 13.25, 3 ],
             "to": [ 2.5, 16, 13 ],
             "faces": {
@@ -24,7 +24,7 @@
                 "east":  { "uv": [ 13, 0,  3, 2.75 ], "texture": "#top" }
             }
         },
-        {   "__comment": "Bar_left",
+        {
             "from": [ 0.5, 0, 5 ],
             "to": [ 2.5, 16, 7 ],
             "faces": {
@@ -34,7 +34,7 @@
                 "east":  { "uv": [ 7, 0, 5, 16 ], "texture": "#top" }
             }
         },
-        {   "__comment": "Bar_right",
+        {
             "from": [ 0.5, 0, 9 ],
             "to": [ 2.5, 16, 11 ],
             "faces": {
@@ -44,7 +44,7 @@
                 "east":  { "uv": [ 11, 0, 9, 16 ], "texture": "#top" }
             }
         },
-        {   "__comment": "Left",
+        {
             "from": [ 0, 0, 0 ],
             "to": [ 3, 16, 3 ],
             "faces": {
@@ -56,7 +56,7 @@
                 "east":  { "uv": [ 3, 0, 0, 16 ], "texture": "#top" }
             }
         },
-        {   "__comment": "Right",
+        {
             "from": [ 0, 0, 13 ],
             "to": [ 3, 16, 16 ],
             "faces": {

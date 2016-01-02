@@ -16,8 +16,7 @@
                 "south": { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" },
                 "west":  { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" },
                 "east":  { "uv": [ 4, 0, 12, 16 ], "texture": "#post_side" }
-            },
-            "__comment": "Center post"
+            }
         },
         {   "from": [ 5, 0, 0 ],
             "to": [ 11, 13, 16 ],

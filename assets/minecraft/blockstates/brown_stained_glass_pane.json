@@ -1,6 +1,6 @@
 {
     "variants": {
-        "east=false,north=false,south=false,west=false": { "model": "brown_pane_nsew" },
+        "east=false,north=false,south=false,west=false": { "model": "brown_pane_u" },
         "east=false,north=true,south=false,west=false": { "model": "brown_pane_n", "uvlock": true },
         "east=true,north=false,south=false,west=false": { "model": "brown_pane_n", "y": 90, "uvlock": true },
         "east=false,north=false,south=true,west=false": { "model": "brown_pane_n", "y": 180, "uvlock": true },
