@@ -1,4 +1,4 @@
-{
+{   "parent": "block/block",
     "ambientocclusion": false,
     "display": {
         "gui": {
