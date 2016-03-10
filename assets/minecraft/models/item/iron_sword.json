@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "items/iron_sword"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "damage": 0.9
+            },
+            "model": "item/iron_sword_broken"
+        }
+    ]
+}

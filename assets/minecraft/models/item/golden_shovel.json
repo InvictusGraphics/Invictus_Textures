@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "items/gold_shovel"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "damage": 0.9
+            },
+            "model": "item/golden_shovel_broken"
+        }
+    ]
+}

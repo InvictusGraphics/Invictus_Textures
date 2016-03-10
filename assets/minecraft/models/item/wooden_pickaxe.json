@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "items/wood_pickaxe"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "damage": 0.9
+            },
+            "model": "item/wooden_pickaxe_broken"
+        }
+    ]
+}
