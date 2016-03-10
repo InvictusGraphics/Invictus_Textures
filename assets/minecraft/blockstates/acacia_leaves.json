@@ -1,6 +1,7 @@
 {
-    "variants": {
-        "normal": [
+    "multipart": [
+      { "when": {"decayable": true},
+        "apply": [
            { "model": "acacia_leaves", "y": 270 },
            { "model": "acacia_leaves", "y": 90 },
            { "model": "acacia_leaves", "y": 180 },
@@ -14,5 +15,9 @@
            { "model": "acacia_leaves_3", "y": 180 },
            { "model": "acacia_leaves_3" }
          ]
-    }
+      },
+      { "when": {"decayable": false},
+        "apply": { "model": "acacia_leaves_placed" }
+      }
+    ]
 }
