@@ -1,0 +1,6 @@
+{
+    "parent": "block/torch_wall_upright",
+    "textures": {
+        "torch": "blocks/torch_wall_on"
+    }
+}
