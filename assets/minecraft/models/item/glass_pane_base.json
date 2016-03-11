@@ -1,0 +1,24 @@
+{
+    "parent": "block/block",
+    "elements": [
+        {
+            "from": [ 0, 0, 7 ],
+            "to": [ 16, 16, 9 ],
+            "faces": {
+                "up":    { "texture": "#edge" },
+                "down":  { "texture": "#edge" },
+                "south": { "texture": "#pane" },
+                "north": { "texture": "#pane" },
+                "west":  { "texture": "#edge" },
+                "east":  { "texture": "#edge" }
+            }
+        }
+    ],
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    }
+}
