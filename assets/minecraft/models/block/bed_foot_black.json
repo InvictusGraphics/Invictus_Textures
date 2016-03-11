@@ -1,0 +1,14 @@
+{
+	"parent": "block/bed_foot",
+	"textures": {
+        "particle": "blocks/bed/bed_feet_top_black",
+
+        "head_top": "blocks/bed/bed_head_top_black",
+        "head_side": "blocks/bed/bed_head_side_black",
+
+        "feet_top": "blocks/bed/bed_feet_top_black",
+        "feet_side": "blocks/bed/bed_feet_side_black",
+
+        "feet_end": "blocks/bed/bed_feet_end_black"
+    }
+}

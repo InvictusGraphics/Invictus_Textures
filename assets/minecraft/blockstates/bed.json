@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "facing=north,part=foot": [ { "model": "bed_foot_red", "y": 180 }, { "model": "bed_foot_black", "y": 180 }, { "model": "bed_foot_blue", "y": 180 } ],
+        "facing=east,part=foot":  [ { "model": "bed_foot_red", "y": 270 }, { "model": "bed_foot_black", "y": 270 }, { "model": "bed_foot_blue", "y": 270 } ],
+        "facing=south,part=foot": [ { "model": "bed_foot_red" }, { "model": "bed_foot_black" }, { "model": "bed_foot_blue"} ],
+        "facing=west,part=foot":  [ { "model": "bed_foot_red", "y": 90 }, { "model": "bed_foot_black", "y": 90 }, { "model": "bed_foot_blue", "y": 90 } ],
+        "facing=north,part=head": { "model": "bed_head", "y": 180 },
+        "facing=east,part=head":  { "model": "bed_head", "y": 270 },
+        "facing=south,part=head": { "model": "bed_head" },
+        "facing=west,part=head":  { "model": "bed_head", "y": 90 }
+    }
+}
