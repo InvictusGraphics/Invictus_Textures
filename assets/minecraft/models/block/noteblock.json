@@ -1,0 +1,164 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "blocks/noteblock"
+    },
+    "elements": [
+        {   "__comment": "Back bottom",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 1.25, 1.25 ],
+            "faces": {
+                "down":  {"texture": "#all" },
+                "up":    {"texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Left bottom",
+            "from": [ 0, 0, 0 ],
+            "to": [ 1.25, 1.25, 16 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Back left vertical",
+            "from": [ 0, 0, 0 ],
+            "to": [ 1.25, 16, 1.25 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Back right vertical",
+            "from": [ 14.75, 0, 0 ],
+            "to": [ 16, 16, 1.25 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Top right",
+            "from": [ 14.75, 14.75, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Bottom right",
+            "from": [ 14.75, 0, 0 ],
+            "to": [ 16, 1.25, 16 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Top left",
+            "from": [ 0, 14.75, 0 ],
+            "to": [ 1.25, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Top back",
+            "from": [ 0, 14.75, 0 ],
+            "to": [ 16, 16, 1.25 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Front top",
+            "from": [ 0, 14.75, 14.75 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Front left vertical",
+            "from": [ 0, 0, 14.75 ],
+            "to": [ 1.25, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Front bottom",
+            "from": [ 0, 0, 14.75 ],
+            "to": [ 16, 1.25, 16 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Front right vertical",
+            "from": [ 14.75, 0, 14.75 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+        {   "__comment": "Gooey center",
+            "from": [ 1.25, 1.25, 1.25 ],
+            "to": [ 14.75, 14.75, 14.75 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "south": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        }
+    ]
+}
