@@ -11,8 +11,8 @@
                 "down":  { "uv": [ 7, 0, 9, 9 ], "texture": "#edge" },
                 "up":    { "uv": [ 7, 0, 9, 9 ], "texture": "#edge" },
                 "north": { "uv": [ 7, 0, 9, 16 ], "texture": "#edge", "cullface": "north" },
-                "west":  { "uv": [ 9, 0, 16, 16 ], "texture": "#pane" },
-                "east":  { "uv": [ 0, 0, 7, 16 ], "texture": "#pane" }
+                "west":  { "uv": [ 0, 0, 7, 16 ], "texture": "#pane" },
+                "east":  { "uv": [ 9, 0, 16, 16 ], "texture": "#pane" }
             }
         },
         {   "from": [ 7, 0, 7 ],
