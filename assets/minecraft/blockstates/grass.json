@@ -1,18 +1,19 @@
 {
     "variants": {
         "snowy=false": [
-            { "model": "grass_normal_1" },
-            { "model": "grass_normal_2" },
-            { "model": "grass_normal_3" },
-            { "model": "grass_normal_4" },
-            { "model": "grass_normal_5" },
-            { "model": "grass_normal_6" },
-            { "model": "grass_normal_7" },
-            { "model": "grass_normal_8" },
-            { "model": "grass_normal_9" },
-            { "model": "grass_normal_10" },
-            { "model": "grass_normal_11" },
-            { "model": "grass_normal_12" }
+            { "model": "grass_normal_1", "weight": 10 },
+            { "model": "grass_normal_2", "weight": 10 },
+            { "model": "grass_normal_3", "weight": 10 },
+            { "model": "grass_normal_4", "weight": 10 },
+            { "model": "grass_normal_5", "weight": 10 },
+            { "model": "grass_normal_6", "weight": 10 },
+            { "model": "grass_normal_7", "weight": 10 },
+            { "model": "grass_normal_8", "weight": 10 },
+            { "model": "grass_normal_9", "weight": 10 },
+            { "model": "grass_normal_10", "weight": 10 },
+            { "model": "grass_normal_11", "weight": 10 },
+            { "model": "grass_normal_12", "weight": 10 },
+            { "model": "grass_normal_13", "weight": 1 }
         ],
         "snowy=true":  { "model": "grass_snowed" }
     }
