@@ -1,5 +1,5 @@
 {
-    "parent": "block/pane_nsw",
+    "parent": "block/pane_nsw_interior",
     "textures": {
         "edge": "blocks/glass_pane_top_light_blue",
         "pane": "blocks/glass_light_blue"
