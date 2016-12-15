@@ -1,29 +1,29 @@
 {
-    "ambientocclusion": false,
+    "ambientocclusion": true,
     "textures": {
         "particle": "#round"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],
             "to": [ 16, 16, 16 ],
-            "shade": false,
+            "shade": true,
             "faces": {
-                "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#half", "tintindex": 0 },
-                "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#half", "tintindex": 0 },
-                "west":  { "uv": [ 16, 0, 0, 16 ], "texture": "#half", "tintindex": 0 },
-                "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#half", "tintindex": 0 }
+                "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#top", "tintindex": 0 },
+                "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#top", "tintindex": 0 },
+                "west":  { "uv": [ 16, 0, 0, 16 ], "texture": "#top", "tintindex": 0 },
+                "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#top", "tintindex": 0 }
             }
         },
         {   "from": [ 0, 4.5, 0 ],
-            "to": [ 16, 14.5, 16 ],
-            "shade": false,
+            "to": [ 16, 16, 16 ],
+            "shade": true,
             "faces": {
                 "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "tintindex": 0 },
                 "down":    { "uv": [ 0, 0, 16, 16 ], "texture": "#round", "tintindex": 0 }
             }
         },
-        {   "from": [ -6.2, -1, 8 ],
-            "to": [ 22.2, 21, 8 ],
+        {   "from": [ -6.2, -3, 8 ],
+            "to": [ 22.2, 19, 8 ],
             "rotation": { "origin": [ 9.02, 7.11, 8 ], "axis": "y", "angle": -22.5, "rescale": true },
             "shade": false,
             "faces": {
@@ -31,8 +31,8 @@
                 "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross", "tintindex": 0 }
             }
         },
-        {   "from": [ 8, -1, -6.2 ],
-            "to": [ 8, 21, 22.2 ],
+        {   "from": [ 8, -3, -6.2 ],
+            "to": [ 8, 19, 22.2 ],
             "rotation": { "origin": [ 7.46, 9.09, 8 ], "axis": "y", "angle": -22.5, "rescale": true },
             "shade": false,
             "faces": {
