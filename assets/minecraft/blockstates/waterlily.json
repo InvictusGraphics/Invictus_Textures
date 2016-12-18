@@ -20,7 +20,11 @@
             { "model": "waterlily_5" },
             { "model": "waterlily_5", "y": 90 },
             { "model": "waterlily_5", "y": 180 },
-            { "model": "waterlily_5", "y": 270 }
+            { "model": "waterlily_5", "y": 270 },
+            { "model": "waterlily_6" },
+            { "model": "waterlily_6", "y": 90 },
+            { "model": "waterlily_6", "y": 180 },
+            { "model": "waterlily_6", "y": 270 }
         ]
     }
 }
