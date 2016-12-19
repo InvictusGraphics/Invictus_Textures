@@ -2,7 +2,7 @@
     "ambientocclusion": false,
     "textures": {
         "particle": "blocks/cobblestone",
-        "base": "blocks/lever_base",
+        "base": "blocks/lever_base_on",
         "lever": "blocks/lever"
     },
     "elements": [
