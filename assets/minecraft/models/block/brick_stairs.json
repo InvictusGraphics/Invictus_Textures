@@ -1,5 +1,5 @@
 {
-    "parent": "block/half_slab",
+    "parent": "block/stairs",
     "textures": {
         "bottom": "blocks/slab/brick_top",
         "top": "blocks/slab/brick_top",

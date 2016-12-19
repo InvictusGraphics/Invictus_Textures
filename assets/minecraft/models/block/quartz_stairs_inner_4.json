@@ -2,7 +2,7 @@
     "parent": "block/inner_stairs",
     "textures": {
         "bottom": "blocks/quartz_block_4",
-        "top": "blocks/quartz_block_side",
-        "side": "blocks/quartz_block_bottom"
+        "top": "blocks/quartz_block_1",
+        "side": "blocks/slab/quartz"
     }
 }
