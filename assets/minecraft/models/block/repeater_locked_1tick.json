@@ -4,7 +4,6 @@
         "particle": "blocks/repeater_off",
         "slab": "blocks/repeater_side",
         "top": "blocks/repeater_off",
-        "lock": "blocks/bedrock",
         "unlit": "blocks/redstone_torch_off"
     },
     "elements": [
@@ -22,12 +21,12 @@
         {   "from": [ 2, 2, 6 ],
             "to": [ 14, 4, 8 ],
             "faces": {
-                "down":  { "uv": [ 7, 2,  9, 14 ], "texture": "#lock", "rotation": 90 },
-                "up":    { "uv": [ 7, 2,  9, 14 ], "texture": "#lock", "rotation": 90 },
-                "north": { "uv": [ 2, 7, 14,  9 ], "texture": "#lock" },
-                "south": { "uv": [ 2, 7, 14,  9 ], "texture": "#lock" },
-                "west":  { "uv": [ 6, 7,  8,  9 ], "texture": "#lock" },
-                "east":  { "uv": [ 6, 7,  8,  9 ], "texture": "#lock" }
+                "down":  { "uv": [ 0, 2,  12, 4 ], "texture": "#slab" },
+                "up":    { "uv": [ 0, 2,  12, 4 ], "texture": "#slab" },
+                "north": { "uv": [ 0, 2, 12,  4 ], "texture": "#slab" },
+                "south": { "uv": [ 0, 2, 12,  4 ], "texture": "#slab" },
+                "west":  { "uv": [ 0, 4,  2, 6 ], "texture": "#slab" },
+                "east":  { "uv": [ 0, 4,  2, 6 ], "texture": "#slab" }
             }
         },
         {   "from": [ 7, 2, 2 ],

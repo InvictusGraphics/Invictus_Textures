@@ -2,7 +2,7 @@
     "parent": "block/block",
     "textures": {
         "all": "blocks/slab/oak_old",
-        "particle": "#all"
+        "particle": "blocks/slab/oak_old"
     },
     "elements": [
         {   "__comment": "Back bottom",
