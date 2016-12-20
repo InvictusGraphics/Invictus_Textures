@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "stage=0": { "model": "jungle_sapling_young" },
+        "stage=1": { "model": "jungle_sapling" }
+    }
+}

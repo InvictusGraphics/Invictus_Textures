@@ -73,7 +73,7 @@ Herregud!
 Complex cellular automata!
 Yes, sir!
 Played by cowboys!
-OpenGL 1.2!
+OpenGL 2.1 (if supported)!
 Thousands of colors!
 Try it!
 Age of Wonders is better!
@@ -97,7 +97,6 @@ Whoa, dude!
 All inclusive!
 Tell your friends!
 NP is not in P!
-Notch <3 ez!
 Music by C418!
 Livestreamed!
 Haunted!
@@ -106,7 +105,7 @@ Terrestrial!
 All is full of love!
 Full of stars!
 Scientific!
-Cooler than Spock!
+Not as cool as Spock!
 Collaborate and listen!
 Never dig down!
 Take frequent breaks!
@@ -120,7 +119,7 @@ sqrt(-1) love you!
 Phobos anomaly!
 Punching wood!
 Falling off cliffs!
-0% sugar!
+1% sugar!
 150% hyperbole!
 Synecdoche!
 Let's danec!
@@ -224,6 +223,7 @@ It's groundbreaking!
 Let our battle's begin!
 The sky is the limit!
 Jeb has amazing hair!
+Ryan also has amazing hair!
 Casual gaming!
 Undefeated!
 Kinda like Lemmings!
@@ -301,7 +301,6 @@ You can't explain that!
 if not ok then return end
 §1C§2o§3l§4o§5r§6m§7a§8t§9i§ac
 §kFUNKY LOL
-SOPA means LOSER in Swedish!
 Big Pointy Teeth!
 Bekarton guards the gate!
 Mmmph, mmph!
@@ -314,10 +313,61 @@ Put that cookie down!
 Pretty scary!
 I have a suggestion.
 Now with extra hugs!
-Almost java 6!
+Now Java 6!
 Woah.
 HURNERJSGER?
 What's up, Doc?
+Now contains 32 random daily cats!
+That's Numberwang!
+pls rt
+Do you want to join my server?
+Put a little fence around it!
+Throw a blanket over it!
+One day, somewhere in the future, my work will be quoted!
+Now with additional stuff!
+Extra things!
+Yay, puppies for everyone!
+So sweet, like a nice bon bon!
+Popping tags!
+Very influential in its circle!
+Now With Multiplayer!
+Rise from your grave!
+Warning! A huge battleship "STEVE" is approaching fast!
+Blue warrior shot the food!
+Run, coward! I hunger!
+Flavor with no seasoning!
+Strange, but not a stranger!
+Tougher than diamonds, rich like cream!
+Getting ready to show!
+Getting ready to know!
+Getting ready to drop!
+Getting ready to shock!
+Getting ready to freak!
+Getting ready to speak!
+It swings, it jives!
+Cruising streets for gold!
+Take an eggbeater and beat it against a skillet!
+Make me a table, a funky table!
+Take the elevator to the mezzanine!
+Stop being reasonable, this is the Internet!
+/give @a hugs 64
+This is good for Realms.
+Any computer is a laptop if you're brave enough!
+Do it all, everything!
+Where there is not light, there can spider!
+GNU Terry Pratchett
+More Digital!
+doot doot
+Falling with style!
+There's no stopping the Trollmaso
+Throw yourself at the ground and miss
+Rule #1: it's never my fault
+Replaced molten cheese with blood?
+Absolutely fixed relatively broken coordinates
+Boats FTW
+Javalicious edition
+Should not be played while driving
+You're going too fast!
 Soar-something! Woo!
 Also try Fanver!
 I love Soar-something!
