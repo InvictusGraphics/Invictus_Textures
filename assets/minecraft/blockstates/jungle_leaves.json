@@ -13,7 +13,19 @@
            { "model": "jungle_leaves_3", "y": 270 },
            { "model": "jungle_leaves_3", "y": 90 },
            { "model": "jungle_leaves_3", "y": 180 },
-           { "model": "jungle_leaves_3" }
+           { "model": "jungle_leaves_3" },
+           { "model": "jungle_leaves_uncolored", "y": 270 },
+           { "model": "jungle_leaves_uncolored", "y": 90 },
+           { "model": "jungle_leaves_uncolored", "y": 180 },
+           { "model": "jungle_leaves_uncolored" },
+           { "model": "jungle_leaves_2_uncolored", "y": 270 },
+           { "model": "jungle_leaves_2_uncolored", "y": 90 },
+           { "model": "jungle_leaves_2_uncolored", "y": 180 },
+           { "model": "jungle_leaves_2_uncolored" },
+           { "model": "jungle_leaves_3_uncolored", "y": 270 },
+           { "model": "jungle_leaves_3_uncolored", "y": 90 },
+           { "model": "jungle_leaves_3_uncolored", "y": 180 },
+           { "model": "jungle_leaves_3_uncolored" }
 
          ]
       },
