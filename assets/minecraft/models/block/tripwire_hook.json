@@ -1,38 +1,6 @@
 {
-	"display": {
-        "gui": {
-            "rotation": [ 30, 225, 0 ],
-            "translation": [ 5, 0, 0],
-            "scale":[ 1, 1, 1 ]
-        },
-        "ground": {
-            "rotation": [ 0, 0, 0 ],
-            "translation": [ 0, 3, -6 ],
-            "scale":[ 0.7, 0.7, 0.7 ]
-        },
-        "fixed": {
-            "rotation": [ 0, 0, 0 ],
-            "translation": [ 0, 2, -7],
-            "scale":[ 1, 1, 1 ]
-        },
-        "thirdperson_righthand": {
-            "rotation": [ 75, 45, 0 ],
-            "translation": [ 0, 0, 0],
-            "scale": [ 0.8, 0.8, 0.8 ]
-        },
-        "firstperson_righthand": {
-            "rotation": [ 0, 45, 0 ],
-            "translation": [ 0, 0, 0 ],
-            "scale": [ 0.8, 0.8, 0.8 ]
-        },
-        "firstperson_lefthand": {
-            "rotation": [ 0, 225, 0 ],
-            "translation": [ 0, 0, 0 ],
-            "scale": [ 0.8, 0.8, 0.8 ]
-        }
-    },
     "textures": {
-        "particle": "blocks/planks_oak",
+        "particle": "blocks/slab/oak_top",
         "hook": "blocks/trip_wire_source"
     },
     "elements": [
