@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "daisy" },
+            { "model": "daisy_2" }
+        ]
+    }
+}
