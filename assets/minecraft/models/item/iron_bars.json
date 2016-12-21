@@ -1,0 +1,41 @@
+{
+    "parent": "block/block",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/iron_bars",
+        "bars": "blocks/iron_bars",
+        "edge": "blocks/iron_bars_edge"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 8 ],
+            "to": [ 16, 16, 8 ],
+            "faces": {
+                "north": { "uv": [ 16, 0,  0, 16 ], "texture": "#bars" },
+                "south": { "uv": [  0, 0, 16, 16 ], "texture": "#bars" },
+                "west": { "uv": [ 7.25, 0, 8.75, 16 ], "texture": "#edge" },
+                "east": { "uv": [ 7.25, 0, 8.75, 16 ], "texture": "#edge" }
+            }
+        },
+        {   "from": [ 0, 2.25, 7.25 ],
+            "to": [ 16, 2.25, 8.75 ],
+            "faces": {
+                "down":  { "uv": [ 8.75, 0, 7.25, 8 ], "texture": "#edge" },
+                "up":    { "uv": [ 7.25, 0, 8.75, 7.25 ], "texture": "#edge" }
+            }
+        },
+        {   "from": [ 0, 13.75, 7.25 ],
+            "to": [ 16, 13.75, 8.75 ],
+            "faces": {
+                "down":  { "uv": [ 8.75, 0, 7.25, 7.25 ], "texture": "#edge" },
+                "up":    { "uv": [ 7.25, 0, 8.75, 7.25 ], "texture": "#edge" }
+            }
+        }
+    ],
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    }
+}

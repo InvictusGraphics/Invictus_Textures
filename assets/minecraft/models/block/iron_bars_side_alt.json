@@ -1,0 +1,37 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/iron_bars",
+        "bars": "blocks/iron_bars",
+        "edge": "blocks/iron_bars_edge"
+    },
+    "elements": [
+        {   "from": [ 8, 0, 8 ],
+            "to": [ 8, 16, 16 ],
+            "faces": {
+                "west": { "uv": [ 8, 0, 0, 16 ], "texture": "#bars" },
+                "east": { "uv": [ 0, 0, 8, 16 ], "texture": "#bars" }
+            }
+        },
+        {   "from": [ 7.25, 0, 8.75 ],
+            "to": [ 8.75, 16, 16 ],
+            "faces": {
+                "south": { "uv": [ 7.25, 0, 8.75, 16 ], "texture": "#edge", "cullface": "south" }
+            }
+        },
+        {   "from": [ 7.25, 2.249, 8.75 ],
+            "to": [ 8.75, 2.249, 16 ],
+            "faces": {
+                "down":  { "uv": [ 8.75, 8.75, 7.25, 16 ], "texture": "#edge" },
+                "up":    { "uv": [ 7.25, 8.75, 8.75, 16 ], "texture": "#edge" }
+            }
+        },
+        {   "from": [ 7.25, 13.749, 8.75 ],
+            "to": [ 8.75, 13.749, 16 ],
+            "faces": {
+                "down":  { "uv": [ 8.75, 8.75, 7.25, 16 ], "texture": "#edge" },
+                "up":    { "uv": [ 7.25, 8.75, 8.75, 16 ], "texture": "#edge" }
+            }
+        }
+    ]
+}
