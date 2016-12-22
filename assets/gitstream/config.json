@@ -1,6 +1,6 @@
 {
   "name": "Soartex-Modded",
   "remote_url": "https://github.com/Soartex-Modded/Modded-1.10.x.git",
-  "minecraft_version": "1.11.1",
+  "minecraft_version": "1.10.x",
   "scalar" : 4
 }
