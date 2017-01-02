@@ -1,6 +1,7 @@
 {
     "parent": "block/block",
     "textures": {
+        "particle": "blocks/quartz_ore",
         "one": "blocks/quartz_ore",
         "two": "blocks/quartz_ore_2"
     },
