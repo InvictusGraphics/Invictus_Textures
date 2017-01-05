@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": [
+        	{ "model": "hardened_clay/hardened_clay_1" },
+        	{ "model": "hardened_clay/hardened_clay_2" },
+        	{ "model": "hardened_clay/hardened_clay_3" },
+        	{ "model": "hardened_clay/hardened_clay_4" },
+        	{ "model": "hardened_clay/hardened_clay_5" }
+        ]
+    }
+}

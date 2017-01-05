@@ -1,22 +1,22 @@
 {
     "variants": {
         "normal": [
-			{ "model": "gravel_1" },
-			{ "model": "gravel_2" },
-			{ "model": "gravel_3" },
-			{ "model": "gravel_4" },
-			{ "model": "gravel_5" },
-			{ "model": "gravel_6" },
-			{ "model": "gravel_7" },
-			{ "model": "gravel_8" },
-			{ "model": "gravel_9" },
-			{ "model": "gravel_10" },
-			{ "model": "gravel_11" },
-			{ "model": "gravel_12" },
-			{ "model": "gravel_13" },
-			{ "model": "gravel_14" },
-			{ "model": "gravel_15" },
-			{ "model": "gravel_16" }
+			{ "model": "gravel/gravel_1" },
+			{ "model": "gravel/gravel_2" },
+			{ "model": "gravel/gravel_3" },
+			{ "model": "gravel/gravel_4" },
+			{ "model": "gravel/gravel_5" },
+			{ "model": "gravel/gravel_6" },
+			{ "model": "gravel/gravel_7" },
+			{ "model": "gravel/gravel_8" },
+			{ "model": "gravel/gravel_9" },
+			{ "model": "gravel/gravel_10" },
+			{ "model": "gravel/gravel_11" },
+			{ "model": "gravel/gravel_12" },
+			{ "model": "gravel/gravel_13" },
+			{ "model": "gravel/gravel_14" },
+			{ "model": "gravel/gravel_15" },
+			{ "model": "gravel/gravel_16" }
 		]
 	}
 }

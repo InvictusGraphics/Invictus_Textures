@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "dark_oak_slab_double" }
+        "normal": { "model": "slab/dark_oak_slab_double" }
     }
 }

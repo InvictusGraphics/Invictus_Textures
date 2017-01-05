@@ -1,6 +1,6 @@
 {
     "variants": {
-        "stage=0": { "model": "acacia_sapling_young" },
-        "stage=1": { "model": "acacia_sapling" }
+        "stage=0": { "model": "sapling/acacia_sapling_young" },
+        "stage=1": { "model": "sapling/acacia_sapling" }
     }
 }

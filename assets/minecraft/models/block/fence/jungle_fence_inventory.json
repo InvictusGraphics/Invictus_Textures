@@ -1,0 +1,7 @@
+{
+    "parent": "block/fence/fence_inventory",
+    "textures": {
+        "side": "blocks/fence/fence_jungle_side",
+		"top": "blocks/fence/fence_jungle_top"
+    }
+}

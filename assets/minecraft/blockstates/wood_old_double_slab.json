@@ -1,6 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "oak_planks_all_old" },
-        "all":    { "model": "oak_planks_all_old" }
+        "normal": { "model": "slab/oak_planks_all_old" },
+        "all":    { "model": "slab/oak_planks_all_old" }
     }
 }

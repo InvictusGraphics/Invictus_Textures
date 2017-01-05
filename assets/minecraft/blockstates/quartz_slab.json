@@ -1,6 +1,6 @@
 {
     "variants": {
-        "half=bottom": { "model": "half_slab_quartz" },
-        "half=top": { "model": "upper_slab_quartz" }
+        "half=bottom": { "model": "slab/half_slab_quartz" },
+        "half=top": { "model": "slab/upper_slab_quartz" }
     }
 }

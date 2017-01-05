@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "acacia_planks_slab" }
+        "normal": { "model": "slab/acacia_planks_slab" }
     }
 }

@@ -1,6 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "quartz_slab_double" },
-        "all": { "model": "quartz_slab_decor" }
+        "normal": { "model": "slab/quartz_slab_double" },
+        "all": { "model": "slab/quartz_slab_decor" }
     }
 }

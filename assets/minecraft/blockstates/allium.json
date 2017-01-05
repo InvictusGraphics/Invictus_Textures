@@ -1,8 +1,8 @@
 {
     "variants": {
         "normal": [
-            { "model": "allium" },
-            { "model": "allium_2" }
+            { "model": "flower/allium_1" },
+            { "model": "flower/allium_2" }
         ]
     }
 }

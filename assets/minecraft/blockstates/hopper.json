@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=down": { "model": "utility/hopper_down" },
+        "facing=north": { "model": "utility/hopper_side" },
+        "facing=south": { "model": "utility/hopper_side", "y": 180 },
+        "facing=west": { "model": "utility/hopper_side", "y": 270 },
+        "facing=east": { "model": "utility/hopper_side", "y": 90 }
+    }
+}

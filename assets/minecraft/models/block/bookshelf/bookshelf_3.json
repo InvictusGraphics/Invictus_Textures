@@ -1,0 +1,8 @@
+{
+    "parent": "block/bookshelf/bookshelf",
+    "textures": {
+        "end": "blocks/slab/oak_top",
+        "side": "blocks/bookshelf/3",
+        "particle": "blocks/bookshelf/3"
+    }
+}

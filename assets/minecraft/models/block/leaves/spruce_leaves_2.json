@@ -1,0 +1,11 @@
+{
+    "parent": "block/leaves/leaves_2_uncolored",
+    "textures": {
+        "top": "blocks/leaves_spruce",
+        "round": "blocks/leaves/leaves_spruce_small",
+        "cross": "blocks/leaves/leaves_spruce_large",
+        "top_uncolored": "blocks/leaves_spruce_uncolored",
+        "round_uncolored": "blocks/leaves/leaves_spruce_small_uncolored",
+        "cross_uncolored": "blocks/leaves/leaves_spruce_large_uncolored"
+    }
+}

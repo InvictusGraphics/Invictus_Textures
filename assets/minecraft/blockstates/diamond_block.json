@@ -1,8 +1,8 @@
 {
     "variants": {
         "normal": [
-          { "model": "diamond_block" },
-          { "model": "diamond_block_2" }
+          { "model": "diamond_block/diamond_block_1" },
+          { "model": "diamond_block/diamond_block_2" }
       ]
     }
 }

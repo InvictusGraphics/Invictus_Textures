@@ -1,22 +1,22 @@
 {
     "variants": {
         "normal": [
-            { "model": "netherrack_1" },
-            { "model": "netherrack_2" },
-            { "model": "netherrack_3" },
-            { "model": "netherrack_4" },
-            { "model": "netherrack_5" },
-            { "model": "netherrack_6" },
-            { "model": "netherrack_7" },
-            { "model": "netherrack_8" },
-            { "model": "netherrack_9" },
-            { "model": "netherrack_10" },
-            { "model": "netherrack_11" },
-            { "model": "netherrack_12" },
-            { "model": "netherrack_13" },
-            { "model": "netherrack_14" },
-            { "model": "netherrack_15" },
-            { "model": "netherrack_16" }
+            { "model": "netherrack/netherrack_1" },
+            { "model": "netherrack/netherrack_2" },
+            { "model": "netherrack/netherrack_3" },
+            { "model": "netherrack/netherrack_4" },
+            { "model": "netherrack/netherrack_5" },
+            { "model": "netherrack/netherrack_6" },
+            { "model": "netherrack/netherrack_7" },
+            { "model": "netherrack/netherrack_8" },
+            { "model": "netherrack/netherrack_9" },
+            { "model": "netherrack/netherrack_10" },
+            { "model": "netherrack/netherrack_11" },
+            { "model": "netherrack/netherrack_12" },
+            { "model": "netherrack/netherrack_13" },
+            { "model": "netherrack/netherrack_14" },
+            { "model": "netherrack/netherrack_15" },
+            { "model": "netherrack/netherrack_16" }
         ]
     }
 }

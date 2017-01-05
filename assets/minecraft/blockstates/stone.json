@@ -1,14 +1,14 @@
 {
     "variants": {
         "normal": [
-            { "model": "stone_1" },
-            { "model": "stone_2" },
-            { "model": "stone_3" },
-            { "model": "stone_4" },
-            { "model": "stone_5" },
-            { "model": "stone_6" },
-            { "model": "stone_7" },
-            { "model": "stone_8" }
+            { "model": "stone/stone_1" },
+            { "model": "stone/stone_2" },
+            { "model": "stone/stone_3" },
+            { "model": "stone/stone_4" },
+            { "model": "stone/stone_5" },
+            { "model": "stone/stone_6" },
+            { "model": "stone/stone_7" },
+            { "model": "stone/stone_8" }
         ]
     }
 }

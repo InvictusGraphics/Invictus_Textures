@@ -1,5 +1,5 @@
 {
-    "parent": "block/door",
+    "parent": "block/door/door_item",
     "textures": {
         "bottom": "blocks/door_wood_lower",
         "top": "blocks/door_wood_upper"

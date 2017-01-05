@@ -1,9 +1,0 @@
-{
-    "parent": "block/leaves_2",
-    "textures": {
-        "top": "blocks/leaves_birch",
-        "half": "blocks/leaves/leaves_birch_half",
-        "round": "blocks/leaves/leaves_birch_small",
-        "cross": "blocks/leaves/leaves_birch_large"
-    }
-}

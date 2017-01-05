@@ -1,8 +1,0 @@
-{
-    "parent": "block/bookshelf",
-    "textures": {
-        "end": "blocks/slab/oak_top",
-        "side": "blocks/bookshelf/2",
-        "particle": "blocks/bookshelf/2"
-    }
-}
