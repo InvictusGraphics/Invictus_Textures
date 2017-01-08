@@ -1,27 +1,27 @@
 {
     "variants": {
         "normal": [
-          { "model": "grass_tall/tall_grass" },
-          { "model": "grass_tall/tall_grass_2" },
-          { "model": "grass_tall/tall_grass_3" },
-          { "model": "grass_tall/tall_grass_4" },
-          { "model": "grass_tall/tall_grass_5" },
-          { "model": "grass_tall/tall_grass_6" },
-          { "model": "grass_tall/tall_grass_7" },
-          { "model": "grass_tall/tall_grass_22" },
-          { "model": "grass_tall/tall_grass_2_22" },
-          { "model": "grass_tall/tall_grass_3_22" },
-          { "model": "grass_tall/tall_grass_4_22" },
-          { "model": "grass_tall/tall_grass_5_22" },
-          { "model": "grass_tall/tall_grass_6_22" },
-          { "model": "grass_tall/tall_grass_7_22" },
-          { "model": "grass_tall/tall_grass_0" },
-          { "model": "grass_tall/tall_grass_2_0" },
-          { "model": "grass_tall/tall_grass_3_0" },
-          { "model": "grass_tall/tall_grass_4_0" },
-          { "model": "grass_tall/tall_grass_5_0" },
-          { "model": "grass_tall/tall_grass_6_0" },
-          { "model": "grass_tall/tall_grass_7_0" }
+          { "model": "grass_tall/1_1" },
+          { "model": "grass_tall/2_1" },
+          { "model": "grass_tall/3_1" },
+          { "model": "grass_tall/4_1" },
+          { "model": "grass_tall/5_1" },
+          { "model": "grass_tall/6_1" },
+          { "model": "grass_tall/7_1" },
+          { "model": "grass_tall/1_2" },
+          { "model": "grass_tall/2_2" },
+          { "model": "grass_tall/3_2" },
+          { "model": "grass_tall/4_2" },
+          { "model": "grass_tall/5_2" },
+          { "model": "grass_tall/6_2" },
+          { "model": "grass_tall/7_2" },
+          { "model": "grass_tall/1_3" },
+          { "model": "grass_tall/2_3" },
+          { "model": "grass_tall/3_3" },
+          { "model": "grass_tall/4_3" },
+          { "model": "grass_tall/5_3" },
+          { "model": "grass_tall/6_3" },
+          { "model": "grass_tall/7_3" }
         ]
     }
 }

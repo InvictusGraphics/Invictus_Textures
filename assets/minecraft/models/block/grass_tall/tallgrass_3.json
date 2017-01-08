@@ -2,7 +2,7 @@
     "ambientocclusion": false,
     "textures": {
         "particle": "#cross",
-        "sprigs": "blocks/tallgrass_6"
+        "sprigs": "blocks/tallgrass/6"
     },
     "elements": [
         {   "from": [ 0, 0, 8 ],

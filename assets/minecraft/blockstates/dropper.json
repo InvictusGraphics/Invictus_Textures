@@ -1,7 +1,7 @@
 {
     "variants": {
-        "facing=down":  { "model": "dropper_vertical", "x": 180 },
-        "facing=up":    { "model": "dropper_vertical" },
+        "facing=down":  { "model": "utility/dropper_vertical", "x": 180 },
+        "facing=up":    { "model": "utility/dropper_vertical" },
         "facing=north": { "model": "utility/dropper" },
         "facing=south": { "model": "utility/dropper", "y": 180 },
         "facing=west":  { "model": "utility/dropper", "y": 270 },

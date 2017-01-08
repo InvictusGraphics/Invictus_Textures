@@ -2,7 +2,7 @@
     "ambientocclusion": false,
     "textures": {
         "particle": "#rail",
-        "caps": "blocks/rail_normal"
+        "caps": "blocks/rail/normal"
     },
     "elements": [
         {   "from": [ 2.76, 0, 0 ],
@@ -14,7 +14,6 @@
                 "rescale": true
             },
             "faces": {
-                "down":  { "uv": [ 2.75, 0, 4.25,  16 ], "texture": "#rail" },
                 "up":    { "uv": [ 2.75, 0, 4.25,  16 ], "texture": "#rail" },
                 "north": { "uv": [ 4.25, 0, 2.75,  1.25 ], "texture": "#caps" },
                 "south": { "uv": [ 2.75, 0, 4.25,  1.25 ], "texture": "#caps" },
@@ -31,7 +30,6 @@
                 "rescale": true
             },
             "faces": {
-                "down":  { "uv": [ 11.75, 0, 13.25,  16 ], "texture": "#rail" },
                 "up":    { "uv": [ 11.75, 0, 13.25,  16 ], "texture": "#rail" },
                 "north": { "uv": [ 13.25, 0, 11.75,  1.25 ], "texture": "#caps" },
                 "south": { "uv": [ 11.75, 0, 13.25,  1.25 ], "texture": "#caps" },
@@ -109,7 +107,7 @@
             },
             "faces": {
                 "up": { "uv": [ 0, 0, 16,  16 ], "texture": "#rail" },
-                "down": { "uv": [ 0, 0, 16,  16 ], "texture": "#rail" }
+                "down": { "uv": [ 0, 16, 16, 0 ], "texture": "#rail" }
             }
         },
         {   "from": [ 11.25, 0, 0 ],

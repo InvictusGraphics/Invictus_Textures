@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "side": "blocks/stonebrick_cracked/side_2",
+		"end": 	"blocks/stonebrick_cracked/top_4"
+    }
+}

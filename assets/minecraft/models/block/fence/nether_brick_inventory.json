@@ -1,0 +1,7 @@
+{
+    "parent": "block/fence/fence_inventory",
+    "textures": {
+        "side": "blocks/nether_brick/1",
+		"top": "blocks/nether_brick/1"
+    }
+}

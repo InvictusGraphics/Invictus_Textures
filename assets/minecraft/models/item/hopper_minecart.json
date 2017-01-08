@@ -1,9 +1,9 @@
 {
     "textures": {
     	"cart": "items/minecart",
-        "top": "blocks/hopper_top",
-        "outside": "blocks/hopper_outside",
-        "inside": "blocks/hopper_inside"
+        "top": "blocks/utility/hopper_top",
+        "outside": "blocks/utility/hopper_outside",
+        "inside": "blocks/utility/hopper_inside"
     },
     "elements": [
         {   "from": [ 6.3125, 7, 6.3125 ],

@@ -1,0 +1,7 @@
+{
+    "parent": "block/orientable_vertical",
+    "textures": {
+        "front": "blocks/utility/dispenser_front_vertical",
+        "side": "blocks/utility/furnace_top"
+    }
+}

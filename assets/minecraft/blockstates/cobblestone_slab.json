@@ -1,6 +1,6 @@
 {
     "variants": {
-        "half=bottom": { "model": "slab/half_slab_cobblestone" },
-        "half=top": { "model": "slab/upper_slab_cobblestone" }
+        "half=bottom": { "model": "slab/cobblestone_lower" },
+        "half=top": { "model": "slab/cobblestone_upper" }
     }
 }

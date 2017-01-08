@@ -1,9 +1,9 @@
 {
     "textures": {
     	"cart": "items/minecart",
-        "top": "blocks/chest_top",
-        "side": "blocks/chest_side",
-        "front": "blocks/chest_front"
+        "top": "items/chest_top",
+        "side": "items/chest_side",
+        "front": "items/chest_front"
     },
     "elements": [
         {   "from": [ 4.25, 7, 4.25 ],

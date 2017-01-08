@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "slab/birch_planks_slab" }
+        "normal": { "model": "slab/birch_double" }
     }
 }

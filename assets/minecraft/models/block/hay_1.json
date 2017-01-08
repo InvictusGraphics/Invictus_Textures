@@ -1,9 +1,9 @@
 {
     "textures": {
-        "end": "blocks/hay_block_top",
-        "side": "blocks/hay_block_side",
-        "band": "blocks/hay_block_band",
-        "particle": "blocks/hay_block_top"
+        "end": "blocks/hay_block/top",
+        "side": "blocks/hay_block/side",
+        "band": "blocks/hay_block/band",
+        "particle": "blocks/hay_block/top"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

@@ -1,9 +1,12 @@
 {
-    "parent": "block/orientable",
+    "parent": "block/cube",
     "textures": {
-        "top": "blocks/furnace_top",
-        "front": "blocks/furnace_front_off",
-        "side": "blocks/furnace_side",
-        "bottom": "blocks/furnace_bottom"
+        "particle": "blocks/utility/furnace_front_off",
+        "up": "blocks/utility/furnace_top",
+        "north": "blocks/utility/furnace_front_off",
+        "south": "blocks/utility/furnace_side",
+        "east": "blocks/utility/furnace_side",
+        "west": "blocks/utility/furnace_side",
+        "down": "blocks/utility/furnace_bottom"
     }
 }

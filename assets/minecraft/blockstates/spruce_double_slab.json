@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "slab/spruce_planks_slab" }
+        "normal": { "model": "slab/spruce_double" }
     }
 }

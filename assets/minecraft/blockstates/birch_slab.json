@@ -1,6 +1,6 @@
 {
     "variants": {
-        "half=bottom": { "model": "slab/half_slab_birch" },
-        "half=top": { "model": "slab/upper_slab_birch" }
+        "half=bottom": { "model": "slab/birch_lower" },
+        "half=top": { "model": "slab/birch_upper" }
     }
 }

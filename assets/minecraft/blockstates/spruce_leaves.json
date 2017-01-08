@@ -2,35 +2,35 @@
     "multipart": [
       { "when": {"decayable": true},
         "apply": [
-           { "model": "leaves/spruce_leaves_1", "y": 270, "weight": 3 },
-           { "model": "leaves/spruce_leaves_1", "y": 90, "weight": 3 },
-           { "model": "leaves/spruce_leaves_1", "y": 180, "weight": 3 },
-           { "model": "leaves/spruce_leaves_1", "weight": 3 },
-           { "model": "leaves/spruce_leaves_2", "y": 270, "weight": 3 },
-           { "model": "leaves/spruce_leaves_2", "y": 90, "weight": 3 },
-           { "model": "leaves/spruce_leaves_2", "y": 180, "weight": 3 },
-           { "model": "leaves/spruce_leaves_2", "weight": 3 },
-           { "model": "leaves/spruce_leaves_3", "y": 270, "weight": 3 },
-           { "model": "leaves/spruce_leaves_3", "y": 90, "weight": 3 },
-           { "model": "leaves/spruce_leaves_3", "y": 180, "weight": 3 },
-           { "model": "leaves/spruce_leaves_3", "weight": 3 },
-           { "model": "leaves/oak_leaves_1", "y": 270, "weight": 2 },
-           { "model": "leaves/oak_leaves_1", "y": 90, "weight": 2 },
-           { "model": "leaves/oak_leaves_1", "y": 180, "weight": 2 },
-           { "model": "leaves/oak_leaves_1", "weight": 2 },
-           { "model": "leaves/oak_leaves_2", "y": 270, "weight": 2 },
-           { "model": "leaves/oak_leaves_2", "y": 90, "weight": 2 },
-           { "model": "leaves/oak_leaves_2", "y": 180, "weight": 2 },
-           { "model": "leaves/oak_leaves_2", "weight": 2 },
-           { "model": "leaves/oak_leaves_3", "y": 270, "weight": 2 },
-           { "model": "leaves/oak_leaves_3", "y": 90, "weight": 2 },
-           { "model": "leaves/oak_leaves_3", "y": 180, "weight": 2 },
-           { "model": "leaves/oak_leaves_3", "weight": 2 }
+           { "model": "leaves/spruce_1", "y": 270, "weight": 3 },
+           { "model": "leaves/spruce_1", "y": 90, "weight": 3 },
+           { "model": "leaves/spruce_1", "y": 180, "weight": 3 },
+           { "model": "leaves/spruce_1", "weight": 3 },
+           { "model": "leaves/spruce_2", "y": 270, "weight": 3 },
+           { "model": "leaves/spruce_2", "y": 90, "weight": 3 },
+           { "model": "leaves/spruce_2", "y": 180, "weight": 3 },
+           { "model": "leaves/spruce_2", "weight": 3 },
+           { "model": "leaves/spruce_3", "y": 270, "weight": 3 },
+           { "model": "leaves/spruce_3", "y": 90, "weight": 3 },
+           { "model": "leaves/spruce_3", "y": 180, "weight": 3 },
+           { "model": "leaves/spruce_3", "weight": 3 },
+           { "model": "leaves/oak_1", "y": 270, "weight": 2 },
+           { "model": "leaves/oak_1", "y": 90, "weight": 2 },
+           { "model": "leaves/oak_1", "y": 180, "weight": 2 },
+           { "model": "leaves/oak_1", "weight": 2 },
+           { "model": "leaves/oak_2", "y": 270, "weight": 2 },
+           { "model": "leaves/oak_2", "y": 90, "weight": 2 },
+           { "model": "leaves/oak_2", "y": 180, "weight": 2 },
+           { "model": "leaves/oak_2", "weight": 2 },
+           { "model": "leaves/oak_3", "y": 270, "weight": 2 },
+           { "model": "leaves/oak_3", "y": 90, "weight": 2 },
+           { "model": "leaves/oak_3", "y": 180, "weight": 2 },
+           { "model": "leaves/oak_3", "weight": 2 }
 
          ]
       },
       { "when": {"decayable": false},
-        "apply": { "model": "leaves/spruce_leaves_placed" }
+        "apply": { "model": "leaves/spruce_placed" }
       }
     ]
 }

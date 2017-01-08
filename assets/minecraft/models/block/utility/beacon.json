@@ -33,11 +33,10 @@
         }
     },
     "textures": {
-        "particle": "blocks/beacon_frame",
-        "frame": "blocks/beacon_frame",
-        "struct": "blocks/beacon_struct",
-        "beacon": "blocks/beacon",
-        "window": "blocks/beacon_window"
+        "particle": "blocks/utility/beacon_frame",
+        "frame":    "blocks/utility/beacon_frame",
+        "struct":   "blocks/utility/beacon_struct",
+        "window":   "blocks/utility/beacon_window"
     },
     "elements": [
         {   "__comment": "Back bottom",

@@ -2,35 +2,35 @@
     "multipart": [
       { "when": {"decayable": true},
         "apply": [
-           { "model": "leaves/jungle_leaves_1", "y": 270 },
-           { "model": "leaves/jungle_leaves_1", "y": 90 },
-           { "model": "leaves/jungle_leaves_1", "y": 180 },
-           { "model": "leaves/jungle_leaves_1" },
-           { "model": "leaves/jungle_leaves_2", "y": 270 },
-           { "model": "leaves/jungle_leaves_2", "y": 90 },
-           { "model": "leaves/jungle_leaves_2", "y": 180 },
-           { "model": "leaves/jungle_leaves_2" },
-           { "model": "leaves/jungle_leaves_3", "y": 270 },
-           { "model": "leaves/jungle_leaves_3", "y": 90 },
-           { "model": "leaves/jungle_leaves_3", "y": 180 },
-           { "model": "leaves/jungle_leaves_3" },
-           { "model": "leaves/jungle_leaves_1_uncolored", "y": 270 },
-           { "model": "leaves/jungle_leaves_1_uncolored", "y": 90 },
-           { "model": "leaves/jungle_leaves_1_uncolored", "y": 180 },
-           { "model": "leaves/jungle_leaves_1_uncolored" },
-           { "model": "leaves/jungle_leaves_2_uncolored", "y": 270 },
-           { "model": "leaves/jungle_leaves_2_uncolored", "y": 90 },
-           { "model": "leaves/jungle_leaves_2_uncolored", "y": 180 },
-           { "model": "leaves/jungle_leaves_2_uncolored" },
-           { "model": "leaves/jungle_leaves_3_uncolored", "y": 270 },
-           { "model": "leaves/jungle_leaves_3_uncolored", "y": 90 },
-           { "model": "leaves/jungle_leaves_3_uncolored", "y": 180 },
-           { "model": "leaves/jungle_leaves_3_uncolored" }
+           { "model": "leaves/jungle_1", "y": 270 },
+           { "model": "leaves/jungle_1", "y": 90 },
+           { "model": "leaves/jungle_1", "y": 180 },
+           { "model": "leaves/jungle_1" },
+           { "model": "leaves/jungle_2", "y": 270 },
+           { "model": "leaves/jungle_2", "y": 90 },
+           { "model": "leaves/jungle_2", "y": 180 },
+           { "model": "leaves/jungle_2" },
+           { "model": "leaves/jungle_3", "y": 270 },
+           { "model": "leaves/jungle_3", "y": 90 },
+           { "model": "leaves/jungle_3", "y": 180 },
+           { "model": "leaves/jungle_3" },
+           { "model": "leaves/jungle_1_uncolored", "y": 270 },
+           { "model": "leaves/jungle_1_uncolored", "y": 90 },
+           { "model": "leaves/jungle_1_uncolored", "y": 180 },
+           { "model": "leaves/jungle_1_uncolored" },
+           { "model": "leaves/jungle_2_uncolored", "y": 270 },
+           { "model": "leaves/jungle_2_uncolored", "y": 90 },
+           { "model": "leaves/jungle_2_uncolored", "y": 180 },
+           { "model": "leaves/jungle_2_uncolored" },
+           { "model": "leaves/jungle_3_uncolored", "y": 270 },
+           { "model": "leaves/jungle_3_uncolored", "y": 90 },
+           { "model": "leaves/jungle_3_uncolored", "y": 180 },
+           { "model": "leaves/jungle_3_uncolored" }
 
          ]
       },
       { "when": {"decayable": false},
-        "apply": { "model": "leaves/jungle_leaves_placed" }
+        "apply": { "model": "leaves/jungle_placed" }
       }
     ]
 }

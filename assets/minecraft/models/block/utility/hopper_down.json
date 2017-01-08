@@ -1,11 +1,11 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/hopper_outside",
-        "top": "blocks/hopper_top",
-        "side": "blocks/hopper_outside",
-        "inside": "blocks/hopper_inside",
-        "bottom": "blocks/cauldron_inner"
+        "particle": "blocks/utility/hopper_outside",
+        "top": "blocks/utility/hopper_top",
+        "side": "blocks/utility/hopper_outside",
+        "inside": "blocks/utility/hopper_inside",
+        "bottom": "blocks/cauldron/inner"
     },
     "elements": [
         {   "from": [ 0, 10, 0 ],

@@ -1,6 +1,6 @@
 {
     "variants": {
-        "half=bottom": { "model": "slab/half_slab_dark_oak" },
-        "half=top": { "model": "slab/upper_slab_dark_oak" }
+        "half=bottom": { "model": "slab/dark_oak_lower" },
+        "half=top": { "model": "slab/dark_oak_upper" }
     }
 }

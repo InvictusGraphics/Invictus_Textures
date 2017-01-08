@@ -1,9 +1,19 @@
 {
-    "parent": "block/orientable",
+    "parent": "block/cube",
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    },
     "textures": {
-        "top": "blocks/furnace_top",
-        "front": "blocks/dispenser_front_horizontal",
-        "side": "blocks/furnace_side",
-        "bottom": "blocks/furnace_bottom"
+    	"particle": "blocks/utility/dispenser_front_horizontal",
+        "up": "blocks/utility/furnace_top",
+        "north": "blocks/utility/dispenser_front_horizontal",
+        "east": "blocks/utility/furnace_side",
+        "west": "blocks/utility/furnace_side",
+        "south": "blocks/utility/furnace_side",
+        "down": "blocks/utility/furnace_bottom"
     }
 }

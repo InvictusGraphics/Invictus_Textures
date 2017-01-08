@@ -1,6 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "slab/stonebrick_slab_double" },
-        "all":    { "model": "slab/stonebrick_slab_all" }
+        "normal": { "model": "slab/stonebrick_double" },
+        "all":    { "model": "slab/stonebrick_all" }
     }
 }

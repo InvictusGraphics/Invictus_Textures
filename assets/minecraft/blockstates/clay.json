@@ -1,10 +1,10 @@
 {
     "variants": {
         "normal": [
-          { "model": "clay/clay_1" },
-          { "model": "clay/clay_2" },
-          { "model": "clay/clay_3" },
-          { "model": "clay/clay_4" }
+          { "model": "clay/1" },
+          { "model": "clay/2" },
+          { "model": "clay/3" },
+          { "model": "clay/4" }
         ]
     }
 }

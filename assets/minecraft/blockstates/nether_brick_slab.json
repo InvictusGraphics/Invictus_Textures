@@ -1,6 +1,6 @@
 {
     "variants": {
-        "half=bottom": { "model": "slab/half_slab_nether_brick" },
-        "half=top": { "model": "slab/upper_slab_nether_brick" }
+        "half=bottom": { "model": "slab/nether_brick_lower" },
+        "half=top": { "model": "slab/nether_brick_upper" }
     }
 }

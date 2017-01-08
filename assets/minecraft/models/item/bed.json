@@ -1,15 +1,15 @@
 {
     "textures": {
-        "particle": "blocks/bed/bed_feet_top_red",
+        "particle": "blocks/bed/feet_top_red",
 
-        "head_top": "blocks/bed/bed_head_top_red",
-        "head_side": "blocks/bed/bed_head_side_red",
+        "head_top": "blocks/bed/head_top_red",
+        "head_side": "blocks/bed/head_side_red",
 
-        "feet_top": "blocks/bed/bed_feet_top_red",
-        "feet_side": "blocks/bed/bed_feet_side_red",
+        "feet_top": "blocks/bed/feet_top_red",
+        "feet_side": "blocks/bed/feet_side_red",
 
-        "feet_end": "blocks/bed/bed_feet_end_red",
-        "head_end": "blocks/bed/bed_head_end"
+        "feet_end": "blocks/bed/feet_end_red",
+        "head_end": "blocks/bed/head_end"
 
     },
     "ambientocclusion": false,

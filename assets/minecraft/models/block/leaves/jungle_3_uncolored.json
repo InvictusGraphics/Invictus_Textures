@@ -1,0 +1,11 @@
+{
+    "parent": "block/leaves/leaves_3_uncolored",
+    "textures": {
+        "top": "blocks/leaves/jungle",
+        "round": "blocks/leaves/jungle_small",
+        "cross": "blocks/leaves/jungle_large",
+        "top_uncolored": "blocks/leaves/jungle_small_uncolored",
+        "round_uncolored": "blocks/leaves/jungle_small_uncolored",
+        "cross_uncolored": "blocks/leaves/jungle_large_uncolored"
+    }
+}

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "sandstone/sandstone_smooth" }
+        "normal": { "model": "sandstone/smooth" }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "parent": "block/lit_redstone_torch",
+    "parent": "block/torch/lit_redstone",
     "display": {
         "gui": {
             "rotation": [ 30, 225, 0 ],

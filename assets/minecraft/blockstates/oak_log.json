@@ -1,17 +1,17 @@
 {
     "variants": {
         "axis=y":    [ 
-        	{ "model": "log/oak_log_1" }, 
-        	{ "model": "log/oak_log_2" }
+        	{ "model": "log_oak/1" }, 
+        	{ "model": "log_oak/2" }
         ],
         "axis=z":     [
-        	{ "model": "log/oak_log_1", "x": 90 }, 
-        	{ "model": "log/oak_log_2", "x": 90 }
+        	{ "model": "log_oak/1", "x": 90 }, 
+        	{ "model": "log_oak/2", "x": 90 }
         ],
         "axis=x":     [
-        	{ "model": "log/oak_log_1", "x": 90, "y": 90 }, 
-        	{ "model": "log/oak_log_2", "x": 90, "y": 90 }
+        	{ "model": "log_oak/1", "x": 90, "y": 90 }, 
+        	{ "model": "log_oak/2", "x": 90, "y": 90 }
         ],
-        "axis=none":   [{ "model": "oak_bark" }]
+        "axis=none":   [{ "model": "log_oak/bark" }]
     }
 }

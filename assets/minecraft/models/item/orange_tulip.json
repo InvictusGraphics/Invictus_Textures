@@ -1,0 +1,38 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "blocks/flower/tulip_orange"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ -45, 45, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.8, 1.4, 0.8 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 0.375, 0.375, 0.375 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.75, 0.75, 0.75 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2.5, 2],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 45, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.50, 0.50, 0.50 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 225, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.50, 0.50, 0.50 ]
+        }
+    }
+}

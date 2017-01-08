@@ -1,7 +1,0 @@
-{
-    "parent": "block/cube_column",
-    "textures": {
-        "side": "blocks/stonebrick_mossy/2_side",
-		"end": "blocks/stonebrick_mossy/2_top"
-    }
-}

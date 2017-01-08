@@ -1,8 +1,8 @@
 {
     "variants": {
         "normal": [
-        	{ "model": "dirt_coarse/coarse_dirt_1" },
-        	{ "model": "dirt_coarse/coarse_dirt_2" }
+        	{ "model": "dirt_coarse/1" },
+        	{ "model": "dirt_coarse/2" }
         ]
     }
 }

@@ -1,12 +1,28 @@
 {
     "variants": {
-        "facing=north,part=foot": [ { "model": "bed/bed_covers_red", "y": 180 }, { "model": "bed/bed_covers_black", "y": 180 }, { "model": "bed/bed_covers_blue", "y": 180 } ],
-        "facing=east,part=foot":  [ { "model": "bed/bed_covers_red", "y": 270 }, { "model": "bed/bed_covers_black", "y": 270 }, { "model": "bed/bed_covers_blue", "y": 270 } ],
-        "facing=south,part=foot": [ { "model": "bed/bed_covers_red" }, { "model": "bed/bed_covers_black" }, { "model": "bed/bed_covers_blue"} ],
-        "facing=west,part=foot":  [ { "model": "bed/bed_covers_red", "y": 90 }, { "model": "bed/bed_covers_black", "y": 90 }, { "model": "bed/bed_covers_blue", "y": 90 } ],
-        "facing=north,part=head": { "model": "bed/bed_frame", "y": 180 },
-        "facing=east,part=head":  { "model": "bed/bed_frame", "y": 270 },
-        "facing=south,part=head": { "model": "bed/bed_frame" },
-        "facing=west,part=head":  { "model": "bed/bed_frame", "y": 90 }
+        "facing=north,part=foot": [ 
+            { "model": "bed/covers_red", "y": 180 }, 
+            { "model": "bed/covers_black", "y": 180 }, 
+            { "model": "bed/covers_blue", "y": 180 } 
+        ],
+        "facing=east,part=foot":  [ 
+            { "model": "bed/covers_red", "y": 270 }, 
+            { "model": "bed/covers_black", "y": 270 }, 
+            { "model": "bed/covers_blue", "y": 270 } 
+        ],
+        "facing=south,part=foot": [ 
+            { "model": "bed/covers_red" }, 
+            { "model": "bed/covers_black" }, 
+            { "model": "bed/covers_blue"} 
+        ],
+        "facing=west,part=foot":  [ 
+            { "model": "bed/covers_red", "y": 90 }, 
+            { "model": "bed/covers_black", "y": 90 }, 
+            { "model": "bed/covers_blue", "y": 90 } 
+        ],
+        "facing=north,part=head": { "model": "bed/frame", "y": 180 },
+        "facing=east,part=head":  { "model": "bed/frame", "y": 270 },
+        "facing=south,part=head": { "model": "bed/frame" },
+        "facing=west,part=head":  { "model": "bed/frame", "y": 90 }
     }
 }
