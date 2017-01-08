@@ -1,5 +1,5 @@
 {
-    "parent": "block/wall_gate_closed",
+    "parent": "block/fence_gate/wall_closed",
     "textures": {
         "texture": "blocks/fence/fence_jungle_gate"
     }
