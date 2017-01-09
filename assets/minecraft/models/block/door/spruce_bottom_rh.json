@@ -1,0 +1,42 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+    	"particle": "blocks/door_spruce_lower",
+        "bottom": "blocks/door_spruce_lower",
+        "top": "blocks/door_spruce_upper"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 3, 16, 16 ],
+            "faces": {
+                "down":    { "uv": [ 13, 0, 16, 16 ], "texture": "#bottom", "cullface": "down" },
+                "south": { "uv": [  3.75, 0,  0, 16 ], "texture": "#bottom", "cullface": "south" },
+                "north": { "uv": [  7, 0, 10, 16 ], "texture": "#bottom", "cullface": "north" },
+                "west":  { "uv": [  16, 0, 0, 16 ], "texture": "#bottom", "cullface": "west" },
+                "east":  { "uv": [ 0, 0,  16, 16 ], "texture": "#bottom" }
+            }
+        },
+        {   "from": [ -1, 3.5, 0 ],
+            "to": [ 0, 4.75, 16 ],
+            "faces": {
+                "up":    { "uv": [ 0, 3, 16, 2 ], "texture": "#top", "rotation": 90 },
+                "down":  { "uv": [ 0, 2.25, 16, 3.25 ], "texture": "#top", "rotation": 90 },
+                "north": { "uv": [  1, 2,  2, 3.25 ], "texture": "#top", "cullface": "west" },
+                "south": { "uv": [  0, 2,  1, 3.25 ], "texture": "#top", "cullface": "west" },
+                "west":  { "uv": [  0, 2, 16, 3.25 ], "texture": "#top" },
+                "east":  { "uv": [ 16, 2,  0, 3.25 ], "texture": "#top" }
+            }
+        },
+        {   "from": [ 3, 3.5, 0 ],
+            "to": [ 4, 4.75, 16 ],
+            "faces": {
+                "up":    { "uv": [ 0, 2, 16, 3 ], "texture": "#top", "rotation": 90 },
+                "down":  { "uv": [ 0, 3.25, 16, 2.25 ], "texture": "#top", "rotation": 90 },
+                "north": { "uv": [  1, 2,  2, 3.25 ], "texture": "#top" },
+                "south": { "uv": [  0, 2,  1, 3.25 ], "texture": "#top" },
+                "west":  { "uv": [  0, 2, 16, 3.25 ], "texture": "#top" },
+                "east":  { "uv": [ 16, 2,  0, 3.25 ], "texture": "#top" }
+            }
+        }
+    ]
+}
