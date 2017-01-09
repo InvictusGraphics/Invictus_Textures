@@ -1,9 +1,5 @@
 {
-    "parent": "block/door/door_item",
-    "textures": {
-        "bottom": "blocks/door_acacia_lower",
-        "top": "blocks/door_acacia_upper"
-    },
+    "parent": "block/door/acacia_item",
     "display": {
         "thirdperson_righthand": {
             "rotation": [ -95, 10, 10 ],
