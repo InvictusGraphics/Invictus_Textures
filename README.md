@@ -19,11 +19,11 @@ Contents in the BRAND folder may be rehosted without permission if paired with a
 
 
 #### Official Links
-[Soartex.net](http://soartex.net)  
-[Minecraft Forum](http://www.minecraftforum.net/topic/2263930-)  
-[CurseForge](https://minecraft.curseforge.com/projects/invictus-vanilla)  
-[Planet Minecraft](http://www.planetminecraft.com/texture_pack/invictus-2754280/)  
-[Github Repository](https://github.com/InvictusGraphics/Invictus_Textures)
+- [Soartex.net](http://soartex.net)
+- [Minecraft Forum](http://www.minecraftforum.net/topic/2263930-)
+- [CurseForge](https://minecraft.curseforge.com/projects/invictus-vanilla)
+- [Planet Minecraft](http://www.planetminecraft.com/texture_pack/invictus-2754280/)
+- [Github Repository](https://github.com/InvictusGraphics/Invictus_Textures)
 
 
 
