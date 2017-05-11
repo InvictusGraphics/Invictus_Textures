@@ -5,9 +5,9 @@
         "up": "blocks/glazed_terracotta/brown_north",
         "down": "blocks/glazed_terracotta/brown_north",
 
-        "north": "blocks/glazed_terracotta/brown_east",
+        "north": "blocks/glazed_terracotta/brown_south",
         "south": "blocks/glazed_terracotta/brown_west",
-        "east": "blocks/glazed_terracotta/brown_south",
+        "east": "blocks/glazed_terracotta/brown_east",
         "west": "blocks/glazed_terracotta/brown_north"
     }
 }

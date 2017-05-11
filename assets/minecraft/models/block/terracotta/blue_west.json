@@ -6,7 +6,7 @@
         "down": "blocks/glazed_terracotta/blue_east",
 
         "north": "blocks/glazed_terracotta/blue_south",
-        "south": "blocks/glazed_terracotta/blue_north",
+        "south": "blocks/glazed_terracotta/blue_east",
         "east": "blocks/glazed_terracotta/blue_west",
         "west": "blocks/glazed_terracotta/blue_north"
     }

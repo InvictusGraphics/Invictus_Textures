@@ -1,0 +1,13 @@
+{
+    "parent": "block/terracotta/glazed_terracotta",
+    "textures": {
+        "particle": "blocks/glazed_terracotta/gray_east",
+        "up": "blocks/glazed_terracotta/gray_east",
+        "down": "blocks/glazed_terracotta/gray_west",
+
+        "north": "blocks/glazed_terracotta/gray_north",
+        "south": "blocks/glazed_terracotta/gray_south",
+        "east": "blocks/glazed_terracotta/gray_east",
+        "west": "blocks/glazed_terracotta/gray_west"
+    }
+}
