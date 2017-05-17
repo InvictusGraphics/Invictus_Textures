@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "terracotta/white_south" },
+        "facing=west": { "model": "terracotta/white_west" },
+        "facing=north": { "model": "terracotta/white_north" },
+        "facing=east": { "model": "terracotta/white_east" }
+    }
+}
