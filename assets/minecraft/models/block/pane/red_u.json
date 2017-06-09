@@ -1,5 +1,5 @@
 {
-    "parent": "block/pane/pane_u",
+    "parent": "block/pane/frame_4/u",
     "textures": {
         "edge": "blocks/glass_pane_top_red",
         "pane": "blocks/glass_red"

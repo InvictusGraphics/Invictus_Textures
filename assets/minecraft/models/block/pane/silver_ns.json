@@ -1,5 +1,5 @@
 {
-    "parent": "block/pane/pane_ns",
+    "parent": "block/pane/frame_3_rivet/ns",
     "textures": {
         "edge": "blocks/glass_pane_top_silver",
         "pane": "blocks/glass_silver"

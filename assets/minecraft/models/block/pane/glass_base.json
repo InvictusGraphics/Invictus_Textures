@@ -5,7 +5,7 @@
             "from": [ 0, 0, 7 ],
             "to": [ 16, 16, 9 ],
             "faces": {
-                "up":    { "texture": "#edge" },
+                "up":    { "uv": [ 7, 0, 9, 16 ], "texture": "#edge", "rotation": 90 },
                 "down":  { "texture": "#edge" },
                 "south": { "texture": "#pane" },
                 "north": { "texture": "#pane" },
