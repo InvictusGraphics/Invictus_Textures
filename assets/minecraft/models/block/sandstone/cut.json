@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/log_oak/1"
+        "all": "blocks/sandstone/cut_sandstone"
     }
 }
