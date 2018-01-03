@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "half=bottom": { "model": "slab/oak_old_lower" },
-        "half=top": { "model": "slab/oak_old_upper" },
-        "type=double": { "model": "oak_planks" }
-    }
-}

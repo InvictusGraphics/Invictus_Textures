@@ -1,7 +1,7 @@
 {
     "parent": "block/cube_column",
     "textures": {
-        "end": "blocks/slab/big_oak",
-        "side": "blocks/planks_big_oak"
+        "end": "blocks/slab/dark_oak",
+        "side": "blocks/dark_oak_planks"
     }
 }

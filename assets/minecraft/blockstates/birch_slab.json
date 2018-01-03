@@ -1,6 +1,7 @@
 {
     "variants": {
-        "half=bottom": { "model": "slab/birch_lower" },
-        "half=top": { "model": "slab/birch_upper" }
+        "type=bottom": { "model": "slab/birch_lower" },
+        "type=top": { "model": "slab/birch_upper" },
+        "type=double": { "model": "slab/birch_double" }
     }
 }

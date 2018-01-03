@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "normal": { "model": "slab/cobblestone_double" },
-        "all":    { "model": "slab/cobblestone_all" }
-    }
-}

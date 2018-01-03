@@ -1,5 +1,5 @@
 {
-    "parent": "block/half_slab",
+    "parent": "block/slab",
     "textures": {
         "bottom": "blocks/sandstone/red_sandstone_bottom",
         "top": "blocks/sandstone/red_sandstone_top",

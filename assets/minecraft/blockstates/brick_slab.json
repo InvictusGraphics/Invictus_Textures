@@ -1,6 +1,7 @@
 {
     "variants": {
-        "half=bottom": { "model": "slab/brick_lower" },
-        "half=top": { "model": "slab/brick_upper" }
+        "type=bottom": { "model": "slab/brick_lower" },
+        "type=top": { "model": "slab/brick_upper" },
+        "type=double": { "model": "slab/brick_double" }
     }
 }

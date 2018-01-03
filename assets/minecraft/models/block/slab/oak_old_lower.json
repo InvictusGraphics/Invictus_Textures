@@ -1,8 +1,0 @@
-{
-    "parent": "block/half_slab",
-    "textures": {
-        "bottom": "blocks/slab/oak_old",
-        "top": "blocks/slab/oak_old",
-        "side": "blocks/slab/oak_old"
-    }
-}
