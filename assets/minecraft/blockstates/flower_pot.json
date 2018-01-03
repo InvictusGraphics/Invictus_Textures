@@ -1,6 +1,8 @@
 {
-    "variants": {
-        "contents=empty":            { "model": "flower_pot/flower_pot" },
+    "variants":  {
+        "normal": { "model": "flower_pot/flower_pot" }
+    }
+}
         "contents=rose":             { "model": "flower_pot/rose" },
         "contents=blue_orchid":      { "model": "flower_pot/orchid" },
         "contents=allium":           { "model": "flower_pot/allium" },
@@ -22,5 +24,3 @@
         "contents=dead_bush":        { "model": "flower_pot/dead_bush" },
         "contents=fern":             { "model": "flower_pot/fern" },
         "contents=cactus":           { "model": "flower_pot/cactus" }
-    }
-}

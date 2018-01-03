@@ -1,6 +1,6 @@
 {
     "parent": "block/flower_pot/cross",
     "textures": {
-        "plant": "blocks/dead_bush"
+        "plant": "blocks/flower_pot/azure_bluet"
     }
 }
