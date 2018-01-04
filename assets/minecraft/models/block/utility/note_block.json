@@ -1,7 +1,7 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/utility/noteblock"
+        "all": "blocks/utility/note_block"
     },
     "elements": [
         {   "__comment": "Back bottom",

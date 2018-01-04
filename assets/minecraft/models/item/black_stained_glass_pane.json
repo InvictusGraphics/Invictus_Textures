@@ -1,7 +1,7 @@
 {
     "parent": "block/pane/glass_base",
     "textures": {
-        "pane": "blocks/glass_black",
-        "edge": "blocks/glass_pane_top_black"
+        "edge": "blocks/black_stained_glass_pane_top",
+        "pane": "blocks/black_stained_glass"
     }
 }

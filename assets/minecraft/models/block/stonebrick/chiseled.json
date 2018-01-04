@@ -2,7 +2,7 @@
     "ambientocclusion": true,
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/stonebrick_carved"
+        "all": "blocks/chiseled_stone_bricks"
     },
     "elements": [
         {   "__comment": "Back bottom",

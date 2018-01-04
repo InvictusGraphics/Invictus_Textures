@@ -1,7 +1,7 @@
 {
     "parent": "block/pane/frame_5/u",
     "textures": {
-        "edge": "blocks/glass_pane_top_magenta",
-        "pane": "blocks/glass_magenta"
+        "edge": "blocks/magenta_stained_glass_pane_top",
+        "pane": "blocks/magenta_stained_glass"
     }
 }

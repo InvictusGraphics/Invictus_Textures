@@ -1,7 +1,7 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/glass_magenta"
+        "all": "blocks/magenta_glass"
     },
     "elements": [
         {   "__comment": "Back bottom",

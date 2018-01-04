@@ -1,7 +1,7 @@
 {
     "parent": "block/piston_head",
     "textures": {
-        "unsticky": "blocks/piston_top_normal",
+        "unsticky": "blocks/piston_top",
         "side": "blocks/piston_side_sticky",
         "platform": "blocks/piston_top_sticky"
     }

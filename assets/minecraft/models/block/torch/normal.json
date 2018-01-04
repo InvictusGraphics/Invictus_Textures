@@ -1,6 +1,6 @@
 {
     "parent": "block/torch",
     "textures": {
-        "torch": "blocks/torch/torch_on"
+        "torch": "blocks/torch/torch"
     }
 }

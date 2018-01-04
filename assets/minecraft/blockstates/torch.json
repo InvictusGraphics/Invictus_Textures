@@ -1,9 +1,5 @@
 {
     "variants": {
-        "facing=up": { "model": "torch/normal" },
-        "facing=east": { "model": "torch/normal_wall" },
-        "facing=south": { "model": "torch/normal_wall", "y": 90 },
-        "facing=west": { "model": "torch/normal_wall", "y": 180 },
-        "facing=north": { "model": "torch/normal_wall", "y": 270 }
+        "normal": { "model": "torch/normal" }
     }
 }

@@ -3,6 +3,6 @@
     "textures": {
         "top": "blocks/utility/jukebox_top",
         "side": "blocks/utility/jukebox_side",
-        "bottom": "blocks/utility/noteblock"
+        "bottom": "blocks/utility/note_block"
     }
 }
