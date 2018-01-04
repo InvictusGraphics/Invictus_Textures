@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "items/wood_pickaxe"
+        "layer0": "items/wooden_pickaxe"
     },
     "overrides": [
         {

@@ -1,6 +1,6 @@
 {
     "parent": "block/rail/rail_raised_ne",
     "textures": {
-        "rail": "blocks/rail/golden_powered"
+        "rail": "blocks/rail/powered_on"
     }
 }

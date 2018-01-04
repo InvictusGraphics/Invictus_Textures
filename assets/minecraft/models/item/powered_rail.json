@@ -1,5 +1,5 @@
 {
-    "parent": "block/rail/golden_active_flat",
+    "parent": "block/rail/powered_active_flat",
     "display": {
         "gui": {
             "rotation": [ 30, 225, 0 ],

@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "items/gold_axe_broken"
+        "layer0": "items/golden_axe_broken"
     }
 }

@@ -4,8 +4,8 @@
         "particle": "blocks/diode/comparator_on",
         "slab": "blocks/diode/repeater_side",
         "top": "blocks/diode/comparator_on",
-        "unlit": "blocks/torch/redstone_off",
-        "lit": "blocks/torch/redstone_on"
+        "unlit": "blocks/torch/redstone_torch_off",
+        "lit": "blocks/torch/redstone_torch"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "powered=false": { "model": "pressure_plate/wooden_up" },
-        "powered=true": { "model": "pressure_plate/wooden_down" }
-    }
-}
