@@ -13,7 +13,7 @@
     },
     "ambientocclusion": false,
     "textures": {
-        "texture": "blocks/planks_birch"
+        "texture": "blocks/birch_planks"
     },
     "elements": [
     	{   "from": [ 6.75, 0, 0 ],
