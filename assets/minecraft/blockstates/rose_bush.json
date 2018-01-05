@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "rose_bush/bottom" },
+        "half=upper":    { "model": "rose_bush/top" }
+    }
+}

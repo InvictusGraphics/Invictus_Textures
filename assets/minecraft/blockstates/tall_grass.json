@@ -1,0 +1,17 @@
+{
+    "variants": {
+        "half=lower": [
+          { "model": "grass/1_5" },
+          { "model": "grass/2_5" },
+          { "model": "grass/3_5" },
+          { "model": "grass/4_5" },
+          { "model": "grass/5_5" }
+        ],
+        "half=upper": [
+          { "model": "tall_grass/top_1" },
+          { "model": "tall_grass/top_2" },
+          { "model": "tall_grass/top_3" },
+          { "model": "tall_grass/top_4" }
+        ]
+    }
+}

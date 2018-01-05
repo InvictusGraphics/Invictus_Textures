@@ -1,8 +1,5 @@
 {
-    "parent": "block/cross",
-    "textures": {
-        "cross": "blocks/flower/allium"
-    },
+    "parent": "block/flower/allium",
     "display": {
         "gui": {
             "rotation": [ -45, 45, 0 ],

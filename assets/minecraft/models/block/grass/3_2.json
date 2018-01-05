@@ -1,6 +1,6 @@
 {
-    "parent": "block/grass/tallgrass_2",
+    "parent": "block/grass/grass_2",
     "textures": {
-        "cross": "blocks/tallgrass/3"
+        "cross": "blocks/grass/3"
     }
 }

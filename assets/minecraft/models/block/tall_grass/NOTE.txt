@@ -1,0 +1,2 @@
+The top of the double plant renders both the top and bottom.
+The bottom of the double plant reuses the single-tall grass model files for a bushier bottom

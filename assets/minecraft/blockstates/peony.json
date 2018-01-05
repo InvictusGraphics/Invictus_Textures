@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "peony/bottom" },
+        "half=upper":    { "model": "peony/top" }
+    }
+}

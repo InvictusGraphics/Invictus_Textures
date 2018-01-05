@@ -1,6 +1,61 @@
 {
-    "parent": "block/flower/cross_inv",
+    "ambientocclusion": false,
     "textures": {
-        "cross": "blocks/flower/tulip_white"
-    }
+        "cross": "blocks/flower/tulip_white",
+        "base": "blocks/flower/tulip_white_base",
+        "particle": "blocks/flower/tulip_white"
+    },
+    "elements": [
+    	{   "from": [ 0.8, 0, 8 ],
+            "to": [ 15.2, 16, 8 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" },
+                "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+            }
+        },
+        {   "from": [ 8, 0, 0.8 ],
+            "to": [ 8, 16, 15.2 ],
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" },
+                "east": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+            }
+        },
+
+        {   "from": [ 0, 0, 5 ],
+            "to": [ 16, 16, 5 ],
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#base", "tintindex": 0 },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#base", "tintindex": 0 }
+            }
+        },
+        {   "from": [ 5, 0, 0.8 ],
+            "to": [ 5, 16, 15.2 ],
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#base", "tintindex": 0 },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#base", "tintindex": 0 }
+            }
+        },
+        {   "from": [ 0.8, 0, 11 ],
+            "to": [ 15.2, 16, 11 ],
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#base", "tintindex": 0 },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#base", "tintindex": 0 }
+            }
+        },
+        {   "from": [ 11, 0, 0.8 ],
+            "to": [ 11, 16, 15.2 ],
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#base", "tintindex": 0 },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#base", "tintindex": 0 }
+            }
+        }
+    ]
 }
