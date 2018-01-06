@@ -3,7 +3,7 @@
     "textures": {
         "cross": "blocks/tall_grass_bottom",
         "cross_upper": "blocks/tall_grass_top",
-        "particle": "blocks/tallgrass/1"
+        "particle": "blocks/grass/1"
     },
     "elements": [
         {   "from": [ 0, -16, 8.1 ],

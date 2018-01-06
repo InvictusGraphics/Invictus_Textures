@@ -1,7 +1,7 @@
 {
     "parent": "block/block",
     "textures": {
-        "all": "blocks/planks_oak"
+        "all": "blocks/oak_planks"
     },
     "elements": [        
     	{
