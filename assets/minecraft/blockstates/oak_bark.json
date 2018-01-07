@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "oak_log/bark" }
+        "normal": { "model": "oak_bark_1" }
     }
 }

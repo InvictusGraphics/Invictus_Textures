@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "normal": [
+        	{ "model": "spruce_bark/1" },
+        	{ "model": "spruce_bark/2" },
+        	{ "model": "spruce_bark/3" },
+        	{ "model": "spruce_bark/4" },
+        	{ "model": "spruce_bark/5" },
+        	{ "model": "spruce_bark/6" },
+        	{ "model": "spruce_bark/7" }
+        ]
+    }
+}
