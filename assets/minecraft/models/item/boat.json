@@ -138,7 +138,7 @@
         "fixed": {
             "rotation": [ 270, 0, 0 ],
             "translation": [ 0, 0, 0],
-            "scale":[ 0.5, 0.5, 0.5 ]
+            "scale":[ 0.82, 0.82, 0.82 ]
         },
         "thirdperson_righthand": {
             "rotation": [ 75, 45, 0 ],
