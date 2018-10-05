@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "items/wooden_sword"
+        "layer0": "item/wooden_sword"
     },
     "overrides": [
         {

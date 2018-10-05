@@ -1,7 +1,7 @@
 {
     "textures": {
-        "texture": "blocks/brown_mushroom_block/1",
-        "particle": "blocks/brown_mushroom_block/1"
+        "texture": "block/brown_mushroom_block/1",
+        "particle": "block/brown_mushroom_block/1"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

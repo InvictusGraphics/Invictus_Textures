@@ -1,9 +1,9 @@
 {
     "parent": "block/stair/custom_stairs",
     "textures": {
-        "bottom": "blocks/stair/acacia",
-        "top": "blocks/slab/acacia_top",
-        "front": "blocks/slab/acacia",
-        "side": "blocks/stair/acacia"
+        "bottom": "block/stair/acacia",
+        "top": "block/slab/acacia_top",
+        "front": "block/slab/acacia",
+        "side": "block/stair/acacia"
     }
 }

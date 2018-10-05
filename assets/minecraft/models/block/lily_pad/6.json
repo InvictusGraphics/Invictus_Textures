@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/lily_pad/1",
-        "flower": "blocks/lily_pad/flower",
-        "texture": "blocks/lily_pad/1"
+        "particle": "block/lily_pad/1",
+        "flower": "block/lily_pad/flower",
+        "texture": "block/lily_pad/1"
     },
     "elements": [
         {   "from": [ 0, 0.25, 0 ],

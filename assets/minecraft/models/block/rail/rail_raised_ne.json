@@ -2,7 +2,7 @@
     "ambientocclusion": false,
     "textures": {
         "particle": "#rail",
-        "caps": "blocks/rail/normal"
+        "caps": "block/rail/normal"
     },
     "elements": [
         {   "from": [ 2.76, 0, 0 ],

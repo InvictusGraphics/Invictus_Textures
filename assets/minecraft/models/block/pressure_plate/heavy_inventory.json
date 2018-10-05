@@ -1,6 +1,6 @@
 {
     "parent": "block/pressure_plate_inventory",
     "textures": {
-        "texture": "blocks/pressure_plate/iron"
+        "texture": "block/pressure_plate/iron"
     }
 }

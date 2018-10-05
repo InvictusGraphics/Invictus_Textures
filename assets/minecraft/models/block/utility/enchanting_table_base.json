@@ -1,9 +1,9 @@
 {   "parent": "block/block",
     "textures": {
-        "particle": "blocks/utility/enchanting_table_bottom",
-        "bottom":   "blocks/utility/enchanting_table_bottom",
-        "top":  "blocks/utility/enchanting_table_top",
-        "side": "blocks/utility/enchanting_table_side"
+        "particle": "block/utility/enchanting_table_bottom",
+        "bottom":   "block/utility/enchanting_table_bottom",
+        "top":  "block/utility/enchanting_table_top",
+        "side": "block/utility/enchanting_table_side"
     },
     "elements": [
         {   "from": [ 1, 2, 1 ],

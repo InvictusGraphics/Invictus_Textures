@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/sandstone/sandstone_top"
+        "all": "block/sandstone/sandstone_top"
     }
 }

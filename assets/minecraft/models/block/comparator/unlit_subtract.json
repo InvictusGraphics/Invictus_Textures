@@ -1,11 +1,11 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/diode/comparator_off",
-        "slab": "blocks/diode/repeater_side",
-        "top": "blocks/diode/comparator_off",
-        "unlit": "blocks/torch/redstone_torch_off",
-        "lit": "blocks/torch/redstone_torch"
+        "particle": "block/diode/comparator_off",
+        "slab": "block/diode/repeater_side",
+        "top": "block/diode/comparator_off",
+        "unlit": "block/torch/redstone_torch_off",
+        "lit": "block/torch/redstone_torch"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

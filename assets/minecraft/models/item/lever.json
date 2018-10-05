@@ -33,8 +33,8 @@
     },
     "ambientocclusion": false,
     "textures": {
-        "base": "blocks/lever/base",
-        "lever": "blocks/lever/handle"
+        "base": "block/lever/base",
+        "lever": "block/lever/handle"
     },
     "elements": [
         {   "from": [ 5, 0, 4 ],

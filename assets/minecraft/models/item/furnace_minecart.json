@@ -1,9 +1,9 @@
 {
     "textures": {
-    	"cart": "items/minecart",
-        "top": "blocks/utility/furnace_top",
-        "side": "blocks/utility/furnace_side",
-        "front": "blocks/utility/furnace_front_off"
+    	"cart": "item/minecart",
+        "top": "block/utility/furnace_top",
+        "side": "block/utility/furnace_side",
+        "front": "block/utility/furnace_front_off"
     },
     "elements": [
         {   "from": [ 3.5, 7, 3.5 ],

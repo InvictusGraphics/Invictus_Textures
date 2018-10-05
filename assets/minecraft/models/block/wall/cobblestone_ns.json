@@ -1,10 +1,10 @@
 {
     "parent": "block/wall/wall_ns",
     "textures": {
-        "wall": "blocks/wall/cobblestone_side",
-        "side": "blocks/wall/cobblestone_side",
-        "top": "blocks/wall/cobblestone_top",
-        "post_top": "blocks/wall/cobblestone_top_post",
-        "post_side": "blocks/wall/cobblestone_side_post"
+        "wall": "block/wall/cobblestone_side",
+        "side": "block/wall/cobblestone_side",
+        "top": "block/wall/cobblestone_top",
+        "post_top": "block/wall/cobblestone_top_post",
+        "post_side": "block/wall/cobblestone_side_post"
     }
 }

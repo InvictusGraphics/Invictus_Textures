@@ -1,8 +1,8 @@
 {
     "parent": "block/cube_bottom_top",
     "textures": {
-        "top": "blocks/utility/jukebox_top",
-        "side": "blocks/utility/jukebox_side",
-        "bottom": "blocks/utility/note_block"
+        "top": "block/utility/jukebox_top",
+        "side": "block/utility/jukebox_side",
+        "bottom": "block/utility/note_block"
     }
 }

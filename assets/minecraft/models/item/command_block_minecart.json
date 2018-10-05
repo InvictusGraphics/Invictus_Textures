@@ -1,7 +1,7 @@
 {
     "textures": {
-    	"cart": "items/minecart",
-        "command": "blocks/command_block_back"
+    	"cart": "item/minecart",
+        "command": "block/command_block_back"
     },
     "elements": [
         {   "from": [ 3.5, 7, 3.5 ],

@@ -1,6 +1,6 @@
 {
     "parent": "block/flower_pot/cross",
     "textures": {
-        "plant": "blocks/flower/blue_orchid_1"
+        "plant": "block/flower/blue_orchid_1"
     }
 }

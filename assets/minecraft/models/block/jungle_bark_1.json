@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/jungle_bark"
+        "all": "block/jungle_bark"
     }
 }

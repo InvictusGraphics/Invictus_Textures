@@ -1,6 +1,6 @@
 {
     "parent": "block/flower_pot/cross",
     "textures": {
-        "plant": "blocks/sapling/roofed_oak"
+        "plant": "block/sapling/roofed_oak"
     }
 }

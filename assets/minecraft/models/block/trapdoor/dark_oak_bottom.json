@@ -1,7 +1,7 @@
 {
     "textures": {
-    	"texture": "blocks/dark_oak_trapdoor",
-        "particle": "blocks/dark_oak_trapdoor"
+    	"texture": "block/dark_oak_trapdoor",
+        "particle": "block/dark_oak_trapdoor"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

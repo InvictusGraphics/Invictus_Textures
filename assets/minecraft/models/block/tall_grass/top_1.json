@@ -1,9 +1,9 @@
 {
     "ambientocclusion": true,
     "textures": {
-        "cross": "blocks/tall_grass_bottom",
-        "cross_upper": "blocks/tall_grass_top",
-        "particle": "blocks/grass/1"
+        "cross": "block/tall_grass_bottom",
+        "cross_upper": "block/tall_grass_top",
+        "particle": "block/grass/1"
     },
     "elements": [
         {   "from": [ 0.8, -16, 7.9 ],

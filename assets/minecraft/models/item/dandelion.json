@@ -1,7 +1,7 @@
 {
     "parent": "block/cross",
     "textures": {
-        "cross": "blocks/flower/dandelion"
+        "cross": "block/flower/dandelion"
     },
     "display": {
         "gui": {

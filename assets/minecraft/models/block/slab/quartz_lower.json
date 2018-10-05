@@ -1,8 +1,8 @@
 {
     "parent": "block/slab",
     "textures": {
-        "bottom": "blocks/quartz/block_3",
-        "top": "blocks/quartz/block_4",
-        "side": "blocks/slab/quartz"
+        "bottom": "block/quartz/block_3",
+        "top": "block/quartz/block_4",
+        "side": "block/slab/quartz"
     }
 }

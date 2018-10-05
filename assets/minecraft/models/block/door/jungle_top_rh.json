@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/door_jungle_upper",
-        "bottom": "blocks/door_jungle_lower",
-        "top": "blocks/door_jungle_upper"
+        "particle": "block/door_jungle_upper",
+        "bottom": "block/door_jungle_lower",
+        "top": "block/door_jungle_upper"
     },
     "elements": [
         {   "__comment": "Grid",

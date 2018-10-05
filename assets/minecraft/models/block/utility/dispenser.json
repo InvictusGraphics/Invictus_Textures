@@ -8,12 +8,12 @@
         }
     },
     "textures": {
-    	"particle": "blocks/utility/dispenser_front_horizontal",
-        "up": "blocks/utility/furnace_top",
-        "north": "blocks/utility/dispenser_front_horizontal",
-        "east": "blocks/utility/furnace_side",
-        "west": "blocks/utility/furnace_side",
-        "south": "blocks/utility/furnace_side",
-        "down": "blocks/utility/furnace_bottom"
+    	"particle": "block/utility/dispenser_front_horizontal",
+        "up": "block/utility/furnace_top",
+        "north": "block/utility/dispenser_front_horizontal",
+        "east": "block/utility/furnace_side",
+        "west": "block/utility/furnace_side",
+        "south": "block/utility/furnace_side",
+        "down": "block/utility/furnace_bottom"
     }
 }

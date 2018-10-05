@@ -1,7 +1,7 @@
 {
     "parent": "block/tinted_cross",
     "textures": {
-        "cross": "blocks/double_plant_fern_top"
+        "cross": "block/double_plant_fern_top"
     },
     "display": {
         "gui": {

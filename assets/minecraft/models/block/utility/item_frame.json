@@ -1,7 +1,7 @@
 {
     "textures": {
-        "particle": "blocks/utility/itemframe_background",
-        "back": "blocks/utility/itemframe_background"
+        "particle": "block/utility/itemframe_background",
+        "back": "block/utility/itemframe_background"
     },
     "elements": [
         {   "from": [ 3, 3, 15.5 ],

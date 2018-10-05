@@ -1,8 +1,8 @@
 {
     "textures": {
-        "particle": "blocks/birch_trapdoor",
-        "texture":  "blocks/birch_trapdoor",
-        "block":	"blocks/birch_trapdoor"
+        "particle": "block/birch_trapdoor",
+        "texture":  "block/birch_trapdoor",
+        "block":	"block/birch_trapdoor"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

@@ -1,7 +1,7 @@
 {
     "parent": "block/cross",
     "textures": {
-        "cross": "blocks/flower/tulip_red"
+        "cross": "block/flower/tulip_red"
     },
     "display": {
         "gui": {

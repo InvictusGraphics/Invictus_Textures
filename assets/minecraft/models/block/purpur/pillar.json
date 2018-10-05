@@ -1,9 +1,9 @@
 {
     "parent": "block/block",
     "textures": {
-        "end": "blocks/purpur_pillar_top",
-        "side": "blocks/purpur_pillar",
-        "particle": "blocks/purpur_pillar"
+        "end": "block/purpur_pillar_top",
+        "side": "block/purpur_pillar",
+        "particle": "block/purpur_pillar"
     },
     "elements": [
     	{   "from": [ 0, 1, 0 ],

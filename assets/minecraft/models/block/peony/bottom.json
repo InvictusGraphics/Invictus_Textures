@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "cross": "blocks/peony_bottom",
-        "base": "blocks/peony_base",
-        "particle": "blocks/peony_bottom"
+        "cross": "block/peony_bottom",
+        "base": "block/peony_base",
+        "particle": "block/peony_bottom"
     },
     "elements": [
     	{   "from": [ 0, 0, 8 ],

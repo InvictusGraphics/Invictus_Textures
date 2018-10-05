@@ -1,10 +1,10 @@
 {
 	"parent": "block/block",
     "textures": {
-    	"particle": "blocks/cobblestone/1",
-        "top": "blocks/slab/cobblestone_top",
-        "bottom": "blocks/cobblestone/1",
-        "side": "blocks/slab/cobblestone"
+    	"particle": "block/cobblestone/1",
+        "top": "block/slab/cobblestone_top",
+        "bottom": "block/cobblestone/1",
+        "side": "block/slab/cobblestone"
     },
     "elements": [
         {   "from": [ 0, 8, 0 ],

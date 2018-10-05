@@ -1,10 +1,10 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "cross": "blocks/flower/allium",
-        "cross_inv": "blocks/flower/allium_inv",
-        "flower": "blocks/flower/allium_flower",
-        "particle": "blocks/flower/allium"
+        "cross": "block/flower/allium",
+        "cross_inv": "block/flower/allium_inv",
+        "flower": "block/flower/allium_flower",
+        "particle": "block/flower/allium"
     },
     "elements": [
     	{   "from": [ 0.8, 0, 8 ],

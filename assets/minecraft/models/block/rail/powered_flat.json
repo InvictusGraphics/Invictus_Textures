@@ -1,6 +1,6 @@
 {
     "parent": "block/rail/rail_flat",
     "textures": {
-        "rail": "blocks/rail/powered"
+        "rail": "block/rail/powered"
     }
 }

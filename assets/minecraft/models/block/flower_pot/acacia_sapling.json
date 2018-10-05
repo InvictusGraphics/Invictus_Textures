@@ -1,6 +1,6 @@
 {
     "parent": "block/flower_pot/cross",
     "textures": {
-        "plant": "blocks/sapling/acacia"
+        "plant": "block/sapling/acacia"
     }
 }

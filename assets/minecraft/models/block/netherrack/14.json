@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/netherrack/14"
+        "all": "block/netherrack/14"
     }
 }

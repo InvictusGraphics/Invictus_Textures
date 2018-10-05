@@ -1,6 +1,6 @@
 {
     "parent": "block/cross",
     "textures": {
-        "cross": "blocks/flower/azure_bluet"
+        "cross": "block/flower/azure_bluet"
     }
 }

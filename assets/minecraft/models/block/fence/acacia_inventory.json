@@ -1,7 +1,7 @@
 {
     "parent": "block/fence/fence_inventory",
     "textures": {
-        "side": "blocks/fence/fence_acacia_side",
-		"top": "blocks/fence/fence_acacia_top"
+        "side": "block/fence/fence_acacia_side",
+		"top": "block/fence/fence_acacia_top"
     }
 }

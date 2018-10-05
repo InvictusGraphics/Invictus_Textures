@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "cross": "blocks/dead_bush",
-        "base": "blocks/dead_bush_base",
-        "particle": "blocks/dead_bush"
+        "cross": "block/dead_bush",
+        "base": "block/dead_bush_base",
+        "particle": "block/dead_bush"
     },
     "elements": [
     	{   "from": [ 0.8, 0, 8 ],

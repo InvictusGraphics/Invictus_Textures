@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/sugar_cane",
-        "cross": "blocks/sugar_cane",
-	"cross_top": "blocks/sugar_cane_top"
+        "particle": "block/sugar_cane",
+        "cross": "block/sugar_cane",
+	"cross_top": "block/sugar_cane_top"
     },
     "elements": [
         {   "from": [ 0.8, 0, 8 ],

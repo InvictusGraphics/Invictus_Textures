@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "cross": "blocks/flower/tulip_white",
-        "base": "blocks/flower/tulip_white_base",
-        "particle": "blocks/flower/tulip_white"
+        "cross": "block/flower/tulip_white",
+        "base": "block/flower/tulip_white_base",
+        "particle": "block/flower/tulip_white"
     },
     "elements": [
     	{   "from": [ 0.8, 0, 8 ],

@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/door_acacia_upper",
-        "bottom": "blocks/door_acacia_lower",
-        "top": "blocks/door_acacia_upper"
+        "particle": "block/door_acacia_upper",
+        "bottom": "block/door_acacia_lower",
+        "top": "block/door_acacia_upper"
     },
     "elements": [
         {   "__comment": "Grid",

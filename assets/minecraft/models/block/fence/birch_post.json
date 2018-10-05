@@ -1,7 +1,7 @@
 {
     "parent": "block/fence/fence_post",
     "textures": {
-      "side": "blocks/fence/fence_birch"
+      "side": "block/fence/fence_birch"
     },
     "elements": [
         {   "from": [ 6.75, 0, 6.75 ],

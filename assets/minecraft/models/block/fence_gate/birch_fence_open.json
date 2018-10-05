@@ -1,7 +1,7 @@
 {
     "textures": {
-    	"particle": "blocks/fence/fence_birch",
-        "side": "blocks/fence/fence_birch"
+    	"particle": "block/fence/fence_birch",
+        "side": "block/fence/fence_birch"
     },
     "elements": [
     	{   "from": [ 0, 0, 6.75 ],

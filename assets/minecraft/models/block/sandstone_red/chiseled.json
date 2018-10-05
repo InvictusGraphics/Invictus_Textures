@@ -1,7 +1,7 @@
 {
     "parent": "block/cube_column",
     "textures": {
-        "end": "blocks/sandstone/cut_red_sandstone",
-        "side": "blocks/sandstone/chiseled_red_sandstone"
+        "end": "block/sandstone/cut_red_sandstone",
+        "side": "block/sandstone/chiseled_red_sandstone"
     }
 }

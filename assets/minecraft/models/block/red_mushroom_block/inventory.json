@@ -1,11 +1,11 @@
 {
     "parent": "block/cube",
     "textures": {
-        "up": "blocks/red_mushroom_block/1",
-        "down": "blocks/red_mushroom_block/2",
-        "north": "blocks/red_mushroom_block/3",
-        "south": "blocks/red_mushroom_block/4",
-        "east": "blocks/red_mushroom_block/5",
-        "west": "blocks/red_mushroom_block/6"
+        "up": "block/red_mushroom_block/1",
+        "down": "block/red_mushroom_block/2",
+        "north": "block/red_mushroom_block/3",
+        "south": "block/red_mushroom_block/4",
+        "east": "block/red_mushroom_block/5",
+        "west": "block/red_mushroom_block/6"
     }
 }

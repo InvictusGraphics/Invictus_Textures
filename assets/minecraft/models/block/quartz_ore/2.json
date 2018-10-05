@@ -1,9 +1,9 @@
 {
     "parent": "block/block",
     "textures": {
-        "particle": "blocks/quartz_ore/1",
-        "one": "blocks/quartz_ore/1",
-        "two": "blocks/quartz_ore/2"
+        "particle": "block/quartz_ore/1",
+        "one": "block/quartz_ore/1",
+        "two": "block/quartz_ore/2"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

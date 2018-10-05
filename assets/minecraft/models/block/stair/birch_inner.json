@@ -1,9 +1,9 @@
 {
     "parent": "block/stair/custom_inner_stairs",
     "textures": {
-        "bottom": "blocks/stair/birch",
-        "top": "blocks/slab/birch_top",
-        "front": "blocks/slab/birch",
-        "side": "blocks/stair/birch"
+        "bottom": "block/stair/birch",
+        "top": "block/slab/birch_top",
+        "front": "block/slab/birch",
+        "side": "block/stair/birch"
     }
 }

@@ -1,6 +1,6 @@
 {
 	"textures": {
-        "cart": "items/minecart"
+        "cart": "item/minecart"
     },
     "elements": [
         {   "from": [ 3.5, 6, 0 ],

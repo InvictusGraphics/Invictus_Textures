@@ -1,7 +1,7 @@
 {
     "parent": "block/glazed_terracotta/glazed_east",
     "textures": {
-        "particle": "blocks/glazed_terracotta/blue",
-        "pattern": "blocks/glazed_terracotta/blue"
+        "particle": "block/glazed_terracotta/blue",
+        "pattern": "block/glazed_terracotta/blue"
     }
 }

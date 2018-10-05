@@ -32,8 +32,8 @@
         }
     },
     "textures": {
-        "particle": "blocks/oak_planks",
-        "hook": "blocks/trip_wire_source"
+        "particle": "block/oak_planks",
+        "hook": "block/trip_wire_source"
     },
     "elements": [
         {   "from": [ 6.2, 3.8, 7.9 ],

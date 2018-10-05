@@ -1,7 +1,7 @@
 {
     "parent": "block/cross",
     "textures": {
-        "cross": "blocks/double_plant_rose_top"
+        "cross": "block/double_plant_rose_top"
     },
     "display": {
         "gui": {

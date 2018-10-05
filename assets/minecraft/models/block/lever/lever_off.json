@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/lever/base",
-        "base": "blocks/lever/base",
-        "lever": "blocks/lever/handle"
+        "particle": "block/lever/base",
+        "base": "block/lever/base",
+        "lever": "block/lever/handle"
     },
     "elements": [
         {   "from": [ 5, 0, 4 ],

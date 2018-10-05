@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-    	"cross": "blocks/rose_bush_bottom",
-    	"base": "blocks/rose_bush_base",
-        "particle": "blocks/rose_bush_bottom"
+    	"cross": "block/rose_bush_bottom",
+    	"base": "block/rose_bush_base",
+        "particle": "block/rose_bush_bottom"
     },
     "elements": [
         {   "from": [ 0.8, 0, 8 ],

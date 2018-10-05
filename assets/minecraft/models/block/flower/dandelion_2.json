@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "cross": "blocks/flower/dandelion",
-        "base": "blocks/flower/dandelion_base",
-        "particle": "blocks/flower/dandelion"
+        "cross": "block/flower/dandelion",
+        "base": "block/flower/dandelion_base",
+        "particle": "block/flower/dandelion"
     },
     "elements": [
     	{   "from": [ 0.8, 0, 8 ],

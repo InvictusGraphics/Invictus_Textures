@@ -1,6 +1,6 @@
 {
     "parent": "block/cross",
     "textures": {
-        "cross": "blocks/peony_top"
+        "cross": "block/peony_top"
     }
 }

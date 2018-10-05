@@ -33,11 +33,11 @@
     },
 
     "textures": {
-        "particle": "blocks/utility/crafting_table_front",
-        "down": "blocks/utility/crafting_table_bottom",
-        "up": "blocks/utility/crafting_table_top",
-        "front": "blocks/utility/crafting_table_front",
-        "side": "blocks/utility/crafting_table_side"
+        "particle": "block/utility/crafting_table_front",
+        "down": "block/utility/crafting_table_bottom",
+        "up": "block/utility/crafting_table_top",
+        "front": "block/utility/crafting_table_front",
+        "side": "block/utility/crafting_table_side"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

@@ -1,7 +1,7 @@
 {
     "parent": "block/leaves/leaves_placed_uncolored",
     "textures": {
-        "all": "blocks/leaves/spruce",
-        "all_uncolored": "blocks/leaves/spruce_uncolored"
+        "all": "block/leaves/spruce",
+        "all_uncolored": "block/leaves/spruce_uncolored"
     }
 }

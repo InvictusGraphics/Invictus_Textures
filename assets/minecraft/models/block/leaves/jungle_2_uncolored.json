@@ -1,11 +1,11 @@
 {
     "parent": "block/leaves/leaves_2_uncolored",
     "textures": {
-        "top": "blocks/leaves/jungle",
-        "round": "blocks/leaves/jungle_small",
-        "cross": "blocks/leaves/jungle_large",
-        "top_uncolored": "blocks/leaves/jungle_small_uncolored",
-        "round_uncolored": "blocks/leaves/jungle_small_uncolored",
-        "cross_uncolored": "blocks/leaves/jungle_large_uncolored"
+        "top": "block/leaves/jungle",
+        "round": "block/leaves/jungle_small",
+        "cross": "block/leaves/jungle_large",
+        "top_uncolored": "block/leaves/jungle_small_uncolored",
+        "round_uncolored": "block/leaves/jungle_small_uncolored",
+        "cross_uncolored": "block/leaves/jungle_large_uncolored"
     }
 }

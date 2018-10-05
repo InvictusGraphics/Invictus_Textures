@@ -1,8 +1,8 @@
 {
     "textures": {
-        "particle": "blocks/iron_trapdoor",
-        "texture":  "blocks/iron_trapdoor",
-        "block":	"blocks/iron_block"
+        "particle": "block/iron_trapdoor",
+        "texture":  "block/iron_trapdoor",
+        "block":	"block/iron_block"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

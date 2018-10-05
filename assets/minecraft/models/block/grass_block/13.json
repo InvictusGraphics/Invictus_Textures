@@ -1,12 +1,12 @@
 {
     "parent": "block/block",
     "textures": {
-        "particle": "blocks/dirt/2",
-        "bottom": "blocks/dirt/2",
-        "top": "blocks/grass_top/2",
-        "side": "blocks/grass_side",
-        "overlay": "blocks/grass_side_overlay",
-        "clover": "blocks/grass_top/clover"
+        "particle": "block/dirt/2",
+        "bottom": "block/dirt/2",
+        "top": "block/grass_top/2",
+        "side": "block/grass_side",
+        "overlay": "block/grass_side_overlay",
+        "clover": "block/grass_top/clover"
     }, 
     "elements": [
     	{   "from": [ 0, 0, 0 ],

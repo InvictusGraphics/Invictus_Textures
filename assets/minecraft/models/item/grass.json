@@ -1,7 +1,7 @@
 {
     "parent": "block/tinted_cross",
     "textures": {
-        "cross": "items/tallgrass_still"
+        "cross": "item/tallgrass_still"
     },
     "display": {
         "gui": {

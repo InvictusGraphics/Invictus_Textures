@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "items/golden_axe"
+        "layer0": "item/golden_axe"
     },
     "overrides": [
         {

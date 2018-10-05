@@ -1,9 +1,9 @@
 {
     "parent": "block/farmland/farmland",
     "textures": {
-        "particle": "blocks/dirt/1",
-        "dirt": "blocks/dirt/1",
-        "side": "blocks/farmland_dry_side",
-        "top": "blocks/farmland_dry"
+        "particle": "block/dirt/1",
+        "dirt": "block/dirt/1",
+        "side": "block/farmland_dry_side",
+        "top": "block/farmland_dry"
     }
 }

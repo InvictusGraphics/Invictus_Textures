@@ -1,4 +1,4 @@
-{"parent": "item/generated","textures": {"layer0": "items/compass/compass_012"},"overrides": [ 
+{"parent": "item/generated","textures": {"layer0": "item/compass/compass_012"},"overrides": [ 
 	{"predicate":{"angle":0.0000000},"model":"item/compass"},
 	{"predicate":{"angle":0.0208333333333},"model":"item/compass/compass_013"},
 	{"predicate":{"angle":0.0625},"model":"item/compass/compass_014"},

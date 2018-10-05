@@ -1,8 +1,8 @@
 {
     "parent": "block/inner_stairs",
     "textures": {
-        "bottom": "blocks/slab/dark_oak",
-        "top": "blocks/slab/dark_oak",
-        "side": "blocks/dark_oak_planks"
+        "bottom": "block/slab/dark_oak",
+        "top": "block/slab/dark_oak",
+        "side": "block/dark_oak_planks"
     }
 }

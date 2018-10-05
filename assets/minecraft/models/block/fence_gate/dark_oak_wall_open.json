@@ -1,6 +1,6 @@
 {
     "parent": "block/fence_gate/wall_open",
     "textures": {
-        "texture": "blocks/fence/fence_dark_oak_gate"
+        "texture": "block/fence/fence_dark_oak_gate"
     }
 }

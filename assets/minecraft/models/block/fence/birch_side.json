@@ -1,6 +1,6 @@
 {
     "textures": {
-        "side": "blocks/fence/fence_birch"
+        "side": "block/fence/fence_birch"
     },
     "elements": [
         {   "from": [ 7, 1, 0 ],

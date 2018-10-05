@@ -1,7 +1,7 @@
 {
     "parent": "block/pane/frame_3_thin/nsew",
     "textures": {
-        "edge": "blocks/lime_stained_glass_pane_top",
-        "pane": "blocks/lime_stained_glass"
+        "edge": "block/lime_stained_glass_pane_top",
+        "pane": "block/lime_stained_glass"
     }
 }

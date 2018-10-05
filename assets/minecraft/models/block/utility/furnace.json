@@ -1,12 +1,12 @@
 {
     "parent": "block/cube",
     "textures": {
-        "particle": "blocks/utility/furnace_front_off",
-        "up": "blocks/utility/furnace_top",
-        "north": "blocks/utility/furnace_front_off",
-        "south": "blocks/utility/furnace_side",
-        "east": "blocks/utility/furnace_side",
-        "west": "blocks/utility/furnace_side",
-        "down": "blocks/utility/furnace_bottom"
+        "particle": "block/utility/furnace_front_off",
+        "up": "block/utility/furnace_top",
+        "north": "block/utility/furnace_front_off",
+        "south": "block/utility/furnace_side",
+        "east": "block/utility/furnace_side",
+        "west": "block/utility/furnace_side",
+        "down": "block/utility/furnace_bottom"
     }
 }

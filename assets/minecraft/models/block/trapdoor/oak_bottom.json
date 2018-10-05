@@ -1,8 +1,8 @@
 {
     "textures": {
-    	"texture": "blocks/oak_trapdoor",
-        "particle": "blocks/oak_trapdoor",
-        "parts": "blocks/oak_trapdoor_parts"
+    	"texture": "block/oak_trapdoor",
+        "particle": "block/oak_trapdoor",
+        "parts": "block/oak_trapdoor_parts"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

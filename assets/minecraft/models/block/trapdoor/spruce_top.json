@@ -1,7 +1,7 @@
 {
     "textures": {
-    	"texture": "blocks/spruce_trapdoor",
-        "particle": "blocks/spruce_trapdoor"
+    	"texture": "block/spruce_trapdoor",
+        "particle": "block/spruce_trapdoor"
     },
     "elements": [
         {   "from": [ 0, 13, 0 ],

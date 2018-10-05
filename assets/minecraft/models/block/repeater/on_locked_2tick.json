@@ -1,10 +1,10 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/diode/repeater_on",
-        "slab": "blocks/diode/repeater_side",
-        "top": "blocks/diode/repeater_on",
-        "lit": "blocks/torch/redstone_torch"
+        "particle": "block/diode/repeater_on",
+        "slab": "block/diode/repeater_side",
+        "top": "block/diode/repeater_on",
+        "lit": "block/torch/redstone_torch"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "cross": "blocks/flower/tulip_orange",
-        "base": "blocks/flower/tulip_base",
-        "particle": "blocks/flower/tulip_orange"
+        "cross": "block/flower/tulip_orange",
+        "base": "block/flower/tulip_base",
+        "particle": "block/flower/tulip_orange"
     },
     "elements": [
     	{   "from": [ 0.8, 0, 8 ],

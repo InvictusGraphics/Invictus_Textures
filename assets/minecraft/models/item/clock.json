@@ -1,4 +1,4 @@
-{"parent": "item/generated","textures": {"layer0": "items/clock/clock_000"},"overrides": [ 
+{"parent": "item/generated","textures": {"layer0": "item/clock/clock_000"},"overrides": [ 
 	{"predicate":{"time":0.0000000},"model":"item/clock"},
 	{"predicate":{"time":0.0208333333333},"model":"item/clock/clock_001"},
 	{"predicate":{"time":0.0625},"model":"item/clock/clock_002"},

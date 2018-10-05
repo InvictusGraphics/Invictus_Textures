@@ -1,6 +1,6 @@
 {
     "parent": "block/flower_pot/cross",
     "textures": {
-        "plant": "blocks/flower_pot/tulip_white"
+        "plant": "block/flower_pot/tulip_white"
     }
 }

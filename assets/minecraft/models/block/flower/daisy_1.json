@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "cross": "blocks/flower/oxeye_daisy",
-        "base": "blocks/flower/oxeye_daisy_base",
-        "particle": "blocks/flower/oxeye_daisy"
+        "cross": "block/flower/oxeye_daisy",
+        "base": "block/flower/oxeye_daisy_base",
+        "particle": "block/flower/oxeye_daisy"
     },
     "elements": [
     	{   "from": [ 0.8, 0, 8 ],

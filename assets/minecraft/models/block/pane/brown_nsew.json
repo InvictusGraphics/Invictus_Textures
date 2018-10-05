@@ -1,7 +1,7 @@
 {
     "parent": "block/pane/frame_5/nsew",
     "textures": {
-        "edge": "blocks/brown_stained_glass_pane_top",
-        "pane": "blocks/brown_stained_glass"
+        "edge": "block/brown_stained_glass_pane_top",
+        "pane": "block/brown_stained_glass"
     }
 }

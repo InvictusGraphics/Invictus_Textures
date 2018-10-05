@@ -1,7 +1,7 @@
 {
     "parent": "block/cross",
     "textures": {
-        "cross": "blocks/brown_mushroom"
+        "cross": "block/brown_mushroom"
     },
     "display": {
         "gui": {

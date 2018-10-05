@@ -1,6 +1,6 @@
 {
     "parent": "block/rail/rail_raised_sw",
     "textures": {
-        "rail": "blocks/rail/activator_powered"
+        "rail": "block/rail/activator_powered"
     }
 }

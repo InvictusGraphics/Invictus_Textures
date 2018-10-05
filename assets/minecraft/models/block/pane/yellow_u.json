@@ -1,7 +1,7 @@
 {
     "parent": "block/pane/pane/u",
     "textures": {
-        "edge": "blocks/yellow_stained_glass_pane_top",
-        "pane": "blocks/yellow_stained_glass"
+        "edge": "block/yellow_stained_glass_pane_top",
+        "pane": "block/yellow_stained_glass"
     }
 }

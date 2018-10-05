@@ -1,7 +1,7 @@
 {
     "textures": {
-        "particle": "blocks/slab/oak_top",
-        "hook": "blocks/trip_wire_source"
+        "particle": "block/slab/oak_top",
+        "hook": "block/trip_wire_source"
     },
     "elements": [
         {   "from": [ 6.2, 3.8, 7.9 ],

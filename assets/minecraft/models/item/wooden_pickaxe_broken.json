@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "items/wooden_pickaxe_broken"
+        "layer0": "item/wooden_pickaxe_broken"
     }
 }

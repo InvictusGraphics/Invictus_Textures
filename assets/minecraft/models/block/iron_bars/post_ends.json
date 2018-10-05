@@ -1,8 +1,8 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/iron_bars",
-        "edge": "blocks/iron_bars_edge"
+        "particle": "block/iron_bars",
+        "edge": "block/iron_bars_edge"
     },
     "elements": [
         {   "from": [ 7.25, 2.252, 7.25 ],
