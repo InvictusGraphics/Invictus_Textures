@@ -2,22 +2,22 @@
     "multipart": [
       { "when": {"decayable": true},
         "apply": [
-           { "model": "leaves/birch_1", "y": 270 },
-           { "model": "leaves/birch_1", "y": 90 },
-           { "model": "leaves/birch_1", "y": 180 },
-           { "model": "leaves/birch_1" },
-           { "model": "leaves/birch_2", "y": 270 },
-           { "model": "leaves/birch_2", "y": 90 },
-           { "model": "leaves/birch_2", "y": 180 },
-           { "model": "leaves/birch_2" },
-           { "model": "leaves/birch_3", "y": 270 },
-           { "model": "leaves/birch_3", "y": 90 },
-           { "model": "leaves/birch_3", "y": 180 },
-           { "model": "leaves/birch_3" }
+           { "model": "block/leaves/birch_1", "y": 270 },
+           { "model": "block/leaves/birch_1", "y": 90 },
+           { "model": "block/leaves/birch_1", "y": 180 },
+           { "model": "block/leaves/birch_1" },
+           { "model": "block/leaves/birch_2", "y": 270 },
+           { "model": "block/leaves/birch_2", "y": 90 },
+           { "model": "block/leaves/birch_2", "y": 180 },
+           { "model": "block/leaves/birch_2" },
+           { "model": "block/leaves/birch_3", "y": 270 },
+           { "model": "block/leaves/birch_3", "y": 90 },
+           { "model": "block/leaves/birch_3", "y": 180 },
+           { "model": "block/leaves/birch_3" }
          ]
       },
       { "when": {"decayable": false},
-        "apply": { "model": "leaves/birch_placed" }
+        "apply": { "model": "block/leaves/birch_placed" }
       }
     ]
 }

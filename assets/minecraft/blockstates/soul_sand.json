@@ -1,12 +1,12 @@
 {
     "variants": {
-        "normal": [
-			{ "model": "soul_sand/1" },
-			{ "model": "soul_sand/2" },
-			{ "model": "soul_sand/3" },
-			{ "model": "soul_sand/4" },
-			{ "model": "soul_sand/5" },
-			{ "model": "soul_sand/6" }
+        "": [
+			{ "model": "block/soul_sand/1" },
+			{ "model": "block/soul_sand/2" },
+			{ "model": "block/soul_sand/3" },
+			{ "model": "block/soul_sand/4" },
+			{ "model": "block/soul_sand/5" },
+			{ "model": "block/soul_sand/6" }
 		]
     }
 }

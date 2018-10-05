@@ -1,11 +1,11 @@
 {
     "variants": {
-        "normal": [
-        	{ "model": "terracotta/1" },
-        	{ "model": "terracotta/2" },
-        	{ "model": "terracotta/3" },
-        	{ "model": "terracotta/4" },
-        	{ "model": "terracotta/5" }
+        "": [
+        	{ "model": "block/terracotta/1" },
+        	{ "model": "block/terracotta/2" },
+        	{ "model": "block/terracotta/3" },
+        	{ "model": "block/terracotta/4" },
+        	{ "model": "block/terracotta/5" }
         ]
     }
 }

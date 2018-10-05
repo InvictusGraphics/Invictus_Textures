@@ -1,10 +1,10 @@
 {
     "variants": {
-        "facing=down":  { "model": "utility/dispenser_vertical", "x": 180 },
-        "facing=up":    { "model": "utility/dispenser_vertical" },
-        "facing=north": { "model": "utility/dispenser" },
-        "facing=south": { "model": "utility/dispenser", "y": 180 },
-        "facing=west":  { "model": "utility/dispenser", "y": 270 },
-        "facing=east":  { "model": "utility/dispenser", "y": 90 }
+        "facing=down":  { "model": "block/utility/dispenser_vertical", "x": 180 },
+        "facing=up":    { "model": "block/utility/dispenser_vertical" },
+        "facing=north": { "model": "block/utility/dispenser" },
+        "facing=south": { "model": "block/utility/dispenser", "y": 180 },
+        "facing=west":  { "model": "block/utility/dispenser", "y": 270 },
+        "facing=east":  { "model": "block/utility/dispenser", "y": 90 }
     }
 }

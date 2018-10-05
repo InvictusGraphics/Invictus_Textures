@@ -1,9 +1,9 @@
 {
     "variants": {
-        "facing=down": { "model": "utility/hopper_down" },
-        "facing=north": { "model": "utility/hopper_side" },
-        "facing=south": { "model": "utility/hopper_side", "y": 180 },
-        "facing=west": { "model": "utility/hopper_side", "y": 270 },
-        "facing=east": { "model": "utility/hopper_side", "y": 90 }
+        "facing=down": { "model": "block/utility/hopper_down" },
+        "facing=north": { "model": "block/utility/hopper_side" },
+        "facing=south": { "model": "block/utility/hopper_side", "y": 180 },
+        "facing=west": { "model": "block/utility/hopper_side", "y": 270 },
+        "facing=east": { "model": "block/utility/hopper_side", "y": 90 }
     }
 }

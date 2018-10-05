@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "flower_pot/jungle_sapling" }
+        "": { "model": "block/flower_pot/jungle_sapling" }
     }
 }

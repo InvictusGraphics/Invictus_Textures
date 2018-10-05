@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "torch/normal" }
+        "": { "model": "block/torch/normal" }
     }
 }

@@ -1,6 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "utility/item_frame" },
-        "map":    { "model": "item_frame_map" }
+        "": { "model": "block/utility/item_frame" },
+        "map":    { "model": "block/item_frame_map" }
     }
 }

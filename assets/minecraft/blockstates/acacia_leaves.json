@@ -2,22 +2,22 @@
     "multipart": [
       { "when": {"decayable": true},
         "apply": [
-           { "model": "leaves/acacia_1", "y": 270 },
-           { "model": "leaves/acacia_1", "y": 90 },
-           { "model": "leaves/acacia_1", "y": 180 },
-           { "model": "leaves/acacia_1" },
-           { "model": "leaves/acacia_2", "y": 270 },
-           { "model": "leaves/acacia_2", "y": 90 },
-           { "model": "leaves/acacia_2", "y": 180 },
-           { "model": "leaves/acacia_2" },
-           { "model": "leaves/acacia_3", "y": 270 },
-           { "model": "leaves/acacia_3", "y": 90 },
-           { "model": "leaves/acacia_3", "y": 180 },
-           { "model": "leaves/acacia_3" }
+           { "model": "block/leaves/acacia_1", "y": 270 },
+           { "model": "block/leaves/acacia_1", "y": 90 },
+           { "model": "block/leaves/acacia_1", "y": 180 },
+           { "model": "block/leaves/acacia_1" },
+           { "model": "block/leaves/acacia_2", "y": 270 },
+           { "model": "block/leaves/acacia_2", "y": 90 },
+           { "model": "block/leaves/acacia_2", "y": 180 },
+           { "model": "block/leaves/acacia_2" },
+           { "model": "block/leaves/acacia_3", "y": 270 },
+           { "model": "block/leaves/acacia_3", "y": 90 },
+           { "model": "block/leaves/acacia_3", "y": 180 },
+           { "model": "block/leaves/acacia_3" }
          ]
       },
       { "when": {"decayable": false},
-        "apply": { "model": "leaves/acacia_placed" }
+        "apply": { "model": "block/leaves/acacia_placed" }
       }
     ]
 }

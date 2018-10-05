@@ -1,7 +1,7 @@
 {
     "variants": {
-        "normal": [
-        	{ "model": "lime_concrete_powder" }
+        "": [
+        	{ "model": "block/lime_concrete_powder" }
         ]
     }
 }

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "flower_pot/spruce_sapling" }
+        "": { "model": "block/flower_pot/spruce_sapling" }
     }
 }

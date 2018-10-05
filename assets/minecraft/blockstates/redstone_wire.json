@@ -7,43 +7,43 @@
                 {"south": "side|up", "west": "side|up"},
                 {"west": "side|up", "north": "side|up"}
             ]},
-            "apply": { "model": "redstone_wire_dot_1" }
+            "apply": { "model": "block/redstone_wire_dot_1" }
         },
         {   "when": { "OR": [
                 { "north": "side|up" },
                 { "north": "none", "east": "none", "south": "side|up", "west": "none" }
             ]},
-            "apply": { "model": "redstone_wire_side0" }
+            "apply": { "model": "block/redstone_wire_side0" }
         },
         {   "when": { "OR": [
                 { "south": "side|up" },
                 { "north": "side|up", "east": "none", "south": "none", "west": "none" }
             ]},
-            "apply": { "model": "redstone_wire_side_alt0" }
+            "apply": { "model": "block/redstone_wire_side_alt0" }
         },
         {   "when": { "OR": [
                 { "east": "side|up" },
                 { "north": "none", "east": "none", "south": "none", "west": "side|up" }
             ]},
-            "apply": { "model": "redstone_wire_side_alt1", "y": 270 }
+            "apply": { "model": "block/redstone_wire_side_alt1", "y": 270 }
         },
         {   "when": { "OR": [
                 { "west": "side|up" },
                 { "north": "none", "east": "side|up", "south": "none", "west": "none" }
             ]},
-            "apply": { "model": "redstone_wire_side1", "y": 270 }
+            "apply": { "model": "block/redstone_wire_side1", "y": 270 }
         },
         {   "when": { "north": "up" },
-            "apply": { "model": "redstone_wire_up" }
+            "apply": { "model": "block/redstone_wire_up" }
         },
         {   "when": { "east": "up" },
-            "apply": { "model": "redstone_wire_up", "y": 90 }
+            "apply": { "model": "block/redstone_wire_up", "y": 90 }
         },
         {   "when": { "south": "up" },
-            "apply": { "model": "redstone_wire_up", "y": 180 }
+            "apply": { "model": "block/redstone_wire_up", "y": 180 }
         },
         {   "when": { "west": "up" },
-            "apply": { "model": "redstone_wire_up", "y": 270 }
+            "apply": { "model": "block/redstone_wire_up", "y": 270 }
         }
     ]
 }

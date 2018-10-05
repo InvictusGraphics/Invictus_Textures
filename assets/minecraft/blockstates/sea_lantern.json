@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "sea_lantern_1" }
+        "": { "model": "block/sea_lantern_1" }
     }
 }

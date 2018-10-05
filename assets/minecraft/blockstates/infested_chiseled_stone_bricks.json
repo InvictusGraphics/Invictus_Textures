@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "stonebrick/chiseled" }
+        "": { "model": "block/stonebrick/chiseled" }
     }
 }

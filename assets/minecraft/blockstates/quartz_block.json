@@ -1,10 +1,10 @@
 {
     "variants": {
-        "normal": [
-            { "model": "quartz/normal_1" },
-            { "model": "quartz/normal_2" },
-            { "model": "quartz/normal_3" },
-            { "model": "quartz/normal_4" }
+        "": [
+            { "model": "block/quartz/normal_1" },
+            { "model": "block/quartz/normal_2" },
+            { "model": "block/quartz/normal_3" },
+            { "model": "block/quartz/normal_4" }
         ]
     }
 }

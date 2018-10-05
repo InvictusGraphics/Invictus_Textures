@@ -1,20 +1,20 @@
 {
     "variants": {
-        "east=false,north=false,south=false,west=false": { "model": "pane/red_u" },
-        "east=false,north=true,south=false,west=false": { "model": "pane/red_n", "uvlock": true },
-        "east=true,north=false,south=false,west=false": { "model": "pane/red_n", "y": 90, "uvlock": true },
-        "east=false,north=false,south=true,west=false": { "model": "pane/red_n", "y": 180, "uvlock": true },
-        "east=false,north=false,south=false,west=true": { "model": "pane/red_n", "y": 270, "uvlock": true },
-        "east=true,north=true,south=false,west=false": { "model": "pane/red_ne", "uvlock": true },
-        "east=true,north=false,south=true,west=false": { "model": "pane/red_ne", "y": 90, "uvlock": true },
-        "east=false,north=false,south=true,west=true": { "model": "pane/red_ne", "y": 180, "uvlock": true },
-        "east=false,north=true,south=false,west=true": { "model": "pane/red_ne", "y": 270, "uvlock": true },
-        "east=false,north=true,south=true,west=false": { "model": "pane/red_ns" },
-        "east=true,north=false,south=false,west=true": { "model": "pane/red_ns", "y": 90 },
-        "east=true,north=true,south=true,west=false": { "model": "pane/red_nse", "uvlock": true },
-        "east=true,north=false,south=true,west=true": { "model": "pane/red_nse", "y": 90, "uvlock": true },
-        "east=false,north=true,south=true,west=true": { "model": "pane/red_nse", "y": 180, "uvlock": true },
-        "east=true,north=true,south=false,west=true": { "model": "pane/red_nse", "y": 270, "uvlock": true },
-        "east=true,north=true,south=true,west=true": { "model": "pane/red_nsew" }
+        "east=false,north=false,south=false,west=false": { "model": "block/pane/red_u" },
+        "east=false,north=true,south=false,west=false": { "model": "block/pane/red_n", "uvlock": true },
+        "east=true,north=false,south=false,west=false": { "model": "block/pane/red_n", "y": 90, "uvlock": true },
+        "east=false,north=false,south=true,west=false": { "model": "block/pane/red_n", "y": 180, "uvlock": true },
+        "east=false,north=false,south=false,west=true": { "model": "block/pane/red_n", "y": 270, "uvlock": true },
+        "east=true,north=true,south=false,west=false": { "model": "block/pane/red_ne", "uvlock": true },
+        "east=true,north=false,south=true,west=false": { "model": "block/pane/red_ne", "y": 90, "uvlock": true },
+        "east=false,north=false,south=true,west=true": { "model": "block/pane/red_ne", "y": 180, "uvlock": true },
+        "east=false,north=true,south=false,west=true": { "model": "block/pane/red_ne", "y": 270, "uvlock": true },
+        "east=false,north=true,south=true,west=false": { "model": "block/pane/red_ns" },
+        "east=true,north=false,south=false,west=true": { "model": "block/pane/red_ns", "y": 90 },
+        "east=true,north=true,south=true,west=false": { "model": "block/pane/red_nse", "uvlock": true },
+        "east=true,north=false,south=true,west=true": { "model": "block/pane/red_nse", "y": 90, "uvlock": true },
+        "east=false,north=true,south=true,west=true": { "model": "block/pane/red_nse", "y": 180, "uvlock": true },
+        "east=true,north=true,south=false,west=true": { "model": "block/pane/red_nse", "y": 270, "uvlock": true },
+        "east=true,north=true,south=true,west=true": { "model": "block/pane/red_nsew" }
     }
 }

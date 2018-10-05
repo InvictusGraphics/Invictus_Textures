@@ -1,7 +1,7 @@
 {
     "variants": {
-        "axis=y": { "model": "hay_1" },
-        "axis=z": { "model": "hay_1", "x": 90 },
-        "axis=x": { "model": "hay_1", "x": 90, "y": 90 }
+        "axis=y": { "model": "block/hay_1" },
+        "axis=z": { "model": "block/hay_1", "x": 90 },
+        "axis=x": { "model": "block/hay_1", "x": 90, "y": 90 }
     }
 }

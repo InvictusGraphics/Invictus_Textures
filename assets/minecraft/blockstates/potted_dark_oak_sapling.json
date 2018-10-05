@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "flower_pot/dark_oak_sapling" }
+        "": { "model": "block/flower_pot/dark_oak_sapling" }
     }
 }

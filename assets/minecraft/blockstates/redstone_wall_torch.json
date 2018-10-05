@@ -1,12 +1,12 @@
 {
     "variants": {
-        "facing=east,lit=true":  { "model": "torch/lit_redstone_wall" },
-        "facing=south,lit=true":  { "model": "torch/lit_redstone_wall", "y": 90 },
-        "facing=west,lit=true":  { "model": "torch/lit_redstone_wall", "y": 180 },
-        "facing=north,lit=true":  { "model": "torch/lit_redstone_wall", "y": 270 },
-        "facing=east,lit=false":  { "model": "torch/unlit_redstone_wall" },
-        "facing=south,lit=false":  { "model": "torch/unlit_redstone_wall", "y": 90 },
-        "facing=west,lit=false":  { "model": "torch/unlit_redstone_wall", "y": 180 },
-        "facing=north,lit=false":  { "model": "torch/unlit_redstone_wall", "y": 270 }
+        "facing=east,lit=true":  { "model": "block/torch/lit_redstone_wall" },
+        "facing=south,lit=true":  { "model": "block/torch/lit_redstone_wall", "y": 90 },
+        "facing=west,lit=true":  { "model": "block/torch/lit_redstone_wall", "y": 180 },
+        "facing=north,lit=true":  { "model": "block/torch/lit_redstone_wall", "y": 270 },
+        "facing=east,lit=false":  { "model": "block/torch/unlit_redstone_wall" },
+        "facing=south,lit=false":  { "model": "block/torch/unlit_redstone_wall", "y": 90 },
+        "facing=west,lit=false":  { "model": "block/torch/unlit_redstone_wall", "y": 180 },
+        "facing=north,lit=false":  { "model": "block/torch/unlit_redstone_wall", "y": 270 }
     }
 }

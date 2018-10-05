@@ -1,20 +1,20 @@
 {
     "variants": {
-        "east=false,north=false,south=false,west=false": { "model": "pane/magenta_u" },
-        "east=false,north=true,south=false,west=false": { "model": "pane/magenta_n", "uvlock": true },
-        "east=true,north=false,south=false,west=false": { "model": "pane/magenta_n", "y": 90, "uvlock": true },
-        "east=false,north=false,south=true,west=false": { "model": "pane/magenta_n", "y": 180, "uvlock": true },
-        "east=false,north=false,south=false,west=true": { "model": "pane/magenta_n", "y": 270, "uvlock": true },
-        "east=true,north=true,south=false,west=false": { "model": "pane/magenta_ne", "uvlock": true },
-        "east=true,north=false,south=true,west=false": { "model": "pane/magenta_ne", "y": 90, "uvlock": true },
-        "east=false,north=false,south=true,west=true": { "model": "pane/magenta_ne", "y": 180, "uvlock": true },
-        "east=false,north=true,south=false,west=true": { "model": "pane/magenta_ne", "y": 270, "uvlock": true },
-        "east=false,north=true,south=true,west=false": { "model": "pane/magenta_ns" },
-        "east=true,north=false,south=false,west=true": { "model": "pane/magenta_ns", "y": 90 },
-        "east=true,north=true,south=true,west=false": { "model": "pane/magenta_nse", "uvlock": true },
-        "east=true,north=false,south=true,west=true": { "model": "pane/magenta_nse", "y": 90, "uvlock": true },
-        "east=false,north=true,south=true,west=true": { "model": "pane/magenta_nse", "y": 180, "uvlock": true },
-        "east=true,north=true,south=false,west=true": { "model": "pane/magenta_nse", "y": 270, "uvlock": true },
-        "east=true,north=true,south=true,west=true": { "model": "pane/magenta_nsew" }
+        "east=false,north=false,south=false,west=false": { "model": "block/pane/magenta_u" },
+        "east=false,north=true,south=false,west=false": { "model": "block/pane/magenta_n", "uvlock": true },
+        "east=true,north=false,south=false,west=false": { "model": "block/pane/magenta_n", "y": 90, "uvlock": true },
+        "east=false,north=false,south=true,west=false": { "model": "block/pane/magenta_n", "y": 180, "uvlock": true },
+        "east=false,north=false,south=false,west=true": { "model": "block/pane/magenta_n", "y": 270, "uvlock": true },
+        "east=true,north=true,south=false,west=false": { "model": "block/pane/magenta_ne", "uvlock": true },
+        "east=true,north=false,south=true,west=false": { "model": "block/pane/magenta_ne", "y": 90, "uvlock": true },
+        "east=false,north=false,south=true,west=true": { "model": "block/pane/magenta_ne", "y": 180, "uvlock": true },
+        "east=false,north=true,south=false,west=true": { "model": "block/pane/magenta_ne", "y": 270, "uvlock": true },
+        "east=false,north=true,south=true,west=false": { "model": "block/pane/magenta_ns" },
+        "east=true,north=false,south=false,west=true": { "model": "block/pane/magenta_ns", "y": 90 },
+        "east=true,north=true,south=true,west=false": { "model": "block/pane/magenta_nse", "uvlock": true },
+        "east=true,north=false,south=true,west=true": { "model": "block/pane/magenta_nse", "y": 90, "uvlock": true },
+        "east=false,north=true,south=true,west=true": { "model": "block/pane/magenta_nse", "y": 180, "uvlock": true },
+        "east=true,north=true,south=false,west=true": { "model": "block/pane/magenta_nse", "y": 270, "uvlock": true },
+        "east=true,north=true,south=true,west=true": { "model": "block/pane/magenta_nsew" }
     }
 }

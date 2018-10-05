@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "flower_pot/azure_bluet" }
+        "": { "model": "block/flower_pot/azure_bluet" }
     }
 }

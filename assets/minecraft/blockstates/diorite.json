@@ -1,10 +1,10 @@
 {
     "variants": {
-        "normal": [
-        	{ "model": "diorite/1" },
-        	{ "model": "diorite/2" },
-        	{ "model": "diorite/3" },
-        	{ "model": "diorite/4" }
+        "": [
+        	{ "model": "block/diorite/1" },
+        	{ "model": "block/diorite/2" },
+        	{ "model": "block/diorite/3" },
+        	{ "model": "block/diorite/4" }
         ]
     }
 }

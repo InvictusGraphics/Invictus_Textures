@@ -1,14 +1,14 @@
 {
     "variants": {
-        "normal": [
-            { "model": "dirt/1" },
-            { "model": "dirt/2" },
-            { "model": "dirt/3" },
-            { "model": "dirt/4" },
-            { "model": "dirt/5" },
-            { "model": "dirt/6" },
-            { "model": "dirt/7" },
-            { "model": "dirt/8" }
+        "": [
+            { "model": "block/dirt/1" },
+            { "model": "block/dirt/2" },
+            { "model": "block/dirt/3" },
+            { "model": "block/dirt/4" },
+            { "model": "block/dirt/5" },
+            { "model": "block/dirt/6" },
+            { "model": "block/dirt/7" },
+            { "model": "block/dirt/8" }
         ]
     }
 }

@@ -1,22 +1,22 @@
 {
     "variants": {
-        "normal": [
-            { "model": "netherrack/1" },
-            { "model": "netherrack/2" },
-            { "model": "netherrack/3" },
-            { "model": "netherrack/4" },
-            { "model": "netherrack/5" },
-            { "model": "netherrack/6" },
-            { "model": "netherrack/7" },
-            { "model": "netherrack/8" },
-            { "model": "netherrack/9" },
-            { "model": "netherrack/10" },
-            { "model": "netherrack/11" },
-            { "model": "netherrack/12" },
-            { "model": "netherrack/13" },
-            { "model": "netherrack/14" },
-            { "model": "netherrack/15" },
-            { "model": "netherrack/16" }
+        "": [
+            { "model": "block/netherrack/1" },
+            { "model": "block/netherrack/2" },
+            { "model": "block/netherrack/3" },
+            { "model": "block/netherrack/4" },
+            { "model": "block/netherrack/5" },
+            { "model": "block/netherrack/6" },
+            { "model": "block/netherrack/7" },
+            { "model": "block/netherrack/8" },
+            { "model": "block/netherrack/9" },
+            { "model": "block/netherrack/10" },
+            { "model": "block/netherrack/11" },
+            { "model": "block/netherrack/12" },
+            { "model": "block/netherrack/13" },
+            { "model": "block/netherrack/14" },
+            { "model": "block/netherrack/15" },
+            { "model": "block/netherrack/16" }
         ]
     }
 }

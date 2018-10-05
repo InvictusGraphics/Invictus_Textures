@@ -1,11 +1,11 @@
 {
     "variants": {
 		"normal": [
-			{ "model": "stonebrick_mossy/1" },
-			{ "model": "stonebrick_mossy/2" },
-			{ "model": "stonebrick_mossy/3" },
-			{ "model": "stonebrick_mossy/4" },
-			{ "model": "stonebrick_mossy/5" }
+			{ "model": "block/stonebrick_mossy/1" },
+			{ "model": "block/stonebrick_mossy/2" },
+			{ "model": "block/stonebrick_mossy/3" },
+			{ "model": "block/stonebrick_mossy/4" },
+			{ "model": "block/stonebrick_mossy/5" }
 		]
     }
 }

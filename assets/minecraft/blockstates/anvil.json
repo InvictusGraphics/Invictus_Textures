@@ -1,8 +1,8 @@
 {
     "variants": {
-        "facing=south": { "model": "anvil/undamaged" },
-        "facing=west": { "model": "anvil/undamaged", "y": 90 },
-        "facing=north": { "model": "anvil/undamaged", "y": 180 },
-        "facing=east": { "model": "anvil/undamaged", "y": 270 }
+        "facing=south": { "model": "block/anvil/undamaged" },
+        "facing=west": { "model": "block/anvil/undamaged", "y": 90 },
+        "facing=north": { "model": "block/anvil/undamaged", "y": 180 },
+        "facing=east": { "model": "block/anvil/undamaged", "y": 270 }
     }
 }

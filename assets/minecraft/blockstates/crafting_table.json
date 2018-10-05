@@ -1,7 +1,7 @@
 {
     "variants": {
-        "normal": [
-			{ "model": "utility/crafting_table"}
+        "": [
+			{ "model": "block/utility/crafting_table"}
 		]
 	}
 }

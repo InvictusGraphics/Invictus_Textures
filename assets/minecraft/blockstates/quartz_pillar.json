@@ -1,19 +1,19 @@
 {
     "variants": {
         "axis=y": [
-           { "model": "quartz/lines_1" },
-           { "model": "quartz/lines_2" },
-           { "model": "quartz/lines_3" }
+           { "model": "block/quartz/lines_1" },
+           { "model": "block/quartz/lines_2" },
+           { "model": "block/quartz/lines_3" }
         ],
         "axis=z":  [
-           { "model": "quartz/lines_1", "x": 90 },
-           { "model": "quartz/lines_2", "x": 90 },
-           { "model": "quartz/lines_3", "x": 90 }
+           { "model": "block/quartz/lines_1", "x": 90 },
+           { "model": "block/quartz/lines_2", "x": 90 },
+           { "model": "block/quartz/lines_3", "x": 90 }
         ],
         "axis=x":  [
-           { "model": "quartz/lines_1", "x": 90, "y": 90 },
-           { "model": "quartz/lines_2", "x": 90, "y": 90 },
-           { "model": "quartz/lines_3", "x": 90, "y": 90 }
+           { "model": "block/quartz/lines_1", "x": 90, "y": 90 },
+           { "model": "block/quartz/lines_2", "x": 90, "y": 90 },
+           { "model": "block/quartz/lines_3", "x": 90, "y": 90 }
         ]
     }
 }

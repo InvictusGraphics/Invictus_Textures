@@ -1,12 +1,12 @@
 {
     "variants": {
-        "normal": [
-			{ "model": "cobblestone/1", "weight": 5 },
-			{ "model": "cobblestone/2", "weight": 4 },
-			{ "model": "cobblestone/3", "weight": 3 },
-			{ "model": "cobblestone/4", "weight": 3 },
-			{ "model": "cobblestone/5", "weight": 3 },
-			{ "model": "cobblestone/6", "weight": 3 }
+        "": [
+			{ "model": "block/cobblestone/1", "weight": 5 },
+			{ "model": "block/cobblestone/2", "weight": 4 },
+			{ "model": "block/cobblestone/3", "weight": 3 },
+			{ "model": "block/cobblestone/4", "weight": 3 },
+			{ "model": "block/cobblestone/5", "weight": 3 },
+			{ "model": "block/cobblestone/6", "weight": 3 }
 		]
     }
 }

@@ -1,6 +1,6 @@
 {
     "variants": {
-        "snowy=false": { "model": "podzol" },
-        "snowy=true": { "model": "podzol/snowed" }
+        "snowy=false": { "model": "block/podzol" },
+        "snowy=true": { "model": "block/podzol/snowed" }
     }
 }

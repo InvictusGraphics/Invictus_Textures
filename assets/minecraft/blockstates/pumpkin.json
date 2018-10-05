@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "pumpkin/natural" }
+        "": { "model": "block/pumpkin/natural" }
     }
 }

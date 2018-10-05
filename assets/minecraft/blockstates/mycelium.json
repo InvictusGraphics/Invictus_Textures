@@ -1,16 +1,16 @@
 {
     "variants": {
         "snowy=false": [
-			{ "model": "mycelium/1" },
-			{ "model": "mycelium/2" },
-			{ "model": "mycelium/3" },
-			{ "model": "mycelium/4" },
-			{ "model": "mycelium/5" },
-			{ "model": "mycelium/6" },
-			{ "model": "mycelium/7" },
-			{ "model": "mycelium/8" },
-			{ "model": "mycelium/9" }
+			{ "model": "block/mycelium/1" },
+			{ "model": "block/mycelium/2" },
+			{ "model": "block/mycelium/3" },
+			{ "model": "block/mycelium/4" },
+			{ "model": "block/mycelium/5" },
+			{ "model": "block/mycelium/6" },
+			{ "model": "block/mycelium/7" },
+			{ "model": "block/mycelium/8" },
+			{ "model": "block/mycelium/9" }
 		],
-        "snowy=true": { "model": "mycelium/snowed" }
+        "snowy=true": { "model": "block/mycelium/snowed" }
     }
 }

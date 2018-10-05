@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "flower_pot/white_tulip" }
+        "": { "model": "block/flower_pot/white_tulip" }
     }
 }

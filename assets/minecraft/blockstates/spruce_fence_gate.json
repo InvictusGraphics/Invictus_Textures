@@ -1,20 +1,20 @@
 {
     "variants": {
-        "facing=south,in_wall=false,open=false": { "model": "fence_gate/spruce_fence_closed" },
-        "facing=west,in_wall=false,open=false":  { "model": "fence_gate/spruce_fence_closed", "y": 90 },
-        "facing=north,in_wall=false,open=false": { "model": "fence_gate/spruce_fence_closed", "y": 180 },
-        "facing=east,in_wall=false,open=false":  { "model": "fence_gate/spruce_fence_closed", "y": 270 },
-        "facing=south,in_wall=false,open=true": { "model": "fence_gate/spruce_fence_open" },
-        "facing=west,in_wall=false,open=true":  { "model": "fence_gate/spruce_fence_open", "y": 90 },
-        "facing=north,in_wall=false,open=true": { "model": "fence_gate/spruce_fence_open", "y": 180 },
-        "facing=east,in_wall=false,open=true":  { "model": "fence_gate/spruce_fence_open", "y": 270 },
-        "facing=south,in_wall=true,open=false": { "model": "fence_gate/spruce_wall_closed" },
-        "facing=west,in_wall=true,open=false":  { "model": "fence_gate/spruce_wall_closed", "y": 90 },
-        "facing=north,in_wall=true,open=false": { "model": "fence_gate/spruce_wall_closed", "y": 180 },
-        "facing=east,in_wall=true,open=false":  { "model": "fence_gate/spruce_wall_closed", "y": 270 },
-        "facing=south,in_wall=true,open=true": { "model": "fence_gate/spruce_wall_open" },
-        "facing=west,in_wall=true,open=true":  { "model": "fence_gate/spruce_wall_open", "y": 90 },
-        "facing=north,in_wall=true,open=true": { "model": "fence_gate/spruce_wall_open", "y": 180 },
-        "facing=east,in_wall=true,open=true":  { "model": "fence_gate/spruce_wall_open", "y": 270 }
+        "facing=south,in_wall=false,open=false": { "model": "block/fence_gate/spruce_fence_closed" },
+        "facing=west,in_wall=false,open=false":  { "model": "block/fence_gate/spruce_fence_closed", "y": 90 },
+        "facing=north,in_wall=false,open=false": { "model": "block/fence_gate/spruce_fence_closed", "y": 180 },
+        "facing=east,in_wall=false,open=false":  { "model": "block/fence_gate/spruce_fence_closed", "y": 270 },
+        "facing=south,in_wall=false,open=true": { "model": "block/fence_gate/spruce_fence_open" },
+        "facing=west,in_wall=false,open=true":  { "model": "block/fence_gate/spruce_fence_open", "y": 90 },
+        "facing=north,in_wall=false,open=true": { "model": "block/fence_gate/spruce_fence_open", "y": 180 },
+        "facing=east,in_wall=false,open=true":  { "model": "block/fence_gate/spruce_fence_open", "y": 270 },
+        "facing=south,in_wall=true,open=false": { "model": "block/fence_gate/spruce_wall_closed" },
+        "facing=west,in_wall=true,open=false":  { "model": "block/fence_gate/spruce_wall_closed", "y": 90 },
+        "facing=north,in_wall=true,open=false": { "model": "block/fence_gate/spruce_wall_closed", "y": 180 },
+        "facing=east,in_wall=true,open=false":  { "model": "block/fence_gate/spruce_wall_closed", "y": 270 },
+        "facing=south,in_wall=true,open=true": { "model": "block/fence_gate/spruce_wall_open" },
+        "facing=west,in_wall=true,open=true":  { "model": "block/fence_gate/spruce_wall_open", "y": 90 },
+        "facing=north,in_wall=true,open=true": { "model": "block/fence_gate/spruce_wall_open", "y": 180 },
+        "facing=east,in_wall=true,open=true":  { "model": "block/fence_gate/spruce_wall_open", "y": 270 }
     }
 }

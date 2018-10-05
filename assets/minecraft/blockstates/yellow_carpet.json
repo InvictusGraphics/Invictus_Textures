@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "carpet/yellow" }
+        "": { "model": "block/carpet/yellow" }
     }
 }

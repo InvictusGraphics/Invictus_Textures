@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "utility/enchanting_table_base" }
+        "": { "model": "block/utility/enchanting_table_base" }
     }
 }

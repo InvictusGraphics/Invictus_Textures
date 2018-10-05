@@ -1,13 +1,13 @@
 
 {
     "variants": {
-        "facing=north,lit=false": { "model": "utility/furnace" },
-        "facing=south,lit=false": { "model": "utility/furnace", "y": 180 },
-        "facing=west,lit=false":  { "model": "utility/furnace", "y": 270 },
-        "facing=east,lit=false":  { "model": "utility/furnace", "y": 90 },
-        "facing=north,lit=true": { "model": "utility/lit_furnace" },
-        "facing=south,lit=true": { "model": "utility/lit_furnace", "y": 180 },
-        "facing=west,lit=true":  { "model": "utility/lit_furnace", "y": 270 },
-        "facing=east,lit=true":  { "model": "utility/lit_furnace", "y": 90 }
+        "facing=north,lit=false": { "model": "block/utility/furnace" },
+        "facing=south,lit=false": { "model": "block/utility/furnace", "y": 180 },
+        "facing=west,lit=false":  { "model": "block/utility/furnace", "y": 270 },
+        "facing=east,lit=false":  { "model": "block/utility/furnace", "y": 90 },
+        "facing=north,lit=true": { "model": "block/utility/lit_furnace" },
+        "facing=south,lit=true": { "model": "block/utility/lit_furnace", "y": 180 },
+        "facing=west,lit=true":  { "model": "block/utility/lit_furnace", "y": 270 },
+        "facing=east,lit=true":  { "model": "block/utility/lit_furnace", "y": 90 }
     }
 }

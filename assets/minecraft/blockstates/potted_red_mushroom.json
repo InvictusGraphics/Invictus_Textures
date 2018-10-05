@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "flower_pot/red_mushroom" }
+        "": { "model": "block/flower_pot/red_mushroom" }
     }
 }

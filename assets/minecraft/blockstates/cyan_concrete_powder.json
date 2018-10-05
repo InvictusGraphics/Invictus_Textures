@@ -1,7 +1,7 @@
 {
     "variants": {
-        "normal": [
-        	{ "model": "cyan_concrete_powder" }
+        "": [
+        	{ "model": "block/cyan_concrete_powder" }
         ]
     }
 }

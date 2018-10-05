@@ -1,6 +1,6 @@
 {
     "variants": {
-        "stage=0": { "model": "sapling/oak_young" },
-        "stage=1": { "model": "sapling/oak" }
+        "stage=0": { "model": "block/sapling/oak_young" },
+        "stage=1": { "model": "block/sapling/oak" }
     }
 }

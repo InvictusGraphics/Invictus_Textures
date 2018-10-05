@@ -1,7 +1,7 @@
 {
     "variants": {
-        "type=bottom": { "model": "slab/sandstone_lower" },
-        "type=top": { "model": "slab/sandstone_upper" },
-        "type=double": { "model": "slab/sandstone_double" }
+        "type=bottom": { "model": "block/slab/sandstone_lower" },
+        "type=top": { "model": "block/slab/sandstone_upper" },
+        "type=double": { "model": "block/slab/sandstone_double" }
     }
 }

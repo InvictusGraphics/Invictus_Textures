@@ -1,9 +1,9 @@
 {
     "variants": {
-        "normal": [
-          { "model": "flower/orchid_1", "weight": 5 },
-          { "model": "flower/orchid_2", "weight": 3 },
-          { "model": "flower/orchid_3", "weight": 2 }
+        "": [
+          { "model": "block/flower/orchid_1", "weight": 5 },
+          { "model": "block/flower/orchid_2", "weight": 3 },
+          { "model": "block/flower/orchid_3", "weight": 2 }
         ]
     }
 }

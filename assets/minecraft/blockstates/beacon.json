@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "utility/beacon" }
+        "": { "model": "block/utility/beacon" }
     }
 }
