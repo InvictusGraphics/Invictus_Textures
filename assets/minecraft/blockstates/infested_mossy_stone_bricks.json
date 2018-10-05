@@ -1,6 +1,6 @@
 {
     "variants": {
-		"normal": [
+		"": [
 			{ "model": "block/stonebrick_mossy/1" },
 			{ "model": "block/stonebrick_mossy/2" },
 			{ "model": "block/stonebrick_mossy/3" },

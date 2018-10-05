@@ -1,6 +1,6 @@
 {
     "variants": {
-        "": { "model": "block/utility/item_frame" },
-        "map":    { "model": "block/item_frame_map" }
+        "map=false": { "model": "block/utility/item_frame" },
+        "map=true":    { "model": "block/item_frame_map" }
     }
 }
