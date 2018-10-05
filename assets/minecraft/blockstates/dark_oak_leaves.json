@@ -1,6 +1,6 @@
 {
     "multipart": [
-      { "when": {"decayable": true},
+      { "when": {"persistent": false},
         "apply": [
            { "model": "block/leaves/dark_oak_1", "y": 270 },
            { "model": "block/leaves/dark_oak_1", "y": 90 },
@@ -17,7 +17,7 @@
 
          ]
       },
-      { "when": {"decayable": false},
+      { "when": {"persistent": true},
         "apply": { "model": "block/leaves/dark_oak_placed" }
       }
     ]

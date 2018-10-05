@@ -1,6 +1,6 @@
 {
     "multipart": [
-      { "when": {"decayable": true},
+      { "when": {"persistent": false},
         "apply": [
            { "model": "block/leaves/jungle_1", "y": 270 },
            { "model": "block/leaves/jungle_1", "y": 90 },
@@ -29,7 +29,7 @@
 
          ]
       },
-      { "when": {"decayable": false},
+      { "when": {"persistent": true},
         "apply": { "model": "block/leaves/jungle_placed" }
       }
     ]

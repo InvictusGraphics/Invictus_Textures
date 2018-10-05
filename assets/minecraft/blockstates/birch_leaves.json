@@ -1,6 +1,6 @@
 {
     "multipart": [
-      { "when": {"decayable": true},
+      { "when": {"persistent": false},
         "apply": [
            { "model": "block/leaves/birch_1", "y": 270 },
            { "model": "block/leaves/birch_1", "y": 90 },
@@ -16,7 +16,7 @@
            { "model": "block/leaves/birch_3" }
          ]
       },
-      { "when": {"decayable": false},
+      { "when": {"persistent": true},
         "apply": { "model": "block/leaves/birch_placed" }
       }
     ]
