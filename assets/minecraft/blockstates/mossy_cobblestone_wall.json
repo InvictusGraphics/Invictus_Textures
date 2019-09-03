@@ -1,36 +1,19 @@
 {
-    "variants": {
-        "east=false,north=false,south=false,up=false,west=false": { "model": "block/wall/mossy_post" },
-        "east=false,north=true,south=false,up=false,west=false":  { "model": "block/wall/mossy_n" },
-        "east=true,north=false,south=false,up=false,west=false":  { "model": "block/wall/mossy_n", "y": 90, "uvlock": true },
-        "east=false,north=false,south=true,up=false,west=false":  { "model": "block/wall/mossy_n", "y": 180, "uvlock": true },
-        "east=false,north=false,south=false,up=false,west=true":  { "model": "block/wall/mossy_n", "y": 270, "uvlock": true },
-        "east=true,north=true,south=false,up=false,west=false":   { "model": "block/wall/mossy_ne" },
-        "east=true,north=false,south=true,up=false,west=false":   { "model": "block/wall/mossy_ne", "y": 90, "uvlock": true },
-        "east=false,north=false,south=true,up=false,west=true":   { "model": "block/wall/mossy_ne", "y": 180, "uvlock": true },
-        "east=false,north=true,south=false,up=false,west=true":   { "model": "block/wall/mossy_ne", "y": 270, "uvlock": true },
-        "east=false,north=true,south=true,up=false,west=false":   { "model": "block/wall/mossy_ns" },
-        "east=true,north=false,south=false,up=false,west=true":   { "model": "block/wall/mossy_ns", "y": 90, "uvlock": true },
-        "east=true,north=true,south=true,up=false,west=false":    { "model": "block/wall/mossy_nse" },
-        "east=true,north=false,south=true,up=false,west=true":    { "model": "block/wall/mossy_nse", "y": 90, "uvlock": true },
-        "east=false,north=true,south=true,up=false,west=true":    { "model": "block/wall/mossy_nse", "y": 180, "uvlock": true },
-        "east=true,north=true,south=false,up=false,west=true":    { "model": "block/wall/mossy_nse", "y": 270, "uvlock": true },
-        "east=true,north=true,south=true,up=false,west=true":     { "model": "block/wall/mossy_nsew" },
-        "east=false,north=false,south=false,up=true,west=false":  { "model": "block/wall/mossy_post" },
-        "east=false,north=true,south=false,up=true,west=false":   { "model": "block/wall/mossy_n" },
-        "east=true,north=false,south=false,up=true,west=false":   { "model": "block/wall/mossy_n", "y": 90, "uvlock": true },
-        "east=false,north=false,south=true,up=true,west=false":   { "model": "block/wall/mossy_n", "y": 180, "uvlock": true },
-        "east=false,north=false,south=false,up=true,west=true":   { "model": "block/wall/mossy_n", "y": 270, "uvlock": true },
-        "east=true,north=true,south=false,up=true,west=false":    { "model": "block/wall/mossy_ne" },
-        "east=true,north=false,south=true,up=true,west=false":    { "model": "block/wall/mossy_ne", "y": 90, "uvlock": true },
-        "east=false,north=false,south=true,up=true,west=true":    { "model": "block/wall/mossy_ne", "y": 180, "uvlock": true },
-        "east=false,north=true,south=false,up=true,west=true":    { "model": "block/wall/mossy_ne", "y": 270, "uvlock": true },
-        "east=false,north=true,south=true,up=true,west=false":    { "model": "block/wall/mossy_ns_above" },
-        "east=true,north=false,south=false,up=true,west=true":    { "model": "block/wall/mossy_ns_above", "y": 90, "uvlock": true },
-        "east=true,north=true,south=true,up=true,west=false":     { "model": "block/wall/mossy_nse" },
-        "east=true,north=false,south=true,up=true,west=true":     { "model": "block/wall/mossy_nse", "y": 90, "uvlock": true },
-        "east=false,north=true,south=true,up=true,west=true":     { "model": "block/wall/mossy_nse", "y": 180, "uvlock": true },
-        "east=true,north=true,south=false,up=true,west=true":     { "model": "block/wall/mossy_nse", "y": 270, "uvlock": true },
-        "east=true,north=true,south=true,up=true,west=true":      { "model": "block/wall/mossy_nsew" }
-    }
+    "multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "block/wall/mossy_cobblestone_wall_post" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "block/wall/mossy_cobblestone_wall_side_ns", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "block/wall/mossy_cobblestone_wall_side_ew", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "block/wall/mossy_cobblestone_wall_side_ns", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "block/wall/mossy_cobblestone_wall_side_ew", "y": 270, "uvlock": true }
+        }
+    ]
 }

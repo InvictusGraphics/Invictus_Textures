@@ -1,0 +1,7 @@
+{
+    "parent": "block/wall/template_wall_post",
+    "textures": {
+        "post_side": "block/sandstone/red_sandstone",
+        "post_top": "block/sandstone/red_sandstone_top"
+    }
+}

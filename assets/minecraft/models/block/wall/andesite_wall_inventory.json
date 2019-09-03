@@ -1,0 +1,10 @@
+{
+    "parent": "block/wall/wall_inventory",
+    "textures": {
+        "wall": "block/wall/andesite_side",
+        "side": "block/wall/andesite_side",
+        "top": "block/wall/andesite_top_ns",
+        "post_top": "block/wall/andesite_top_post",
+        "post_side": "block/wall/andesite_side_post"
+    }
+}

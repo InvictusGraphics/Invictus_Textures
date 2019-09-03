@@ -1,0 +1,10 @@
+{
+    "parent": "block/wall/wall_inventory",
+    "textures": {
+        "wall": "block/wall/granite_side",
+        "side": "block/wall/granite_side",
+        "top": "block/wall/granite_top_ns",
+        "post_top": "block/wall/granite_top_post",
+        "post_side": "block/wall/granite_side_post"
+    }
+}

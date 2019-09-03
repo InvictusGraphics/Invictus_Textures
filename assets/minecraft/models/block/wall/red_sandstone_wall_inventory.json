@@ -1,0 +1,10 @@
+{
+    "parent": "block/wall/wall_inventory",
+    "textures": {
+        "wall": "block/sandstone/red_sandstone",
+        "side": "block/sandstone/red_sandstone",
+        "top": "block/sandstone/red_sandstone_top",
+        "post_top": "block/sandstone/red_sandstone_top",
+        "post_side": "block/sandstone/red_sandstone"
+    }
+}
