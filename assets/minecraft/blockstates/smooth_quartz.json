@@ -1,5 +1,10 @@
 {
     "variants": {
-        "": { "model": "block/quartz/smooth" }
+        "": [
+        	{ "model": "block/quartz/smooth_1" },
+        	{ "model": "block/quartz/smooth_2" },
+        	{ "model": "block/quartz/smooth_3" },
+        	{ "model": "block/quartz/smooth_4" }
+        ]
     }
 }

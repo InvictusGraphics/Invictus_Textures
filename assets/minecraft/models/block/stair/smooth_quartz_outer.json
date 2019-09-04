@@ -1,0 +1,9 @@
+{
+    "parent": "block/stair/custom_outer_stairs",
+    "textures": {
+        "bottom": "block/quartz/smooth_1",
+        "top": "block/quartz/smooth_1",
+        "front": "block/quartz/smooth_1",
+        "side": "block/quartz/smooth_1"
+    }
+}
