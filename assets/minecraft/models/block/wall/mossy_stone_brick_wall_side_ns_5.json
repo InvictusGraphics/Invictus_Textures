@@ -1,0 +1,7 @@
+{
+    "parent": "block/wall/template_wall_side",
+    "textures": {
+        "wall_side": "block/wall/mossy_stone_bricks_side_5",
+        "wall_top": "block/wall/mossy_stone_bricks_top_ns_2"
+    }
+}

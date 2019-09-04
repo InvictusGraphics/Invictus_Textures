@@ -1,0 +1,10 @@
+{
+    "parent": "block/wall/wall_inventory",
+    "textures": {
+        "wall": "block/wall/nether_bricks_side",
+        "side": "block/wall/nether_bricks_side",
+        "top": "block/wall/nether_bricks_top_ns",
+        "post_top": "block/wall/nether_bricks_top_post",
+        "post_side": "block/wall/nether_bricks_side_post"
+    }
+}

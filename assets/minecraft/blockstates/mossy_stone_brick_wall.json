@@ -1,0 +1,49 @@
+{
+    "multipart": [
+        {   "when": { "up": "true" },
+            "apply": [
+                { "model": "block/wall/mossy_stone_brick_wall_post_1" },
+                { "model": "block/wall/mossy_stone_brick_wall_post_2" },
+                { "model": "block/wall/mossy_stone_brick_wall_post_3" },
+                { "model": "block/wall/mossy_stone_brick_wall_post_4" },
+                { "model": "block/wall/mossy_stone_brick_wall_post_5" }
+            ]
+        },
+        {   "when": { "north": "true" },
+            "apply": [
+                { "model": "block/wall/mossy_stone_brick_wall_side_ns_1", "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ns_2", "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ns_3", "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ns_4", "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ns_5", "uvlock": true }
+            ]
+        },
+        {   "when": { "east": "true" },
+            "apply": [
+                { "model": "block/wall/mossy_stone_brick_wall_side_ew_1", "y": 90, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ew_2", "y": 90, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ew_3", "y": 90, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ew_4", "y": 90, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ew_5", "y": 90, "uvlock": true }
+            ]
+        },
+        {   "when": { "south": "true" },
+            "apply": [
+                { "model": "block/wall/mossy_stone_brick_wall_side_ns_1", "y": 180, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ns_2", "y": 180, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ns_3", "y": 180, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ns_4", "y": 180, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ns_5", "y": 180, "uvlock": true }
+            ]
+        },
+        {   "when": { "west": "true" },
+            "apply": [
+                { "model": "block/wall/mossy_stone_brick_wall_side_ew_1", "y": 270, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ew_2", "y": 270, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ew_3", "y": 270, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ew_4", "y": 270, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_ew_5", "y": 270, "uvlock": true }
+            ]
+        }
+    ]
+}
