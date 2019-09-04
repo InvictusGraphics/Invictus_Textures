@@ -1,0 +1,9 @@
+{
+    "parent": "block/stair/custom_outer_stairs",
+    "textures": {
+        "bottom": "block/stair/cut_red_sandstone",
+        "top": "block/sandstone/cut_red_sandstone",
+        "front": "block/slab/cut_red_sandstone",
+        "side": "block/stair/cut_red_sandstone"
+    }
+}
