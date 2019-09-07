@@ -1,0 +1,35 @@
+{
+    "variants": {
+        "type=bottom": [
+        	{ "model": "block/slab/mossy_cobblestone_lower_1" },
+        	{ "model": "block/slab/mossy_cobblestone_lower_2" },
+        	{ "model": "block/slab/mossy_cobblestone_lower_3" },
+        	{ "model": "block/slab/mossy_cobblestone_lower_4" },
+        	{ "model": "block/slab/mossy_cobblestone_lower_5" },
+        	{ "model": "block/slab/mossy_cobblestone_lower_6" },
+        	{ "model": "block/slab/mossy_cobblestone_lower_7" },
+        	{ "model": "block/slab/mossy_cobblestone_lower_8" }
+        ],
+        "type=top": [
+        	{ "model": "block/slab/mossy_cobblestone_upper_1" },
+        	{ "model": "block/slab/mossy_cobblestone_upper_2" },
+        	{ "model": "block/slab/mossy_cobblestone_upper_3" },
+        	{ "model": "block/slab/mossy_cobblestone_upper_4" },
+        	{ "model": "block/slab/mossy_cobblestone_upper_5" },
+        	{ "model": "block/slab/mossy_cobblestone_upper_6" },
+        	{ "model": "block/slab/mossy_cobblestone_upper_6" },
+        	{ "model": "block/slab/mossy_cobblestone_upper_7" },
+        	{ "model": "block/slab/mossy_cobblestone_upper_8" }
+        ],
+        "type=double": [
+        	{ "model": "block/mossy_cobblestone/1" },
+        	{ "model": "block/mossy_cobblestone/2" },
+        	{ "model": "block/mossy_cobblestone/3" },
+        	{ "model": "block/mossy_cobblestone/4" },
+        	{ "model": "block/mossy_cobblestone/5" },
+        	{ "model": "block/mossy_cobblestone/6" },
+        	{ "model": "block/mossy_cobblestone/7" },
+        	{ "model": "block/mossy_cobblestone/8" }
+        ]
+    }
+}

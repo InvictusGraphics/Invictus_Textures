@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/slab/smooth_stone_lower" },
+        "type=top": { "model": "block/slab/smooth_stone_upper" },
+        "type=double": { "model": "block/slab/smooth_stone_double" }
+    }
+}

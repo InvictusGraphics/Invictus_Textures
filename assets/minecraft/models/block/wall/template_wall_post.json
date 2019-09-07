@@ -3,7 +3,7 @@
         "particle": "#post_side"
     },
     "elements": [
-        {   "from": [ 4, 0, 4 ],
+        {   "from": [ 4, -0.001, 4 ],
             "to": [ 12, 16, 12 ],
             "faces": {
                 "down":  { "texture": "#post_top", "cullface": "down" },
