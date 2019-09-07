@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "type=bottom": [
+        	{ "model": "block/slab/diorite_lower_1" },
+        	{ "model": "block/slab/diorite_lower_2" },
+        	{ "model": "block/slab/diorite_lower_3" },
+        	{ "model": "block/slab/diorite_lower_4" }
+        ],
+        "type=top": [
+        	{ "model": "block/slab/diorite_upper_1" },
+        	{ "model": "block/slab/diorite_upper_2" },
+        	{ "model": "block/slab/diorite_upper_3" },
+        	{ "model": "block/slab/diorite_upper_4" }
+        ],
+        "type=double": [
+        	{ "model": "block/slab/diorite_double_1" },
+        	{ "model": "block/slab/diorite_double_2" },
+        	{ "model": "block/slab/diorite_double_3" },
+        	{ "model": "block/slab/diorite_double_4" }
+        ]
+    }
+}

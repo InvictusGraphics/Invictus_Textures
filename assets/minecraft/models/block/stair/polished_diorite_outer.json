@@ -1,0 +1,9 @@
+{
+    "parent": "block/stair/custom_outer_stairs",
+    "textures": {
+        "bottom": "block/polished_diorite/1",
+        "top": "block/polished_diorite/1",
+        "front": "block/slab/polished_diorite",
+        "side": "block/slab/polished_diorite"
+    }
+}

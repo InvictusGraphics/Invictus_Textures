@@ -1,0 +1,34 @@
+{
+    "variants": {
+        "type=bottom": [
+        	{ "model": "block/slab/granite_lower_1" },
+        	{ "model": "block/slab/granite_lower_2" },
+        	{ "model": "block/slab/granite_lower_3" },
+        	{ "model": "block/slab/granite_lower_4" },
+        	{ "model": "block/slab/granite_lower_5" },
+        	{ "model": "block/slab/granite_lower_6" },
+        	{ "model": "block/slab/granite_lower_7" },
+        	{ "model": "block/slab/granite_lower_8" }
+        ],
+        "type=top": [
+        	{ "model": "block/slab/granite_upper_1" },
+        	{ "model": "block/slab/granite_upper_2" },
+        	{ "model": "block/slab/granite_upper_3" },
+        	{ "model": "block/slab/granite_upper_4" },
+        	{ "model": "block/slab/granite_upper_5" },
+        	{ "model": "block/slab/granite_upper_6" },
+        	{ "model": "block/slab/granite_upper_7" },
+        	{ "model": "block/slab/granite_upper_8" }
+        ],
+        "type=double": [
+        	{ "model": "block/slab/granite_double_1" },
+        	{ "model": "block/slab/granite_double_2" },
+        	{ "model": "block/slab/granite_double_3" },
+        	{ "model": "block/slab/granite_double_4" },
+        	{ "model": "block/slab/granite_double_5" },
+        	{ "model": "block/slab/granite_double_6" },
+        	{ "model": "block/slab/granite_double_7" },
+        	{ "model": "block/slab/granite_double_8" }
+        ]
+    }
+}

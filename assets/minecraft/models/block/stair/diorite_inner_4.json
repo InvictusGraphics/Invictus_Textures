@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "block/diorite/4",
+        "top": "block/diorite/4",
+        "side": "block/diorite/4"
+    }
+}

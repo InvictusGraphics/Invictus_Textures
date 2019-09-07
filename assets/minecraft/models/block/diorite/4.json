@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "block/stone_diorite/4"
+        "all": "block/diorite/4"
     }
 }

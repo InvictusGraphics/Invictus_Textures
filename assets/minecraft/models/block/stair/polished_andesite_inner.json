@@ -1,0 +1,9 @@
+{
+    "parent": "block/stair/custom_inner_stairs",
+    "textures": {
+        "bottom": "block/polished_andesite",
+        "top": "block/polished_andesite",
+        "front": "block/slab/polished_andesite",
+        "side": "block/slab/polished_andesite"
+    }
+}

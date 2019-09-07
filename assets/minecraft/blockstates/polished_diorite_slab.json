@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/slab/polished_diorite_lower" },
+        "type=top": { "model": "block/slab/polished_diorite_upper" },
+        "type=double": { "model": "block/slab/polished_diorite_double" }
+    }
+}

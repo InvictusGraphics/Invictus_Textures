@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "block/diorite/4",
+        "side": "block/diorite/4"
+    }
+}
