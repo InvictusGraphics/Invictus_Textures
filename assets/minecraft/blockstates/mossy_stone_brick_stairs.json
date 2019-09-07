@@ -1,0 +1,284 @@
+{
+    "variants": {
+        "facing=east,half=bottom,shape=straight":  [
+            { "model": "block/stair/mossy_stone_bricks_1" },
+            { "model": "block/stair/mossy_stone_bricks_2" },
+            { "model": "block/stair/mossy_stone_bricks_3" },
+            { "model": "block/stair/mossy_stone_bricks_4" },
+            { "model": "block/stair/mossy_stone_bricks_5" }
+        ],
+        "facing=west,half=bottom,shape=straight":  [
+            { "model": "block/stair/mossy_stone_bricks_1", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_2", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_3", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_4", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_5", "y": 180, "uvlock": true }
+        ],
+        "facing=south,half=bottom,shape=straight": [
+            { "model": "block/stair/mossy_stone_bricks_1", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_2", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_3", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_4", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_5", "y": 90, "uvlock": true }
+        ],
+        "facing=north,half=bottom,shape=straight": [
+            { "model": "block/stair/mossy_stone_bricks_1", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_2", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_3", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_4", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_5", "y": 270, "uvlock": true }
+        ],
+        "facing=east,half=bottom,shape=outer_right":  [
+            { "model": "block/stair/mossy_stone_bricks_outer_1" },
+            { "model": "block/stair/mossy_stone_bricks_outer_2" },
+            { "model": "block/stair/mossy_stone_bricks_outer_3" },
+            { "model": "block/stair/mossy_stone_bricks_outer_4" },
+            { "model": "block/stair/mossy_stone_bricks_outer_5" }
+        ],
+        "facing=west,half=bottom,shape=outer_right":  [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "y": 180, "uvlock": true }
+        ],
+        "facing=south,half=bottom,shape=outer_right": [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "y": 90, "uvlock": true }
+        ],
+        "facing=north,half=bottom,shape=outer_right": [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "y": 270, "uvlock": true }
+        ],
+        "facing=east,half=bottom,shape=outer_left":  [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "y": 270, "uvlock": true }
+        ],
+        "facing=west,half=bottom,shape=outer_left":  [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "y": 90, "uvlock": true }
+        ],
+        "facing=south,half=bottom,shape=outer_left": [
+            { "model": "block/stair/mossy_stone_bricks_outer_1" },
+            { "model": "block/stair/mossy_stone_bricks_outer_2" },
+            { "model": "block/stair/mossy_stone_bricks_outer_3" },
+            { "model": "block/stair/mossy_stone_bricks_outer_4" },
+            { "model": "block/stair/mossy_stone_bricks_outer_5" }
+        ],
+        "facing=north,half=bottom,shape=outer_left": [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "y": 180, "uvlock": true }
+        ],
+        "facing=east,half=bottom,shape=inner_right":  [
+            { "model": "block/stair/mossy_stone_bricks_inner_1" },
+            { "model": "block/stair/mossy_stone_bricks_inner_2" },
+            { "model": "block/stair/mossy_stone_bricks_inner_3" },
+            { "model": "block/stair/mossy_stone_bricks_inner_4" },
+            { "model": "block/stair/mossy_stone_bricks_inner_5" }
+        ],
+        "facing=west,half=bottom,shape=inner_right":  [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "y": 180, "uvlock": true }
+        ],
+        "facing=south,half=bottom,shape=inner_right": [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "y": 90, "uvlock": true }
+        ],
+        "facing=north,half=bottom,shape=inner_right": [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "y": 270, "uvlock": true }
+        ],
+        "facing=east,half=bottom,shape=inner_left":  [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "y": 270, "uvlock": true }
+        ],
+        "facing=west,half=bottom,shape=inner_left":  [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "y": 90, "uvlock": true }
+        ],
+        "facing=south,half=bottom,shape=inner_left": [
+            { "model": "block/stair/mossy_stone_bricks_inner_1" },
+            { "model": "block/stair/mossy_stone_bricks_inner_2" },
+            { "model": "block/stair/mossy_stone_bricks_inner_3" },
+            { "model": "block/stair/mossy_stone_bricks_inner_4" },
+            { "model": "block/stair/mossy_stone_bricks_inner_5" }
+        ],
+        "facing=north,half=bottom,shape=inner_left": [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "y": 180, "uvlock": true }
+        ],
+        "facing=east,half=top,shape=straight":  [
+            { "model": "block/stair/mossy_stone_bricks_1", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_2", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_3", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_4", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_5", "x": 180, "uvlock": true }
+        ],
+        "facing=west,half=top,shape=straight":  [
+            { "model": "block/stair/mossy_stone_bricks_1", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_2", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_3", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_4", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_5", "x": 180, "y": 180, "uvlock": true }
+        ],
+        "facing=south,half=top,shape=straight": [
+            { "model": "block/stair/mossy_stone_bricks_1", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_2", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_3", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_4", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_5", "x": 180, "y": 90, "uvlock": true }
+        ],
+        "facing=north,half=top,shape=straight": [
+            { "model": "block/stair/mossy_stone_bricks_1", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_2", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_3", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_4", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_5", "x": 180, "y": 270, "uvlock": true }
+        ],
+        "facing=east,half=top,shape=outer_right":  [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "x": 180, "y": 90, "uvlock": true }
+        ],
+        "facing=west,half=top,shape=outer_right":  [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "x": 180, "y": 270, "uvlock": true }
+        ],
+        "facing=south,half=top,shape=outer_right": [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "x": 180, "y": 180, "uvlock": true }
+        ],
+        "facing=north,half=top,shape=outer_right": [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "x": 180, "uvlock": true }
+        ],
+        "facing=east,half=top,shape=outer_left":  [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "x": 180, "uvlock": true }
+        ],
+        "facing=west,half=top,shape=outer_left":  [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "x": 180, "y": 180, "uvlock": true }
+        ],
+        "facing=south,half=top,shape=outer_left": [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "x": 180, "y": 90, "uvlock": true }
+        ],
+        "facing=north,half=top,shape=outer_left": [
+            { "model": "block/stair/mossy_stone_bricks_outer_1", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_2", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_3", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_4", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_outer_5", "x": 180, "y": 270, "uvlock": true }
+        ],
+        "facing=east,half=top,shape=inner_right":  [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "x": 180, "y": 90, "uvlock": true }
+        ],
+        "facing=west,half=top,shape=inner_right":  [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "x": 180, "y": 270, "uvlock": true }
+        ],
+        "facing=south,half=top,shape=inner_right": [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "x": 180, "y": 180, "uvlock": true }
+        ],
+        "facing=north,half=top,shape=inner_right": [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "x": 180, "uvlock": true }
+        ],
+        "facing=east,half=top,shape=inner_left":  [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "x": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "x": 180, "uvlock": true }
+        ],
+        "facing=west,half=top,shape=inner_left":  [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "x": 180, "y": 180, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "x": 180, "y": 180, "uvlock": true }
+        ],
+        "facing=south,half=top,shape=inner_left": [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "x": 180, "y": 90, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "x": 180, "y": 90, "uvlock": true }
+        ],
+        "facing=north,half=top,shape=inner_left": [
+            { "model": "block/stair/mossy_stone_bricks_inner_1", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_2", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_3", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_4", "x": 180, "y": 270, "uvlock": true },
+            { "model": "block/stair/mossy_stone_bricks_inner_5", "x": 180, "y": 270, "uvlock": true }
+        ]
+    }
+}
