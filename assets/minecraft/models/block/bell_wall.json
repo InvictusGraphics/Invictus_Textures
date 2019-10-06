@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "block/fence/fence_dark_oak_top",
+		"3": "block/fence/fence_dark_oak_side",
+		"particle": "block/bell_side"
+	},
+	"elements": [
+		{
+			"from": [3, 13, 7],
+			"to": [16, 15, 9],
+			"faces": {
+				"north": {"uv": [6, 0, 10, 13], "rotation": 270, "texture": "#3"},
+				"east": {"uv": [6, 6, 10, 10], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [6, 0, 10, 13], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [6, 6, 10, 10], "texture": "#2"},
+				"up": {"uv": [6, 0, 10, 13], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [6, 0, 10, 13], "rotation": 90, "texture": "#3"}
+			}
+		}
+	]
+}
