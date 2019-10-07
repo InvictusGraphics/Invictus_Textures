@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"1": "block/oak_log",
-		"2": "block/oak_log_top",
+		"1": "block/oak_log/1",
+		"2": "block/oak_log/top",
 		"3": "block/coal_block",
-		"particle": "block/oak_log"
+		"particle": "block/oak_log/1"
 	},
 	"elements": [
 		{

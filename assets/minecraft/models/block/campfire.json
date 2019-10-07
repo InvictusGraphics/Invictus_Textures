@@ -4,9 +4,9 @@
 	"textures": {
 		"3": "block/fire_0",
 		"4": "block/coal_block",
-		"5": "block/oak_log",
-		"6": "block/oak_log_top",
-		"particle": "block/oak_log"
+		"5": "block/oak_log/1",
+		"6": "block/oak_log/top",
+		"particle": "block/oak_log/1"
 	},
 	"elements": [
 		{
