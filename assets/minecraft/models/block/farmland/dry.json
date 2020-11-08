@@ -3,7 +3,7 @@
     "textures": {
         "particle": "block/dirt/1",
         "dirt": "block/dirt/1",
-        "side": "block/farmland_dry_side",
-        "top": "block/farmland_dry"
+        "side": "block/farmland_side",
+        "top": "block/farmland"
     }
 }

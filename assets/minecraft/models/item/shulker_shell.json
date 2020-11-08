@@ -1,8 +1,8 @@
 {
     "parent": "block/block",
     "textures": {
-        "up": "block/shulker_top_purple",
-        "side": "block/shulker_side_purple"
+        "up": "block/purple_shulker_box",
+        "side": "block/purple_shulker_side"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

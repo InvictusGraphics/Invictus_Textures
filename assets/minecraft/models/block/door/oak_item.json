@@ -1,10 +1,10 @@
 {
     "ambientocclusion": false,
     "textures": {
-    	"particle": "block/door_wood_lower",
-        "bottom": "block/door_wood_lower",
-        "top": "block/door_wood_upper",
-        "trim": "block/door_wood_trim"
+    	"particle": "block/oak_door_bottom",
+        "bottom": "block/oak_door_bottom",
+        "top": "block/oak_door_top",
+        "trim": "block/oak_door_trim"
     },
     "elements": [
         {   "from": [ 0, 11.25, 0 ],
