@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-    	"particle": "block/door_spruce_lower",
-        "bottom": "block/door_spruce_lower",
-        "top": "block/door_spruce_upper"
+    	"particle": "block/spruce_door_bottom",
+        "bottom": "block/spruce_door_bottom",
+        "top": "block/spruce_door_top"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

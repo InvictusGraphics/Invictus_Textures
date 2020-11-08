@@ -4,6 +4,6 @@
         "particle": "block/dirt/1",
         "bottom": "block/dirt/1",
         "top": "block/snow",
-        "side": "block/grass_side_snowed"
+        "side": "block/grass_block_snow"
     }
 }

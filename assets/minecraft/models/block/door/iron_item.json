@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "block/door_iron_upper",
-        "bottom": "block/door_iron_lower",
-        "top": "block/door_iron_upper"
+        "particle": "block/iron_door_top",
+        "bottom": "block/iron_door_bottom",
+        "top": "block/iron_door_top"
     },
     "elements": [
         {   "__comment": "Top",
