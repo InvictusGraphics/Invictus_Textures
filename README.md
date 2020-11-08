@@ -5,29 +5,14 @@ _Crisp contemporary Minecraft graphics_
  
 
 ## Credits
-Derived from Soar49's 169 public domain Soartex textures  
-    <http://www.minecraftforum.net/topic/150915->
+Derived from [Soar49's 169 public domain Soartex textures](http://www.minecraftforum.net/topic/150915-).  
+All known Soar49 assets [have been collected here](https://github.com/InvictusGraphics/Soartex_Originals).  
 
-Invictus by Shoeboxam and GoldBattle
-
-
-## License
-Invictus is under the linked Invictus license  
-    <http://soartex.net/license/>
-
-Contents in the BRAND folder may be rehosted without permission if paired with an official link.
+Thanks to GoldBattle, SenyaHitomi and Brayden Houston for their contributions.   
+I welcome pull requests (or even issues with .zips), but reserve the right to be selective.  
 
 
 #### Official Links
 - [Soartex.net](http://soartex.net)
-- [Minecraft Forum](http://www.minecraftforum.net/topic/2263930-)
 - [CurseForge](https://minecraft.curseforge.com/projects/invictus-vanilla)
-- [Planet Minecraft](http://www.planetminecraft.com/texture_pack/invictus-2754280/)
 - [Github Repository](https://github.com/InvictusGraphics/Invictus_Textures)
-
-
-
-______________________________
-
-I keep a rough list of content I plan to add to Invictus here:
-[Todo List](https://docs.google.com/document/d/1HnozyWQJgYfW2qVlhpM-fM3rRoFvgH-CUV0lGCtg0Cs/edit?usp=sharing)
