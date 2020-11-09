@@ -1,5 +1,2 @@
-env:
-- CURSEFORGE_INVICTUS_TOKEN=__token__
 if: tag IS present
-script:
-- bash build.sh
+script: bash build.sh
