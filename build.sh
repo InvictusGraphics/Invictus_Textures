@@ -33,6 +33,6 @@ fi
 
 mkdir -p releases
 rm -f "$RELEASE_FILE"
-zip -r "$RELEASE_FILE" .  -x "*/\__MACOSX" -x "\.*" -x "build.sh" -x "releases/*" -x "token.txt" -x "run_build.sh"
+zip -r "$RELEASE_FILE" .  -x "*/\__MACOSX" -x "\.*" -x "build.sh" -x "releases/*"
 
 curl -X POST -H "X-Api-Token: $CURSEFORGE_INVICTUS_TOKEN" -F metadata="{\"changelog\":\"https://github.com/InvictusGraphics/Invictus_Textures/commits/master\",\"changelogType\":\"text\",\"displayName\":\"$DISPLAY_NAME\",\"gameVersions\":$GAME_IDS,\"releaseType\":\"release\"}" -F file=@"$RELEASE_FILE" "https://minecraft.curseforge.com/api/projects/$PROJECTID/upload-file"

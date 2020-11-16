@@ -3,6 +3,4 @@ desktop.ini
 
 .DS_Store
 .idea/
-token.txt
 releases/
-run_build.sh

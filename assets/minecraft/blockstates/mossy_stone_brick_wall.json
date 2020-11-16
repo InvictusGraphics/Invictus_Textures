@@ -9,7 +9,7 @@
                 { "model": "block/wall/mossy_stone_brick_wall_post_5" }
             ]
         },
-        {   "when": { "north": "true" },
+        {   "when": { "north": "low" },
             "apply": [
                 { "model": "block/wall/mossy_stone_brick_wall_side_ns_1", "uvlock": true },
                 { "model": "block/wall/mossy_stone_brick_wall_side_ns_2", "uvlock": true },
@@ -18,7 +18,7 @@
                 { "model": "block/wall/mossy_stone_brick_wall_side_ns_5", "uvlock": true }
             ]
         },
-        {   "when": { "east": "true" },
+        {   "when": { "east": "low" },
             "apply": [
                 { "model": "block/wall/mossy_stone_brick_wall_side_ew_1", "y": 90, "uvlock": true },
                 { "model": "block/wall/mossy_stone_brick_wall_side_ew_2", "y": 90, "uvlock": true },
@@ -27,7 +27,7 @@
                 { "model": "block/wall/mossy_stone_brick_wall_side_ew_5", "y": 90, "uvlock": true }
             ]
         },
-        {   "when": { "south": "true" },
+        {   "when": { "south": "low" },
             "apply": [
                 { "model": "block/wall/mossy_stone_brick_wall_side_ns_1", "y": 180, "uvlock": true },
                 { "model": "block/wall/mossy_stone_brick_wall_side_ns_2", "y": 180, "uvlock": true },
@@ -36,13 +36,45 @@
                 { "model": "block/wall/mossy_stone_brick_wall_side_ns_5", "y": 180, "uvlock": true }
             ]
         },
-        {   "when": { "west": "true" },
+        {   "when": { "west": "low" },
             "apply": [
                 { "model": "block/wall/mossy_stone_brick_wall_side_ew_1", "y": 270, "uvlock": true },
                 { "model": "block/wall/mossy_stone_brick_wall_side_ew_2", "y": 270, "uvlock": true },
                 { "model": "block/wall/mossy_stone_brick_wall_side_ew_3", "y": 270, "uvlock": true },
                 { "model": "block/wall/mossy_stone_brick_wall_side_ew_4", "y": 270, "uvlock": true },
                 { "model": "block/wall/mossy_stone_brick_wall_side_ew_5", "y": 270, "uvlock": true }
+            ]
+        },
+        {   "when": { "north": "tall" },
+            "apply": [
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_1", "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_2", "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_3", "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_4", "uvlock": true }
+            ]
+        },
+        {   "when": { "east": "tall" },
+            "apply": [
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_1", "y": 90, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_2", "y": 90, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_3", "y": 90, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_4", "y": 90, "uvlock": true }
+            ]
+        },
+        {   "when": { "south": "tall" },
+            "apply": [
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_1", "y": 180, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_2", "y": 180, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_3", "y": 180, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_4", "y": 180, "uvlock": true }
+            ]
+        },
+        {   "when": { "west": "tall" },
+            "apply": [
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_1", "y": 270, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_2", "y": 270, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_3", "y": 270, "uvlock": true },
+                { "model": "block/wall/mossy_stone_brick_wall_side_tall_4", "y": 270, "uvlock": true }
             ]
         }
     ]
