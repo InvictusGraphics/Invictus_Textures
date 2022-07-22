@@ -1,0 +1,43 @@
+{
+	"textures": {"texture": "block/iron_bars", "particle": "block/iron_bars"},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [7.75, 0, 7.25],
+			"to": [8.25, 16, 8.75],
+			"faces": {
+				"north": {"uv": [7.766, 0.016, 8.234, 15.984], "texture": "#texture"},
+				"east": {"uv": [7.266, 0.016, 8.734, 15.984], "texture": "#texture"},
+				"south": {"uv": [7.516, 0.016, 8.484, 15.984], "texture": "#texture"},
+				"west": {"uv": [7.266, 0.016, 8.734, 15.984], "texture": "#texture"},
+				"up": {"uv": [7.266, 2.016, 8.734, 2.484], "texture": "#texture", "rotation": 270},
+				"down": {"uv": [7.266, 13.984, 8.734, 13.516], "texture": "#texture", "rotation": 90}
+			},
+			"type": "cube"
+		},
+		{
+			"name": "cube",
+			"from": [7.5, 13, 7.25],
+			"to": [8.5, 14.25, 8.75],
+			"faces": {
+				"east": {"uv": [8.734, 1.766, 7.266, 2.984], "texture": "#texture"},
+				"west": {"uv": [7.266, 1.766, 8.734, 2.984], "texture": "#texture"},
+				"up": {"uv": [7.266, 1.766, 8.734, 2.734], "texture": "#texture", "rotation": 90},
+				"down": {"uv": [7.266, 2.734, 8.734, 1.766], "texture": "#texture", "rotation": 90}
+			},
+			"type": "cube"
+		},
+		{
+			"name": "cube",
+			"from": [7.5, 1.5, 7.25],
+			"to": [8.5, 2.75, 8.75],
+			"faces": {
+				"east": {"uv": [7.266, 13.266, 8.734, 14.484], "texture": "#texture"},
+				"west": {"uv": [7.266, 13.266, 8.734, 14.484], "texture": "#texture"},
+				"up": {"uv": [7.266, 13.266, 8.734, 14.234], "texture": "#texture", "rotation": 90},
+				"down": {"uv": [7.266, 14.234, 8.734, 13.266], "texture": "#texture", "rotation": 90}
+			},
+			"type": "cube"
+		}
+	]
+}
