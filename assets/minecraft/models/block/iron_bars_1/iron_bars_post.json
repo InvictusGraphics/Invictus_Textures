@@ -1,0 +1,19 @@
+{
+	"textures": {"bars": "block/iron_bars", "particle": "block/iron_bars"},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [7.25, 0, 7.25],
+			"to": [8.75, 16, 8.75],
+			"faces": {
+				"north": {"uv": [0.016, 13.266, 15.984, 14.484], "texture": "#bars", "rotation": 90},
+				"east": {"uv": [0.016, 1.766, 15.984, 2.984], "texture": "#bars", "rotation": 90},
+				"south": {"uv": [0.016, 13.266, 15.984, 14.484], "texture": "#bars", "rotation": 90},
+				"west": {"uv": [0.016, 1.766, 15.984, 2.984], "texture": "#bars", "rotation": 90},
+				"up": {"uv": [7.266, 7.266, 8.734, 8.734], "texture": "#bars"},
+				"down": {"uv": [7.266, 7.266, 8.734, 8.734], "texture": "#bars"}
+			},
+			"type": "cube"
+		}
+	]
+}
